@@ -1,0 +1,10 @@
+{
+	"name": "load_data",
+	"version": "1.0.0",
+	"main": "index.js",
+	"author": "preetsachani@gmail.com",
+	"dependencies": {
+		"xlsx": "^0.18.5",
+		"zcatalyst-sdk-node": "latest"
+	}
+}

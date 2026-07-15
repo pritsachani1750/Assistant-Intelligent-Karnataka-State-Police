@@ -1,0 +1,36 @@
+{
+  "functions": {
+    "targets": [
+      "load_fir",
+      "crime_search",
+      "crime_search_api",
+      "accused_search_api",
+      "fir_accused_api",
+      "fir_victim_api",
+      "accused_history_api",
+      "crime_type_search_api",
+      "district_search_api",
+      "dashboard_api",
+      "intelligence_api",
+      "high_risk_accused_api",
+      "load_data",
+      "network_analysis_api",
+      "ai_chat_api",
+      "crime_forecast_api",
+      "intelligence_llm",
+      "explainable_ai",
+      "decision_support",
+      "behavioral_profile",
+      "financial_analysis",
+      "crime_pattern_analysis",
+      "sociological_insights"
+    ],
+    "ignore": [
+      ".output"
+    ],
+    "source": "functions"
+  },
+  "client": {
+    "source": "client"
+  }
+}

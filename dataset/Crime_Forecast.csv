@@ -1,0 +1,501 @@
+Forecast_ID,District,Crime_Type,Predicted_Count
+FRC00001,Kalaburagi,House Burglary,19
+FRC00002,Tumakuru,Vehicle Theft,94
+FRC00003,Shivamogga,Assault,88
+FRC00004,Belagavi,Robbery,12
+FRC00005,Bengaluru Rural,Chain Snatching,10
+FRC00006,Hubballi-Dharwad,Drug Trafficking,62
+FRC00007,Kalaburagi,Vehicle Theft,72
+FRC00008,Tumakuru,Vehicle Theft,8
+FRC00009,Kalaburagi,Drug Trafficking,38
+FRC00010,Bengaluru Rural,Chain Snatching,43
+FRC00011,Mangaluru,House Burglary,11
+FRC00012,Bengaluru Urban,Assault,4
+FRC00013,Bengaluru Rural,Drug Trafficking,81
+FRC00014,Mangaluru,Robbery,74
+FRC00015,Mysuru,Chain Snatching,88
+FRC00016,Shivamogga,Cyber Fraud,63
+FRC00017,Mysuru,Assault,34
+FRC00018,Tumakuru,Vehicle Theft,38
+FRC00019,Belagavi,Robbery,76
+FRC00020,Mysuru,Vehicle Theft,46
+FRC00021,Mangaluru,Vehicle Theft,4
+FRC00022,Mysuru,Financial Fraud,1
+FRC00023,Shivamogga,Vehicle Theft,86
+FRC00024,Bengaluru Rural,Cyber Fraud,76
+FRC00025,Belagavi,Cyber Fraud,9
+FRC00026,Mangaluru,House Burglary,32
+FRC00027,Ballari,Financial Fraud,35
+FRC00028,Kalaburagi,Drug Trafficking,72
+FRC00029,Mangaluru,Robbery,63
+FRC00030,Belagavi,Chain Snatching,84
+FRC00031,Shivamogga,Chain Snatching,87
+FRC00032,Shivamogga,Vehicle Theft,44
+FRC00033,Belagavi,Robbery,19
+FRC00034,Mysuru,Assault,81
+FRC00035,Hubballi-Dharwad,House Burglary,7
+FRC00036,Tumakuru,Cyber Fraud,93
+FRC00037,Hubballi-Dharwad,Robbery,56
+FRC00038,Shivamogga,Assault,24
+FRC00039,Bengaluru Rural,Financial Fraud,59
+FRC00040,Mangaluru,Cyber Fraud,82
+FRC00041,Mysuru,Robbery,19
+FRC00042,Ballari,Drug Trafficking,50
+FRC00043,Kalaburagi,Financial Fraud,24
+FRC00044,Shivamogga,Assault,84
+FRC00045,Mangaluru,Robbery,9
+FRC00046,Belagavi,Cyber Fraud,77
+FRC00047,Mangaluru,Cyber Fraud,69
+FRC00048,Ballari,Vehicle Theft,38
+FRC00049,Mysuru,Chain Snatching,27
+FRC00050,Ballari,Assault,33
+FRC00051,Tumakuru,Drug Trafficking,35
+FRC00052,Mysuru,Assault,20
+FRC00053,Shivamogga,Financial Fraud,35
+FRC00054,Mangaluru,Assault,18
+FRC00055,Hubballi-Dharwad,House Burglary,58
+FRC00056,Kalaburagi,Chain Snatching,22
+FRC00057,Mangaluru,Cyber Fraud,14
+FRC00058,Belagavi,Cyber Fraud,89
+FRC00059,Mysuru,Cyber Fraud,90
+FRC00060,Tumakuru,Financial Fraud,28
+FRC00061,Shivamogga,Vehicle Theft,98
+FRC00062,Belagavi,House Burglary,97
+FRC00063,Kalaburagi,Drug Trafficking,57
+FRC00064,Tumakuru,Robbery,42
+FRC00065,Shivamogga,Cyber Fraud,75
+FRC00066,Shivamogga,Vehicle Theft,84
+FRC00067,Ballari,Drug Trafficking,45
+FRC00068,Bengaluru Urban,Chain Snatching,75
+FRC00069,Kalaburagi,House Burglary,69
+FRC00070,Bengaluru Rural,Cyber Fraud,90
+FRC00071,Tumakuru,Drug Trafficking,1
+FRC00072,Shivamogga,Robbery,55
+FRC00073,Belagavi,House Burglary,35
+FRC00074,Tumakuru,Cyber Fraud,83
+FRC00075,Shivamogga,Cyber Fraud,17
+FRC00076,Mangaluru,Assault,11
+FRC00077,Shivamogga,Vehicle Theft,64
+FRC00078,Bengaluru Urban,Vehicle Theft,65
+FRC00079,Kalaburagi,Drug Trafficking,32
+FRC00080,Hubballi-Dharwad,Assault,9
+FRC00081,Ballari,Chain Snatching,43
+FRC00082,Hubballi-Dharwad,Cyber Fraud,40
+FRC00083,Bengaluru Rural,Chain Snatching,47
+FRC00084,Tumakuru,Assault,8
+FRC00085,Belagavi,Vehicle Theft,46
+FRC00086,Kalaburagi,Assault,82
+FRC00087,Bengaluru Urban,Drug Trafficking,40
+FRC00088,Mysuru,Vehicle Theft,98
+FRC00089,Kalaburagi,Assault,23
+FRC00090,Belagavi,Financial Fraud,94
+FRC00091,Mangaluru,Financial Fraud,79
+FRC00092,Kalaburagi,Vehicle Theft,68
+FRC00093,Belagavi,Drug Trafficking,31
+FRC00094,Bengaluru Urban,Drug Trafficking,28
+FRC00095,Mysuru,Drug Trafficking,89
+FRC00096,Mysuru,Cyber Fraud,94
+FRC00097,Bengaluru Urban,Chain Snatching,36
+FRC00098,Bengaluru Rural,Financial Fraud,50
+FRC00099,Bengaluru Urban,Cyber Fraud,64
+FRC00100,Shivamogga,Financial Fraud,44
+FRC00101,Belagavi,Assault,65
+FRC00102,Ballari,Vehicle Theft,40
+FRC00103,Shivamogga,Cyber Fraud,33
+FRC00104,Mangaluru,Chain Snatching,13
+FRC00105,Shivamogga,Vehicle Theft,89
+FRC00106,Shivamogga,Drug Trafficking,10
+FRC00107,Hubballi-Dharwad,House Burglary,44
+FRC00108,Bengaluru Rural,Vehicle Theft,70
+FRC00109,Bengaluru Urban,Assault,9
+FRC00110,Bengaluru Urban,Cyber Fraud,34
+FRC00111,Bengaluru Urban,Robbery,5
+FRC00112,Mangaluru,Robbery,69
+FRC00113,Hubballi-Dharwad,Chain Snatching,8
+FRC00114,Shivamogga,Robbery,30
+FRC00115,Bengaluru Rural,Drug Trafficking,24
+FRC00116,Bengaluru Rural,Vehicle Theft,61
+FRC00117,Hubballi-Dharwad,Robbery,29
+FRC00118,Mysuru,House Burglary,33
+FRC00119,Tumakuru,House Burglary,4
+FRC00120,Bengaluru Urban,Vehicle Theft,84
+FRC00121,Belagavi,Assault,87
+FRC00122,Kalaburagi,Robbery,38
+FRC00123,Bengaluru Rural,House Burglary,75
+FRC00124,Belagavi,Cyber Fraud,11
+FRC00125,Kalaburagi,House Burglary,69
+FRC00126,Belagavi,Chain Snatching,27
+FRC00127,Belagavi,Chain Snatching,88
+FRC00128,Belagavi,House Burglary,76
+FRC00129,Belagavi,Financial Fraud,93
+FRC00130,Mysuru,Robbery,34
+FRC00131,Belagavi,Cyber Fraud,5
+FRC00132,Kalaburagi,House Burglary,53
+FRC00133,Bengaluru Rural,Financial Fraud,10
+FRC00134,Bengaluru Rural,Financial Fraud,73
+FRC00135,Tumakuru,Chain Snatching,79
+FRC00136,Bengaluru Rural,Drug Trafficking,54
+FRC00137,Mangaluru,House Burglary,63
+FRC00138,Hubballi-Dharwad,Vehicle Theft,64
+FRC00139,Tumakuru,Cyber Fraud,83
+FRC00140,Hubballi-Dharwad,Drug Trafficking,10
+FRC00141,Belagavi,Financial Fraud,27
+FRC00142,Shivamogga,Drug Trafficking,27
+FRC00143,Mysuru,Cyber Fraud,4
+FRC00144,Hubballi-Dharwad,House Burglary,44
+FRC00145,Kalaburagi,Robbery,36
+FRC00146,Bengaluru Rural,Robbery,97
+FRC00147,Shivamogga,Robbery,1
+FRC00148,Ballari,Robbery,26
+FRC00149,Bengaluru Urban,Drug Trafficking,65
+FRC00150,Belagavi,Financial Fraud,18
+FRC00151,Mangaluru,Financial Fraud,60
+FRC00152,Shivamogga,Chain Snatching,5
+FRC00153,Kalaburagi,Vehicle Theft,58
+FRC00154,Tumakuru,Robbery,9
+FRC00155,Mysuru,Vehicle Theft,45
+FRC00156,Belagavi,Chain Snatching,24
+FRC00157,Kalaburagi,Assault,68
+FRC00158,Mysuru,Robbery,60
+FRC00159,Mysuru,Drug Trafficking,24
+FRC00160,Bengaluru Rural,Cyber Fraud,83
+FRC00161,Ballari,Drug Trafficking,66
+FRC00162,Ballari,Drug Trafficking,41
+FRC00163,Ballari,Drug Trafficking,42
+FRC00164,Mysuru,Cyber Fraud,41
+FRC00165,Bengaluru Urban,House Burglary,53
+FRC00166,Mysuru,Drug Trafficking,55
+FRC00167,Tumakuru,Cyber Fraud,50
+FRC00168,Hubballi-Dharwad,Assault,81
+FRC00169,Bengaluru Rural,House Burglary,61
+FRC00170,Bengaluru Urban,Assault,57
+FRC00171,Bengaluru Rural,Assault,58
+FRC00172,Bengaluru Urban,House Burglary,16
+FRC00173,Ballari,House Burglary,28
+FRC00174,Kalaburagi,Financial Fraud,3
+FRC00175,Belagavi,Robbery,86
+FRC00176,Kalaburagi,Chain Snatching,42
+FRC00177,Kalaburagi,Drug Trafficking,15
+FRC00178,Mangaluru,Assault,87
+FRC00179,Bengaluru Rural,Cyber Fraud,4
+FRC00180,Ballari,Robbery,5
+FRC00181,Kalaburagi,Financial Fraud,71
+FRC00182,Tumakuru,Drug Trafficking,24
+FRC00183,Kalaburagi,Robbery,21
+FRC00184,Ballari,House Burglary,97
+FRC00185,Ballari,Chain Snatching,20
+FRC00186,Shivamogga,Cyber Fraud,16
+FRC00187,Mysuru,Financial Fraud,91
+FRC00188,Bengaluru Rural,Drug Trafficking,8
+FRC00189,Mysuru,Robbery,98
+FRC00190,Tumakuru,House Burglary,69
+FRC00191,Bengaluru Rural,Robbery,79
+FRC00192,Kalaburagi,Financial Fraud,55
+FRC00193,Kalaburagi,Chain Snatching,22
+FRC00194,Bengaluru Urban,Financial Fraud,30
+FRC00195,Bengaluru Rural,Robbery,44
+FRC00196,Bengaluru Rural,House Burglary,46
+FRC00197,Mysuru,Robbery,84
+FRC00198,Shivamogga,Assault,63
+FRC00199,Bengaluru Urban,Vehicle Theft,50
+FRC00200,Kalaburagi,Vehicle Theft,57
+FRC00201,Belagavi,Chain Snatching,4
+FRC00202,Kalaburagi,Chain Snatching,39
+FRC00203,Hubballi-Dharwad,Drug Trafficking,57
+FRC00204,Shivamogga,Vehicle Theft,33
+FRC00205,Mangaluru,Vehicle Theft,47
+FRC00206,Shivamogga,Vehicle Theft,94
+FRC00207,Bengaluru Rural,Cyber Fraud,19
+FRC00208,Shivamogga,Robbery,34
+FRC00209,Kalaburagi,Chain Snatching,61
+FRC00210,Shivamogga,Robbery,29
+FRC00211,Shivamogga,Financial Fraud,46
+FRC00212,Belagavi,Cyber Fraud,63
+FRC00213,Hubballi-Dharwad,House Burglary,23
+FRC00214,Kalaburagi,Cyber Fraud,82
+FRC00215,Bengaluru Urban,Vehicle Theft,29
+FRC00216,Mysuru,Robbery,43
+FRC00217,Mangaluru,Financial Fraud,15
+FRC00218,Bengaluru Urban,Assault,48
+FRC00219,Mangaluru,Robbery,22
+FRC00220,Hubballi-Dharwad,House Burglary,30
+FRC00221,Tumakuru,Cyber Fraud,68
+FRC00222,Mysuru,Robbery,59
+FRC00223,Bengaluru Urban,Vehicle Theft,94
+FRC00224,Ballari,Vehicle Theft,83
+FRC00225,Tumakuru,Cyber Fraud,44
+FRC00226,Kalaburagi,Drug Trafficking,75
+FRC00227,Belagavi,Drug Trafficking,35
+FRC00228,Tumakuru,Financial Fraud,62
+FRC00229,Bengaluru Urban,Robbery,44
+FRC00230,Mangaluru,Vehicle Theft,32
+FRC00231,Mangaluru,Assault,100
+FRC00232,Hubballi-Dharwad,Robbery,58
+FRC00233,Belagavi,House Burglary,37
+FRC00234,Mysuru,Vehicle Theft,43
+FRC00235,Mangaluru,Drug Trafficking,6
+FRC00236,Shivamogga,Assault,63
+FRC00237,Ballari,House Burglary,32
+FRC00238,Tumakuru,Assault,9
+FRC00239,Mangaluru,Financial Fraud,45
+FRC00240,Ballari,Assault,34
+FRC00241,Belagavi,Vehicle Theft,43
+FRC00242,Belagavi,Financial Fraud,65
+FRC00243,Hubballi-Dharwad,Cyber Fraud,49
+FRC00244,Bengaluru Urban,Robbery,39
+FRC00245,Hubballi-Dharwad,Cyber Fraud,84
+FRC00246,Bengaluru Rural,House Burglary,35
+FRC00247,Hubballi-Dharwad,Financial Fraud,15
+FRC00248,Tumakuru,Assault,57
+FRC00249,Kalaburagi,Chain Snatching,18
+FRC00250,Tumakuru,Chain Snatching,20
+FRC00251,Mysuru,Financial Fraud,39
+FRC00252,Tumakuru,House Burglary,20
+FRC00253,Mangaluru,Cyber Fraud,45
+FRC00254,Ballari,Assault,75
+FRC00255,Bengaluru Rural,Financial Fraud,14
+FRC00256,Ballari,Robbery,52
+FRC00257,Mysuru,Assault,18
+FRC00258,Bengaluru Rural,House Burglary,3
+FRC00259,Hubballi-Dharwad,Robbery,60
+FRC00260,Ballari,Vehicle Theft,26
+FRC00261,Tumakuru,Robbery,4
+FRC00262,Mangaluru,Financial Fraud,34
+FRC00263,Mysuru,Cyber Fraud,5
+FRC00264,Ballari,Financial Fraud,100
+FRC00265,Mysuru,Vehicle Theft,62
+FRC00266,Mangaluru,House Burglary,56
+FRC00267,Mysuru,Robbery,19
+FRC00268,Bengaluru Rural,Vehicle Theft,53
+FRC00269,Belagavi,Chain Snatching,40
+FRC00270,Belagavi,House Burglary,96
+FRC00271,Mysuru,Cyber Fraud,74
+FRC00272,Belagavi,Robbery,51
+FRC00273,Tumakuru,Vehicle Theft,89
+FRC00274,Mysuru,Cyber Fraud,75
+FRC00275,Kalaburagi,Financial Fraud,39
+FRC00276,Mysuru,Financial Fraud,75
+FRC00277,Mysuru,Financial Fraud,15
+FRC00278,Hubballi-Dharwad,Cyber Fraud,2
+FRC00279,Kalaburagi,Drug Trafficking,97
+FRC00280,Bengaluru Urban,Vehicle Theft,37
+FRC00281,Kalaburagi,Cyber Fraud,75
+FRC00282,Mysuru,House Burglary,85
+FRC00283,Belagavi,Assault,48
+FRC00284,Ballari,Vehicle Theft,64
+FRC00285,Shivamogga,Chain Snatching,8
+FRC00286,Belagavi,Assault,63
+FRC00287,Kalaburagi,Drug Trafficking,37
+FRC00288,Mysuru,Financial Fraud,45
+FRC00289,Bengaluru Urban,Assault,70
+FRC00290,Mysuru,Financial Fraud,21
+FRC00291,Kalaburagi,House Burglary,34
+FRC00292,Hubballi-Dharwad,Assault,66
+FRC00293,Tumakuru,Cyber Fraud,20
+FRC00294,Hubballi-Dharwad,Financial Fraud,1
+FRC00295,Tumakuru,Drug Trafficking,94
+FRC00296,Mangaluru,Chain Snatching,77
+FRC00297,Mysuru,Chain Snatching,74
+FRC00298,Ballari,Financial Fraud,4
+FRC00299,Bengaluru Rural,Vehicle Theft,44
+FRC00300,Hubballi-Dharwad,Cyber Fraud,51
+FRC00301,Bengaluru Rural,Financial Fraud,25
+FRC00302,Shivamogga,Vehicle Theft,53
+FRC00303,Bengaluru Rural,Assault,49
+FRC00304,Belagavi,Assault,45
+FRC00305,Bengaluru Rural,Drug Trafficking,75
+FRC00306,Kalaburagi,Vehicle Theft,92
+FRC00307,Hubballi-Dharwad,Financial Fraud,38
+FRC00308,Bengaluru Urban,Cyber Fraud,22
+FRC00309,Tumakuru,Cyber Fraud,64
+FRC00310,Tumakuru,House Burglary,36
+FRC00311,Hubballi-Dharwad,Financial Fraud,96
+FRC00312,Kalaburagi,Assault,63
+FRC00313,Bengaluru Rural,Drug Trafficking,92
+FRC00314,Tumakuru,Robbery,32
+FRC00315,Mangaluru,Assault,91
+FRC00316,Kalaburagi,Assault,23
+FRC00317,Bengaluru Urban,Robbery,87
+FRC00318,Bengaluru Rural,Drug Trafficking,79
+FRC00319,Tumakuru,Vehicle Theft,77
+FRC00320,Belagavi,Vehicle Theft,95
+FRC00321,Kalaburagi,Assault,4
+FRC00322,Kalaburagi,Robbery,52
+FRC00323,Shivamogga,Cyber Fraud,79
+FRC00324,Ballari,Robbery,50
+FRC00325,Bengaluru Urban,Financial Fraud,50
+FRC00326,Bengaluru Urban,Robbery,51
+FRC00327,Mangaluru,Robbery,59
+FRC00328,Kalaburagi,Robbery,41
+FRC00329,Bengaluru Rural,Chain Snatching,9
+FRC00330,Bengaluru Urban,Drug Trafficking,31
+FRC00331,Mysuru,Chain Snatching,75
+FRC00332,Bengaluru Urban,Assault,42
+FRC00333,Mysuru,Vehicle Theft,36
+FRC00334,Hubballi-Dharwad,House Burglary,76
+FRC00335,Mysuru,House Burglary,41
+FRC00336,Mysuru,Assault,79
+FRC00337,Belagavi,House Burglary,36
+FRC00338,Hubballi-Dharwad,Chain Snatching,72
+FRC00339,Ballari,Assault,32
+FRC00340,Hubballi-Dharwad,Assault,16
+FRC00341,Kalaburagi,Assault,43
+FRC00342,Kalaburagi,Robbery,28
+FRC00343,Mangaluru,Drug Trafficking,70
+FRC00344,Bengaluru Rural,Assault,27
+FRC00345,Tumakuru,Chain Snatching,27
+FRC00346,Ballari,Financial Fraud,99
+FRC00347,Ballari,Robbery,61
+FRC00348,Kalaburagi,House Burglary,68
+FRC00349,Bengaluru Urban,Drug Trafficking,51
+FRC00350,Bengaluru Urban,Chain Snatching,48
+FRC00351,Kalaburagi,Vehicle Theft,44
+FRC00352,Tumakuru,Robbery,97
+FRC00353,Mysuru,Vehicle Theft,39
+FRC00354,Shivamogga,Cyber Fraud,98
+FRC00355,Belagavi,Assault,7
+FRC00356,Ballari,Financial Fraud,27
+FRC00357,Belagavi,House Burglary,20
+FRC00358,Ballari,Robbery,74
+FRC00359,Ballari,Vehicle Theft,100
+FRC00360,Mysuru,Drug Trafficking,95
+FRC00361,Belagavi,Drug Trafficking,98
+FRC00362,Ballari,House Burglary,67
+FRC00363,Mysuru,Assault,24
+FRC00364,Ballari,House Burglary,97
+FRC00365,Mangaluru,Vehicle Theft,92
+FRC00366,Shivamogga,Financial Fraud,9
+FRC00367,Mysuru,Chain Snatching,78
+FRC00368,Tumakuru,Drug Trafficking,36
+FRC00369,Belagavi,House Burglary,42
+FRC00370,Kalaburagi,Cyber Fraud,78
+FRC00371,Kalaburagi,House Burglary,80
+FRC00372,Belagavi,Cyber Fraud,83
+FRC00373,Bengaluru Rural,Chain Snatching,16
+FRC00374,Hubballi-Dharwad,Cyber Fraud,87
+FRC00375,Shivamogga,Chain Snatching,54
+FRC00376,Mangaluru,Vehicle Theft,28
+FRC00377,Kalaburagi,House Burglary,31
+FRC00378,Kalaburagi,Vehicle Theft,20
+FRC00379,Bengaluru Rural,Financial Fraud,57
+FRC00380,Ballari,Financial Fraud,26
+FRC00381,Mangaluru,Drug Trafficking,14
+FRC00382,Shivamogga,Vehicle Theft,14
+FRC00383,Kalaburagi,Drug Trafficking,95
+FRC00384,Kalaburagi,Vehicle Theft,81
+FRC00385,Bengaluru Rural,Assault,12
+FRC00386,Kalaburagi,Robbery,61
+FRC00387,Ballari,Chain Snatching,84
+FRC00388,Bengaluru Urban,Assault,91
+FRC00389,Mysuru,Vehicle Theft,95
+FRC00390,Bengaluru Rural,Assault,34
+FRC00391,Ballari,Drug Trafficking,34
+FRC00392,Bengaluru Rural,House Burglary,87
+FRC00393,Bengaluru Rural,Vehicle Theft,28
+FRC00394,Tumakuru,Chain Snatching,91
+FRC00395,Tumakuru,Assault,93
+FRC00396,Bengaluru Rural,Financial Fraud,59
+FRC00397,Bengaluru Rural,House Burglary,61
+FRC00398,Bengaluru Rural,Financial Fraud,14
+FRC00399,Hubballi-Dharwad,Chain Snatching,20
+FRC00400,Shivamogga,Vehicle Theft,95
+FRC00401,Shivamogga,Chain Snatching,54
+FRC00402,Hubballi-Dharwad,Robbery,48
+FRC00403,Belagavi,Chain Snatching,15
+FRC00404,Mangaluru,Vehicle Theft,50
+FRC00405,Ballari,Robbery,84
+FRC00406,Shivamogga,Chain Snatching,49
+FRC00407,Hubballi-Dharwad,Assault,58
+FRC00408,Mysuru,Chain Snatching,25
+FRC00409,Shivamogga,Drug Trafficking,62
+FRC00410,Tumakuru,Cyber Fraud,41
+FRC00411,Shivamogga,Vehicle Theft,82
+FRC00412,Hubballi-Dharwad,Financial Fraud,83
+FRC00413,Kalaburagi,Drug Trafficking,80
+FRC00414,Bengaluru Urban,Assault,37
+FRC00415,Tumakuru,House Burglary,66
+FRC00416,Belagavi,Robbery,98
+FRC00417,Mysuru,Vehicle Theft,60
+FRC00418,Kalaburagi,Assault,98
+FRC00419,Bengaluru Urban,House Burglary,8
+FRC00420,Shivamogga,Drug Trafficking,71
+FRC00421,Hubballi-Dharwad,Cyber Fraud,33
+FRC00422,Mysuru,Assault,47
+FRC00423,Ballari,Financial Fraud,30
+FRC00424,Shivamogga,Robbery,88
+FRC00425,Hubballi-Dharwad,Drug Trafficking,80
+FRC00426,Mangaluru,Drug Trafficking,85
+FRC00427,Bengaluru Rural,Cyber Fraud,41
+FRC00428,Shivamogga,Financial Fraud,97
+FRC00429,Tumakuru,Financial Fraud,22
+FRC00430,Hubballi-Dharwad,Robbery,2
+FRC00431,Hubballi-Dharwad,Chain Snatching,97
+FRC00432,Belagavi,Chain Snatching,48
+FRC00433,Mangaluru,Vehicle Theft,44
+FRC00434,Belagavi,Assault,88
+FRC00435,Mangaluru,Vehicle Theft,50
+FRC00436,Bengaluru Urban,Robbery,51
+FRC00437,Mangaluru,Drug Trafficking,68
+FRC00438,Mangaluru,House Burglary,25
+FRC00439,Tumakuru,Robbery,77
+FRC00440,Ballari,Financial Fraud,63
+FRC00441,Ballari,Chain Snatching,35
+FRC00442,Mysuru,House Burglary,88
+FRC00443,Ballari,Chain Snatching,13
+FRC00444,Hubballi-Dharwad,House Burglary,89
+FRC00445,Bengaluru Rural,Financial Fraud,13
+FRC00446,Kalaburagi,Assault,1
+FRC00447,Hubballi-Dharwad,Chain Snatching,27
+FRC00448,Kalaburagi,Chain Snatching,10
+FRC00449,Hubballi-Dharwad,Chain Snatching,62
+FRC00450,Mangaluru,Chain Snatching,8
+FRC00451,Kalaburagi,Vehicle Theft,76
+FRC00452,Mysuru,Drug Trafficking,2
+FRC00453,Tumakuru,Drug Trafficking,82
+FRC00454,Mangaluru,Vehicle Theft,47
+FRC00455,Tumakuru,Assault,79
+FRC00456,Mangaluru,Chain Snatching,41
+FRC00457,Shivamogga,Financial Fraud,96
+FRC00458,Mangaluru,Assault,49
+FRC00459,Bengaluru Rural,Financial Fraud,64
+FRC00460,Ballari,Financial Fraud,14
+FRC00461,Kalaburagi,Assault,54
+FRC00462,Belagavi,Cyber Fraud,40
+FRC00463,Mysuru,Financial Fraud,18
+FRC00464,Kalaburagi,Financial Fraud,80
+FRC00465,Tumakuru,Robbery,66
+FRC00466,Hubballi-Dharwad,Drug Trafficking,68
+FRC00467,Belagavi,Cyber Fraud,77
+FRC00468,Belagavi,Robbery,14
+FRC00469,Hubballi-Dharwad,Chain Snatching,12
+FRC00470,Bengaluru Urban,Chain Snatching,45
+FRC00471,Bengaluru Rural,Robbery,85
+FRC00472,Bengaluru Urban,Chain Snatching,91
+FRC00473,Shivamogga,Financial Fraud,40
+FRC00474,Kalaburagi,Vehicle Theft,49
+FRC00475,Mangaluru,Cyber Fraud,33
+FRC00476,Ballari,Cyber Fraud,99
+FRC00477,Ballari,Vehicle Theft,1
+FRC00478,Shivamogga,Vehicle Theft,19
+FRC00479,Mysuru,Cyber Fraud,79
+FRC00480,Hubballi-Dharwad,Chain Snatching,32
+FRC00481,Bengaluru Urban,Financial Fraud,44
+FRC00482,Hubballi-Dharwad,Robbery,65
+FRC00483,Bengaluru Rural,Cyber Fraud,67
+FRC00484,Tumakuru,Assault,6
+FRC00485,Ballari,Vehicle Theft,99
+FRC00486,Bengaluru Urban,House Burglary,99
+FRC00487,Belagavi,Assault,43
+FRC00488,Mysuru,Drug Trafficking,48
+FRC00489,Shivamogga,Drug Trafficking,97
+FRC00490,Mangaluru,Robbery,59
+FRC00491,Mysuru,Robbery,38
+FRC00492,Kalaburagi,House Burglary,41
+FRC00493,Ballari,Assault,66
+FRC00494,Mysuru,Financial Fraud,36
+FRC00495,Hubballi-Dharwad,Cyber Fraud,38
+FRC00496,Mysuru,Assault,48
+FRC00497,Hubballi-Dharwad,Drug Trafficking,19
+FRC00498,Belagavi,Robbery,72
+FRC00499,Tumakuru,House Burglary,95
+FRC00500,Bengaluru Urban,Vehicle Theft,32

@@ -1,0 +1,2001 @@
+Accused_ID,Name,Age,Gender,District,Occupation,Education,Risk_Score,Gang_ID
+A00001,Sai Lanka,37,Female,Kalaburagi,Businessman,Graduate,3,G018
+A00002,Yug Mody,34,Male,Ballari,Shop Owner,PUC,77,G023
+A00003,Udyati Sandal,18,Male,Mangaluru,Shop Owner,Diploma,50,G027
+A00004,Samaksh Johal,64,Male,Mangaluru,Mechanic,SSLC,50,G034
+A00005,Chanchal Wali,64,Female,Bengaluru Rural,Student,SSLC,58,G046
+A00006,Neelima Edwin,60,Male,Mangaluru,Teacher,Diploma,31,G050
+A00007,Daksh Khalsa,21,Male,Hubballi-Dharwad,Shop Owner,SSLC,43,G031
+A00008,Bina Bala,23,Male,Ballari,Software Engineer,Graduate,84,G023
+A00009,Yoshita Mukherjee,27,Female,Mangaluru,Teacher,Graduate,24,G011
+A00010,Rajeshri Sen,59,Female,Mysuru,Teacher,Diploma,73,G039
+A00011,Pooja Dyal,40,Male,Shivamogga,Student,PUC,48,G018
+A00012,Samarth Purohit,20,Male,Mysuru,Electrician,SSLC,26,G040
+A00013,Ekaraj Mane,51,Female,Hubballi-Dharwad,Security Guard,Graduate,84,G031
+A00014,Neha Magar,18,Male,Belagavi,Teacher,Diploma,12,G035
+A00015,Bhavini Kohli,18,Male,Mysuru,Shop Owner,Graduate,4,G009
+A00016,Omya Kibe,45,Female,Bengaluru Rural,Student,PUC,50,G014
+A00017,Yash Pingle,45,Male,Mangaluru,Security Guard,Graduate,1,G008
+A00018,Ishaan Shan,41,Male,Bengaluru Urban,Businessman,SSLC,47,G016
+A00019,Saumya Khatri,28,Male,Bengaluru Urban,Mechanic,Graduate,58,G025
+A00020,Avi Date,43,Female,Bengaluru Urban,Teacher,Diploma,99,G049
+A00021,Chaaya Sengupta,20,Female,Shivamogga,Driver,Diploma,74,G042
+A00022,Anita Rai,44,Male,Mangaluru,Mechanic,PUC,62,G008
+A00023,Caleb Bail,45,Female,Mysuru,Mechanic,SSLC,54,G017
+A00024,Dhruv Pillai,45,Male,Bengaluru Urban,Student,Graduate,81,G021
+A00025,Hema Chaudhuri,26,Male,Bengaluru Rural,Driver,PUC,98,G023
+A00026,Unni Doctor,42,Male,Tumakuru,Shop Owner,Graduate,15,G001
+A00027,Baljiwan Mukhopadhyay,36,Male,Bengaluru Rural,Businessman,SSLC,33,G011
+A00028,Neelima Sandhu,52,Male,Ballari,Electrician,SSLC,89,G046
+A00029,Anjali Kumer,58,Male,Bengaluru Rural,Driver,Graduate,55,G010
+A00030,Onkar Loke,45,Female,Kalaburagi,Electrician,PUC,86,G042
+A00031,Qushi Batra,34,Female,Tumakuru,Security Guard,Diploma,6,G019
+A00032,Ekalinga Reddy,50,Female,Tumakuru,Electrician,Diploma,58,G026
+A00033,Dhriti Chaudhari,50,Male,Mysuru,Driver,Graduate,43,G020
+A00034,Januja Savant,62,Male,Belagavi,Teacher,Diploma,57,G013
+A00035,Gaurav Mahal,29,Female,Tumakuru,Driver,Graduate,27,G003
+A00036,Bhanumati Chhabra,60,Male,Shivamogga,Businessman,PUC,83,G009
+A00037,Falguni Gala,54,Female,Shivamogga,Student,SSLC,29,G035
+A00038,Hitesh Chanda,49,Male,Tumakuru,Mechanic,Diploma,5,G049
+A00039,Lila Pal,42,Male,Belagavi,Security Guard,PUC,75,G033
+A00040,Girish Sarin,39,Male,Belagavi,Software Engineer,SSLC,47,G028
+A00041,Ekansh Tata,27,Male,Mangaluru,Driver,Diploma,49,G042
+A00042,Jason Lanka,22,Female,Shivamogga,Electrician,SSLC,57,G024
+A00043,Ekiya Dhillon,39,Male,Hubballi-Dharwad,Businessman,Diploma,32,G006
+A00044,Fiyaz Guha,36,Female,Shivamogga,Security Guard,Diploma,40,G011
+A00045,Rushil Bhasin,52,Female,Mysuru,Businessman,Diploma,14,G037
+A00046,Zayyan Panchal,42,Female,Ballari,Businessman,SSLC,87,G033
+A00047,Farhan Kulkarni,40,Male,Mangaluru,Mechanic,SSLC,18,G004
+A00048,Tanveer Saini,59,Female,Mangaluru,Software Engineer,Diploma,19,G006
+A00049,Liam Srinivas,43,Male,Ballari,Teacher,Graduate,34,G033
+A00050,Kiaan Konda,39,Male,Bengaluru Urban,Student,PUC,65,G006
+A00051,Shaurya Mukhopadhyay,29,Female,Mangaluru,Electrician,Graduate,26,G006
+A00052,Yahvi Bains,44,Female,Ballari,Student,Graduate,12,G025
+A00053,Vinaya Bali,27,Male,Shivamogga,Electrician,Diploma,15,G006
+A00054,Radhika Jani,36,Female,Mangaluru,Mechanic,SSLC,25,G015
+A00055,Aadhya Krishnan,52,Female,Hubballi-Dharwad,Electrician,SSLC,44,G048
+A00056,Madhav Hegde,44,Male,Mangaluru,Shop Owner,Diploma,34,G031
+A00057,Liam Mutti,38,Female,Belagavi,Driver,Graduate,64,G012
+A00058,Zashil Chawla,23,Male,Kalaburagi,Software Engineer,Diploma,36,G030
+A00059,Farhan Subramaniam,33,Male,Mangaluru,Mechanic,Graduate,42,G021
+A00060,Damyanti Bassi,37,Female,Mangaluru,Mechanic,Graduate,1,G006
+A00061,Gaurika Saini,38,Male,Bengaluru Urban,Mechanic,SSLC,12,G050
+A00062,Farhan Chaudhuri,32,Male,Mysuru,Software Engineer,Graduate,74,G043
+A00063,Yashica Bhat,38,Male,Ballari,Electrician,Diploma,32,G034
+A00064,Veer Taneja,49,Male,Hubballi-Dharwad,Software Engineer,SSLC,43,G041
+A00065,Aryan Bajwa,30,Male,Mangaluru,Businessman,Graduate,63,G007
+A00066,Abeer Ratti,47,Male,Shivamogga,Mechanic,PUC,55,G023
+A00067,Aishani Prakash,41,Female,Tumakuru,Businessman,PUC,81,G020
+A00068,Patrick Swaminathan,61,Female,Shivamogga,Software Engineer,Diploma,54,G004
+A00069,Avni Balay,26,Male,Shivamogga,Teacher,Diploma,3,G017
+A00070,Samarth Kurian,28,Female,Hubballi-Dharwad,Shop Owner,SSLC,40,G040
+A00071,Patrick Luthra,30,Male,Bengaluru Rural,Student,PUC,5,G040
+A00072,Ishwar Brahmbhatt,22,Female,Hubballi-Dharwad,Businessman,PUC,39,G025
+A00073,Baljiwan Nagar,61,Male,Bengaluru Rural,Farmer,PUC,24,G013
+A00074,Ikbal Master,37,Male,Shivamogga,Driver,Diploma,61,G013
+A00075,Bhanumati Karpe,36,Female,Bengaluru Rural,Businessman,PUC,36,G029
+A00076,Diya Hora,21,Male,Bengaluru Rural,Security Guard,Diploma,95,G021
+A00077,Vanya Raju,57,Male,Tumakuru,Electrician,SSLC,12,G034
+A00078,Rachit Kapadia,25,Male,Bengaluru Urban,Software Engineer,Diploma,53,G011
+A00079,Yamini Kala,19,Female,Ballari,Teacher,SSLC,92,G023
+A00080,Janaki Batra,53,Male,Mysuru,Farmer,Diploma,20,G024
+A00081,Aarush Dutta,34,Male,Shivamogga,Security Guard,SSLC,45,G025
+A00082,Frederick Pandey,55,Male,Mysuru,Driver,PUC,42,G035
+A00083,Vedika Oak,31,Male,Bengaluru Urban,Security Guard,Diploma,22,G006
+A00084,Manya Venkatesh,32,Female,Tumakuru,Shop Owner,SSLC,98,G022
+A00085,Warinder Kade,51,Male,Hubballi-Dharwad,Farmer,SSLC,2,G002
+A00086,Upkaar Bhat,39,Female,Shivamogga,Software Engineer,PUC,73,G019
+A00087,Luke Gole,43,Male,Belagavi,Driver,SSLC,5,G050
+A00088,Ekansh Taneja,23,Female,Belagavi,Mechanic,Diploma,68,G002
+A00089,Aadi Rastogi,63,Male,Belagavi,Farmer,SSLC,94,G024
+A00090,Amara Modi,54,Male,Kalaburagi,Software Engineer,PUC,36,G004
+A00091,Priya Char,55,Female,Kalaburagi,Shop Owner,Diploma,17,G024
+A00092,Bhavini Raju,24,Male,Kalaburagi,Businessman,SSLC,19,G033
+A00093,Amruta Swamy,30,Female,Hubballi-Dharwad,Student,SSLC,78,G029
+A00094,Pavani Varghese,53,Male,Shivamogga,Shop Owner,PUC,89,G046
+A00095,Daksh Dhar,62,Female,Belagavi,Driver,Diploma,5,G042
+A00096,Kavya Thaman,35,Male,Ballari,Electrician,SSLC,66,G011
+A00097,Samesh Nayak,38,Female,Bengaluru Urban,Electrician,SSLC,43,G012
+A00098,Robert Soni,27,Female,Bengaluru Urban,Electrician,Diploma,82,G043
+A00099,Manan Sankar,18,Male,Shivamogga,Driver,Diploma,89,G006
+A00100,Ronith Sarna,64,Male,Kalaburagi,Businessman,Graduate,20,G036
+A00101,Bhavya Iyer,57,Female,Mysuru,Security Guard,Diploma,22,G025
+A00102,Frado Khurana,51,Female,Belagavi,Teacher,PUC,91,G029
+A00103,Zinal Soman,64,Male,Ballari,Businessman,PUC,73,G046
+A00104,Sanaya Wagle,26,Male,Ballari,Electrician,SSLC,13,G034
+A00105,Advaith Bandi,39,Female,Ballari,Shop Owner,SSLC,4,G007
+A00106,Libni Tank,32,Male,Mysuru,Mechanic,SSLC,23,G004
+A00107,Upadhriti Pai,56,Female,Kalaburagi,Businessman,Graduate,29,G016
+A00108,Waida Rama,42,Female,Kalaburagi,Teacher,Diploma,95,G019
+A00109,Megha Hari,63,Male,Mysuru,Electrician,SSLC,36,G001
+A00110,Jeet Tandon,30,Female,Bengaluru Rural,Student,Graduate,12,G023
+A00111,Darsh Prabhakar,50,Female,Belagavi,Farmer,Graduate,11,G030
+A00112,Eta Memon,19,Male,Shivamogga,Software Engineer,Graduate,25,G022
+A00113,Sanya Goyal,44,Female,Ballari,Businessman,Diploma,17,G012
+A00114,Saanvi Guha,65,Male,Tumakuru,Teacher,Diploma,33,G050
+A00115,Yagnesh Sachdev,57,Male,Belagavi,Mechanic,Diploma,47,G042
+A00116,Gopal Kumar,33,Female,Bengaluru Rural,Businessman,PUC,81,G003
+A00117,Harsh Ben,46,Male,Kalaburagi,Farmer,Diploma,45,G041
+A00118,Ekaja Tandon,21,Female,Belagavi,Shop Owner,Diploma,30,G039
+A00119,Samar Doctor,57,Female,Mangaluru,Farmer,Graduate,67,G017
+A00120,Aachal Magar,63,Female,Mangaluru,Shop Owner,Diploma,56,G027
+A00121,Yoshita Kulkarni,59,Female,Bengaluru Urban,Software Engineer,PUC,15,G018
+A00122,Devika Sabharwal,36,Female,Bengaluru Rural,Mechanic,PUC,66,G026
+A00123,Advay Sachdev,60,Male,Bengaluru Rural,Teacher,PUC,35,G021
+A00124,Indrajit Dhar,26,Male,Mysuru,Driver,PUC,2,G025
+A00125,Priya Lal,33,Male,Mangaluru,Electrician,SSLC,5,G019
+A00126,Naksh Samra,47,Male,Hubballi-Dharwad,Businessman,SSLC,58,G026
+A00127,Anirudh Pall,29,Male,Mangaluru,Farmer,SSLC,10,G014
+A00128,Chasmum Krishna,25,Male,Kalaburagi,Security Guard,Diploma,54,G006
+A00129,Ekanta Pandey,39,Female,Shivamogga,Software Engineer,Graduate,6,G030
+A00130,Yashoda Rattan,23,Female,Hubballi-Dharwad,Shop Owner,Diploma,24,G025
+A00131,Yamini Sidhu,54,Male,Hubballi-Dharwad,Shop Owner,SSLC,36,G002
+A00132,Rushil Hayre,58,Male,Mysuru,Security Guard,Graduate,66,G044
+A00133,Mitesh Kibe,43,Female,Tumakuru,Student,SSLC,13,G022
+A00134,Hemang Soman,48,Male,Tumakuru,Software Engineer,SSLC,17,G029
+A00135,Vyanjana Tella,52,Female,Kalaburagi,Teacher,SSLC,19,G005
+A00136,Waida Mital,55,Female,Hubballi-Dharwad,Shop Owner,Graduate,5,G004
+A00137,Balveer Mani,45,Female,Hubballi-Dharwad,Student,Diploma,81,G043
+A00138,Peter Palan,28,Female,Ballari,Shop Owner,SSLC,73,G038
+A00139,Dalaja Dugar,58,Male,Bengaluru Urban,Teacher,PUC,47,G045
+A00140,Turvi Bora,57,Male,Hubballi-Dharwad,Farmer,Graduate,90,G005
+A00141,Ridhi Mangal,28,Female,Hubballi-Dharwad,Businessman,SSLC,72,G018
+A00142,Hemal Shroff,41,Female,Bengaluru Urban,Electrician,SSLC,46,G013
+A00143,Liam Hegde,26,Male,Mangaluru,Security Guard,Diploma,50,G046
+A00144,Ishaan Nigam,30,Female,Bengaluru Rural,Software Engineer,PUC,78,G041
+A00145,Varenya Kashyap,24,Male,Kalaburagi,Teacher,Diploma,2,G004
+A00146,Damyanti Venkataraman,58,Female,Mysuru,Businessman,SSLC,11,G044
+A00147,Ishita Chad,38,Female,Bengaluru Rural,Student,Diploma,30,G033
+A00148,Dalaja Chawla,29,Male,Kalaburagi,Student,Graduate,6,G011
+A00149,Daniel Bedi,34,Male,Belagavi,Student,Graduate,33,G032
+A00150,Eshana Bala,22,Female,Tumakuru,Teacher,SSLC,77,G041
+A00151,Avni Dhaliwal,19,Male,Bengaluru Urban,Driver,Diploma,93,G034
+A00152,Suhani Sahni,52,Female,Shivamogga,Teacher,Diploma,33,G033
+A00153,Prisha Bose,60,Male,Hubballi-Dharwad,Mechanic,Diploma,20,G044
+A00154,Utkarsh Dhingra,53,Female,Belagavi,Shop Owner,Diploma,65,G020
+A00155,Ishita Ahuja,28,Male,Ballari,Farmer,Graduate,18,G002
+A00156,Ishwar Saxena,49,Female,Hubballi-Dharwad,Teacher,SSLC,40,G043
+A00157,Bhavani Bal,58,Male,Bengaluru Rural,Security Guard,SSLC,54,G023
+A00158,Jairaj Gokhale,42,Female,Hubballi-Dharwad,Driver,Graduate,27,G015
+A00159,Chakrika Pai,63,Female,Kalaburagi,Farmer,Graduate,85,G042
+A00160,Aryan Nayar,31,Male,Hubballi-Dharwad,Businessman,SSLC,42,G039
+A00161,Urmi Deshmukh,28,Female,Tumakuru,Software Engineer,Graduate,67,G048
+A00162,Vamakshi Chaudhuri,59,Male,Ballari,Security Guard,Diploma,52,G010
+A00163,Mitali Gill,54,Male,Bengaluru Rural,Teacher,PUC,34,G029
+A00164,Advaith Rao,38,Female,Bengaluru Urban,Farmer,SSLC,52,G023
+A00165,Falguni Datta,34,Male,Kalaburagi,Businessman,Diploma,63,G013
+A00166,Vasana Parmar,50,Female,Tumakuru,Student,Graduate,49,G046
+A00167,Nidhi Patil,63,Female,Tumakuru,Mechanic,Graduate,79,G018
+A00168,Nathan Dutta,44,Male,Mangaluru,Electrician,PUC,96,G024
+A00169,Nachiket Dalal,22,Male,Mangaluru,Businessman,SSLC,43,G004
+A00170,Tarak Puri,33,Male,Bengaluru Urban,Farmer,Diploma,89,G023
+A00171,Maya Chakraborty,37,Male,Bengaluru Urban,Teacher,Graduate,40,G006
+A00172,Ansh Dhillon,39,Male,Ballari,Student,SSLC,13,G046
+A00173,Baljiwan Soman,57,Female,Bengaluru Urban,Driver,PUC,25,G050
+A00174,Chandresh Bhalla,62,Male,Mangaluru,Software Engineer,SSLC,23,G020
+A00175,Champak Mand,48,Female,Mysuru,Electrician,Graduate,46,G037
+A00176,Waida Nazareth,53,Male,Tumakuru,Shop Owner,Diploma,23,G023
+A00177,Dalaja Nagy,27,Female,Mysuru,Mechanic,PUC,23,G042
+A00178,Amara Pant,62,Male,Kalaburagi,Software Engineer,PUC,5,G032
+A00179,Anjali Gupta,26,Male,Bengaluru Urban,Mechanic,SSLC,48,G028
+A00180,Girindra Pradhan,59,Male,Ballari,Student,Graduate,89,G011
+A00181,Praneel Swaminathan,50,Male,Kalaburagi,Electrician,Diploma,24,G048
+A00182,Om Kalita,47,Male,Mysuru,Teacher,Graduate,14,G007
+A00183,Lopa Bawa,25,Female,Bengaluru Rural,Electrician,SSLC,94,G021
+A00184,Matthew Contractor,41,Male,Kalaburagi,Mechanic,PUC,19,G048
+A00185,Ojasvi Kapur,39,Male,Kalaburagi,Student,SSLC,44,G032
+A00186,Lavanya Banik,27,Female,Bengaluru Rural,Electrician,Graduate,34,G023
+A00187,Baghyawati Gopal,42,Male,Bengaluru Urban,Shop Owner,PUC,18,G025
+A00188,Nachiket Cherian,50,Male,Mangaluru,Farmer,SSLC,76,G008
+A00189,Siya Mangat,65,Male,Bengaluru Rural,Electrician,Graduate,81,G032
+A00190,Girindra Bhatti,48,Male,Belagavi,Farmer,SSLC,56,G049
+A00191,Devansh Narayan,41,Male,Belagavi,Shop Owner,Diploma,64,G044
+A00192,Bina Mani,43,Female,Belagavi,Student,PUC,27,G021
+A00193,Bahadurjit Bahl,36,Male,Kalaburagi,Businessman,Diploma,51,G017
+A00194,Pahal Sandhu,29,Male,Ballari,Teacher,Graduate,40,G008
+A00195,Jagvi Tripathi,20,Male,Bengaluru Urban,Software Engineer,Diploma,47,G021
+A00196,Hitesh Deshpande,21,Male,Bengaluru Rural,Software Engineer,PUC,9,G001
+A00197,Bhavika Yadav,20,Male,Shivamogga,Teacher,Graduate,87,G013
+A00198,Guneet Bumb,18,Female,Ballari,Security Guard,PUC,49,G022
+A00199,Janaki Sengupta,48,Male,Kalaburagi,Businessman,Diploma,29,G026
+A00200,Anika Purohit,64,Male,Mysuru,Teacher,SSLC,85,G039
+A00201,Zaid Date,36,Male,Belagavi,Businessman,PUC,29,G027
+A00202,Pushti Nagy,28,Female,Hubballi-Dharwad,Electrician,Diploma,37,G045
+A00203,Aachal Purohit,35,Male,Mangaluru,Software Engineer,Graduate,7,G005
+A00204,Nandini Srivastava,24,Male,Ballari,Student,SSLC,86,G042
+A00205,Jalsa Ravel,63,Male,Hubballi-Dharwad,Security Guard,Diploma,100,G027
+A00206,Nihal Chandran,52,Female,Ballari,Teacher,PUC,62,G031
+A00207,Avi Khurana,60,Female,Shivamogga,Businessman,SSLC,7,G013
+A00208,Krishna Rattan,23,Female,Shivamogga,Teacher,Diploma,22,G035
+A00209,Nirja Yadav,48,Female,Mangaluru,Electrician,SSLC,18,G016
+A00210,Tejas Chaudhari,23,Female,Mysuru,Driver,SSLC,27,G002
+A00211,Sathvik Dhaliwal,37,Female,Kalaburagi,Teacher,Diploma,9,G041
+A00212,George Oommen,41,Male,Mysuru,Teacher,Diploma,70,G004
+A00213,Frederick Savant,34,Female,Hubballi-Dharwad,Teacher,SSLC,79,G033
+A00214,Henry Bora,43,Male,Bengaluru Urban,Student,Diploma,84,G047
+A00215,Raghav Balan,26,Female,Belagavi,Security Guard,Graduate,14,G032
+A00216,Kashvi Sridhar,22,Female,Mysuru,Software Engineer,Graduate,58,G020
+A00217,Yamini Chawla,46,Male,Mysuru,Software Engineer,Graduate,28,G016
+A00218,Oeshi Setty,54,Female,Tumakuru,Software Engineer,SSLC,79,G038
+A00219,Brijesh Parsa,48,Female,Shivamogga,Software Engineer,Diploma,46,G041
+A00220,Yamini Kaur,29,Male,Ballari,Shop Owner,Graduate,1,G004
+A00221,Orinder Oak,49,Female,Bengaluru Rural,Driver,PUC,19,G003
+A00222,Champak Sarin,35,Female,Ballari,Student,Graduate,86,G041
+A00223,Yauvani Soman,63,Female,Kalaburagi,Driver,PUC,40,G018
+A00224,Vasatika Sama,18,Female,Belagavi,Driver,SSLC,14,G030
+A00225,Kabir Ray,48,Female,Shivamogga,Farmer,Diploma,55,G040
+A00226,Imaran Lal,33,Male,Tumakuru,Security Guard,Diploma,26,G006
+A00227,Dakshesh Pillay,65,Female,Bengaluru Rural,Mechanic,Diploma,79,G038
+A00228,Rayaan Keer,20,Male,Kalaburagi,Shop Owner,PUC,84,G045
+A00229,Fitan Arora,64,Female,Hubballi-Dharwad,Mechanic,Diploma,36,G027
+A00230,Charita Nath,41,Female,Shivamogga,Electrician,Diploma,24,G041
+A00231,Alexander Sarraf,24,Male,Bengaluru Urban,Mechanic,Diploma,81,G013
+A00232,Triveni Zacharia,61,Female,Bengaluru Urban,Mechanic,PUC,17,G009
+A00233,Jacob Tailor,23,Female,Kalaburagi,Farmer,Diploma,63,G034
+A00234,Anusha Vaidya,27,Male,Ballari,Teacher,SSLC,52,G031
+A00235,Ojas Choudhury,46,Female,Shivamogga,Student,Graduate,10,G005
+A00236,Samesh Kade,42,Male,Bengaluru Rural,Mechanic,SSLC,6,G042
+A00237,Peter Gour,19,Male,Mysuru,Driver,SSLC,2,G037
+A00238,Rudra Randhawa,23,Female,Tumakuru,Businessman,SSLC,98,G009
+A00239,Jeet Patla,53,Female,Mangaluru,Shop Owner,Diploma,39,G032
+A00240,Vrinda Buch,52,Male,Ballari,Businessman,Graduate,36,G009
+A00241,Jagrati Kumar,29,Male,Hubballi-Dharwad,Software Engineer,SSLC,8,G022
+A00242,Hemangini Acharya,56,Male,Shivamogga,Software Engineer,Diploma,40,G040
+A00243,Nathaniel Chad,47,Female,Hubballi-Dharwad,Businessman,Diploma,41,G021
+A00244,Rajata Hari,23,Female,Shivamogga,Electrician,SSLC,19,G049
+A00245,Rachana Gandhi,31,Male,Bengaluru Rural,Software Engineer,SSLC,42,G012
+A00246,Hitesh Saha,32,Male,Tumakuru,Teacher,Graduate,37,G010
+A00247,Krishna Gola,53,Male,Kalaburagi,Teacher,PUC,67,G049
+A00248,Harish Banik,39,Female,Bengaluru Urban,Teacher,PUC,14,G018
+A00249,Vaishnavi Kant,44,Female,Bengaluru Rural,Security Guard,Graduate,30,G034
+A00250,Brijesh Basak,55,Male,Ballari,Electrician,PUC,76,G029
+A00251,Chaaya Brahmbhatt,40,Female,Bengaluru Rural,Teacher,SSLC,6,G021
+A00252,Faras Bora,41,Male,Hubballi-Dharwad,Farmer,SSLC,56,G020
+A00253,Jagat Bhardwaj,43,Female,Mysuru,Security Guard,Diploma,85,G009
+A00254,Gavin Uppal,48,Male,Mysuru,Security Guard,SSLC,36,G024
+A00255,Dev Khalsa,38,Male,Shivamogga,Driver,SSLC,74,G027
+A00256,Jeremiah Kara,56,Male,Mysuru,Software Engineer,PUC,87,G042
+A00257,Balvan Gola,57,Male,Kalaburagi,Teacher,Diploma,12,G039
+A00258,Ishita Balakrishnan,34,Female,Tumakuru,Electrician,Diploma,37,G025
+A00259,Jacob Mani,18,Male,Ballari,Mechanic,PUC,91,G022
+A00260,Banjeet Bhattacharyya,60,Male,Bengaluru Urban,Software Engineer,SSLC,55,G034
+A00261,Yuvraj Khurana,26,Male,Belagavi,Driver,Diploma,67,G047
+A00262,Anmol Narayanan,53,Female,Kalaburagi,Driver,Diploma,59,G047
+A00263,Ranbir Bora,20,Female,Tumakuru,Teacher,Diploma,20,G001
+A00264,Bishakha Pathak,45,Female,Shivamogga,Student,Diploma,77,G047
+A00265,Dhruv Dani,45,Male,Tumakuru,Mechanic,Diploma,43,G004
+A00266,Yauvani Mandal,55,Female,Bengaluru Rural,Driver,SSLC,32,G050
+A00267,Mitesh Upadhyay,51,Female,Ballari,Businessman,SSLC,47,G021
+A00268,Xavier Khatri,33,Male,Ballari,Software Engineer,SSLC,37,G013
+A00269,Anamika Sant,37,Female,Mysuru,Student,Graduate,70,G014
+A00270,Owen Sachar,31,Male,Shivamogga,Software Engineer,SSLC,56,G004
+A00271,Amrita Bhatti,55,Male,Bengaluru Urban,Security Guard,SSLC,88,G007
+A00272,Nirja Muni,26,Female,Hubballi-Dharwad,Electrician,Graduate,10,G038
+A00273,Nirja Dugar,51,Female,Tumakuru,Security Guard,PUC,91,G023
+A00274,Ganga Gaba,39,Male,Mysuru,Student,SSLC,11,G007
+A00275,Leela Varghese,56,Male,Shivamogga,Mechanic,PUC,42,G033
+A00276,Yatin Cherian,59,Male,Bengaluru Rural,Shop Owner,Graduate,100,G035
+A00277,Arya Chopra,21,Male,Belagavi,Driver,PUC,17,G036
+A00278,Maanav Karnik,24,Male,Ballari,Security Guard,Graduate,43,G019
+A00279,Azad Chopra,27,Female,Ballari,Software Engineer,Graduate,75,G002
+A00280,Yashoda Vasa,64,Female,Belagavi,Software Engineer,SSLC,51,G031
+A00281,Chakradev Rana,55,Female,Tumakuru,Businessman,SSLC,63,G004
+A00282,Gautami Ramakrishnan,27,Male,Bengaluru Urban,Electrician,SSLC,13,G008
+A00283,Abha Tak,63,Male,Bengaluru Urban,Teacher,SSLC,44,G049
+A00284,Osha Venkataraman,36,Female,Belagavi,Driver,SSLC,23,G031
+A00285,Kevin Chaudhari,43,Male,Hubballi-Dharwad,Mechanic,Diploma,21,G001
+A00286,Deepa Sur,40,Female,Belagavi,Farmer,Diploma,32,G007
+A00287,Parth Malhotra,26,Male,Belagavi,Teacher,Graduate,44,G040
+A00288,Vasatika Khanna,25,Female,Mysuru,Driver,SSLC,53,G042
+A00289,Vivaan Wadhwa,21,Male,Ballari,Teacher,Graduate,39,G004
+A00290,Yachana Kibe,62,Male,Tumakuru,Teacher,Diploma,11,G013
+A00291,Gauri Mitra,31,Female,Tumakuru,Software Engineer,PUC,96,G038
+A00292,Priya Nagar,57,Female,Shivamogga,Farmer,PUC,26,G045
+A00293,Prisha Chacko,62,Female,Mysuru,Security Guard,PUC,58,G029
+A00294,Yamini Tank,55,Male,Tumakuru,Student,Graduate,4,G016
+A00295,Abeer Manne,33,Female,Shivamogga,Security Guard,SSLC,75,G046
+A00296,Wahab Rama,21,Female,Tumakuru,Security Guard,SSLC,8,G037
+A00297,Pooja Chakrabarti,42,Female,Mysuru,Mechanic,Diploma,94,G002
+A00298,Hemal Mahajan,48,Female,Bengaluru Urban,Businessman,PUC,54,G049
+A00299,Yatin Dugar,25,Female,Mysuru,Businessman,PUC,82,G033
+A00300,Bhanumati Chahal,50,Female,Hubballi-Dharwad,Businessman,PUC,78,G041
+A00301,Yashawini Gulati,23,Female,Mysuru,Farmer,PUC,70,G021
+A00302,Vasana Rama,63,Male,Mysuru,Businessman,Graduate,20,G044
+A00303,Nilima Gade,28,Female,Mangaluru,Student,SSLC,49,G019
+A00304,Garima Gara,46,Male,Shivamogga,Businessman,Diploma,83,G027
+A00305,Dalaja Dara,32,Female,Shivamogga,Farmer,Graduate,59,G050
+A00306,Radhika Lata,61,Male,Ballari,Farmer,Diploma,73,G029
+A00307,Indali Barman,39,Female,Mysuru,Businessman,PUC,89,G011
+A00308,Vrinda Banik,61,Male,Belagavi,Businessman,SSLC,19,G017
+A00309,Robert Nadkarni,43,Female,Mangaluru,Driver,SSLC,67,G050
+A00310,Garima Srivastava,63,Female,Hubballi-Dharwad,Mechanic,Diploma,41,G021
+A00311,Nitara Nagar,53,Female,Ballari,Businessman,PUC,72,G001
+A00312,Hemang Parsa,59,Male,Tumakuru,Software Engineer,Graduate,48,G012
+A00313,Brijesh Barad,52,Male,Bengaluru Urban,Security Guard,Diploma,81,G011
+A00314,Charan Khare,18,Female,Mysuru,Mechanic,Graduate,15,G014
+A00315,Viraj Anand,25,Male,Shivamogga,Farmer,PUC,96,G003
+A00316,Mitesh Konda,45,Female,Shivamogga,Security Guard,PUC,1,G049
+A00317,Chatura Barman,23,Female,Bengaluru Urban,Security Guard,SSLC,5,G038
+A00318,Elijah Mishra,28,Male,Tumakuru,Farmer,PUC,14,G009
+A00319,Maanav Hari,41,Male,Bengaluru Rural,Mechanic,SSLC,56,G050
+A00320,Qadim Gala,50,Female,Bengaluru Rural,Student,PUC,94,G045
+A00321,Yachana Gaba,29,Male,Mysuru,Electrician,Diploma,37,G026
+A00322,Yashvi Dora,22,Male,Kalaburagi,Teacher,Graduate,4,G004
+A00323,Patrick Hayer,49,Female,Hubballi-Dharwad,Driver,Graduate,40,G045
+A00324,Baghyawati Chandran,19,Female,Mysuru,Shop Owner,PUC,100,G005
+A00325,Akshay Doshi,25,Female,Belagavi,Teacher,PUC,46,G024
+A00326,William Gala,59,Female,Kalaburagi,Teacher,Diploma,21,G029
+A00327,Sai Taneja,32,Male,Kalaburagi,Teacher,Diploma,84,G024
+A00328,Elijah Pillay,53,Female,Bengaluru Rural,Shop Owner,SSLC,23,G040
+A00329,Hema Prashad,19,Female,Belagavi,Teacher,Diploma,50,G036
+A00330,Frederick Chadha,52,Male,Kalaburagi,Mechanic,Diploma,46,G048
+A00331,Ekanta Upadhyay,21,Male,Mangaluru,Shop Owner,PUC,44,G042
+A00332,Christopher Srivastava,25,Female,Bengaluru Rural,Student,Diploma,25,G039
+A00333,Warhi Bandi,26,Male,Mangaluru,Mechanic,Diploma,67,G034
+A00334,Krish Rao,62,Male,Belagavi,Businessman,SSLC,90,G050
+A00335,Kai Borah,62,Male,Bengaluru Rural,Software Engineer,SSLC,100,G023
+A00336,Triveni Parikh,51,Male,Tumakuru,Mechanic,PUC,87,G050
+A00337,Chakrika Khanna,44,Male,Belagavi,Teacher,PUC,51,G045
+A00338,Yauvani Rama,35,Female,Shivamogga,Student,Graduate,79,G015
+A00339,Lakshit Gade,18,Female,Tumakuru,Student,Graduate,44,G006
+A00340,Champak Buch,18,Male,Mysuru,Software Engineer,Graduate,71,G043
+A00341,Charvi Chand,48,Male,Mysuru,Driver,Graduate,47,G037
+A00342,Vasudha Muni,32,Male,Belagavi,Shop Owner,PUC,49,G032
+A00343,Akshay Singh,50,Male,Bengaluru Rural,Farmer,SSLC,1,G049
+A00344,Kashish Sura,50,Female,Belagavi,Electrician,Diploma,98,G004
+A00345,Daksha Ramachandran,55,Female,Shivamogga,Farmer,Diploma,32,G038
+A00346,Turvi Deo,54,Female,Mangaluru,Shop Owner,PUC,73,G031
+A00347,Charita Barad,32,Male,Mangaluru,Driver,Diploma,92,G025
+A00348,Hiral Dugar,50,Male,Tumakuru,Electrician,SSLC,29,G027
+A00349,Ansh Jha,30,Male,Bengaluru Rural,Farmer,Diploma,8,G012
+A00350,Vaishnavi Ray,49,Female,Bengaluru Urban,Driver,Diploma,70,G005
+A00351,Dev Prasad,24,Female,Bengaluru Rural,Mechanic,SSLC,42,G006
+A00352,Dayita Chowdhury,45,Male,Ballari,Mechanic,PUC,75,G039
+A00353,Kamala Bhat,45,Male,Kalaburagi,Student,PUC,76,G044
+A00354,Daksha Sarma,59,Female,Bengaluru Urban,Security Guard,Diploma,17,G034
+A00355,Indrajit Shankar,40,Male,Mysuru,Driver,Graduate,19,G024
+A00356,Mohammed Kota,19,Male,Mysuru,Security Guard,Diploma,38,G042
+A00357,Samesh Randhawa,59,Male,Belagavi,Electrician,SSLC,35,G030
+A00358,Eesha Basak,30,Male,Shivamogga,Student,SSLC,70,G017
+A00359,Rishi Choudhry,27,Female,Kalaburagi,Mechanic,PUC,27,G035
+A00360,Sara Pandya,45,Female,Kalaburagi,Student,PUC,71,G049
+A00361,Michael Borah,46,Male,Bengaluru Urban,Farmer,Graduate,70,G027
+A00362,Alka Bhatnagar,50,Male,Tumakuru,Security Guard,PUC,78,G001
+A00363,Qasim Banik,61,Male,Hubballi-Dharwad,Security Guard,Diploma,17,G034
+A00364,Daksh Lal,48,Female,Hubballi-Dharwad,Software Engineer,Graduate,23,G045
+A00365,Adya Ramesh,37,Female,Tumakuru,Driver,PUC,46,G007
+A00366,Rajata Patla,41,Male,Ballari,Security Guard,PUC,66,G038
+A00367,Ekapad Barad,64,Female,Bengaluru Urban,Shop Owner,Diploma,85,G045
+A00368,Ati Varughese,20,Female,Ballari,Software Engineer,PUC,23,G038
+A00369,Aarini Bava,55,Male,Ballari,Student,SSLC,89,G012
+A00370,Ranveer Iyengar,49,Male,Mysuru,Mechanic,Graduate,26,G043
+A00371,Meghana Sidhu,64,Male,Bengaluru Urban,Shop Owner,Graduate,78,G002
+A00372,Bakhshi Khanna,64,Male,Kalaburagi,Mechanic,Diploma,15,G016
+A00373,Kalpit Karnik,28,Female,Kalaburagi,Software Engineer,Graduate,97,G034
+A00374,Veer Sachar,64,Male,Mysuru,Teacher,Graduate,29,G036
+A00375,Saumya Sarraf,43,Male,Ballari,Student,SSLC,99,G035
+A00376,Mohini Venkatesh,59,Female,Shivamogga,Electrician,PUC,47,G028
+A00377,Faraj Dugal,20,Male,Hubballi-Dharwad,Software Engineer,PUC,48,G021
+A00378,Triveni Acharya,44,Male,Mysuru,Security Guard,Diploma,78,G001
+A00379,Nidra Prasad,25,Male,Mysuru,Farmer,PUC,16,G027
+A00380,Isaac Sarraf,57,Female,Tumakuru,Software Engineer,Graduate,76,G007
+A00381,Amol Bhatti,19,Female,Mysuru,Security Guard,Diploma,55,G016
+A00382,Nilima Pau,28,Female,Mangaluru,Mechanic,Diploma,12,G030
+A00383,Chakradhar Dey,20,Female,Ballari,Driver,Diploma,78,G044
+A00384,Rushil Narayanan,27,Male,Ballari,Farmer,PUC,44,G019
+A00385,Balendra Borah,47,Male,Mangaluru,Electrician,Graduate,60,G010
+A00386,Liam Mukhopadhyay,39,Female,Tumakuru,Teacher,Diploma,85,G022
+A00387,Pavani Butala,60,Male,Belagavi,Software Engineer,PUC,32,G024
+A00388,Leena Dasgupta,58,Male,Belagavi,Mechanic,Graduate,58,G005
+A00389,Hemani Kamdar,60,Female,Hubballi-Dharwad,Shop Owner,Diploma,86,G043
+A00390,Sara Sidhu,23,Female,Belagavi,Mechanic,Diploma,77,G004
+A00391,Vansha Virk,54,Male,Mysuru,Farmer,Diploma,69,G011
+A00392,Onveer Jain,52,Male,Hubballi-Dharwad,Electrician,PUC,1,G015
+A00393,Elijah Khare,48,Female,Bengaluru Urban,Mechanic,Diploma,66,G016
+A00394,Darsh Dhawan,29,Female,Mysuru,Security Guard,SSLC,34,G050
+A00395,Nicholas Kapur,23,Female,Mangaluru,Software Engineer,Diploma,94,G039
+A00396,Yash Bandi,25,Female,Ballari,Student,SSLC,22,G038
+A00397,Jeet Johal,49,Female,Belagavi,Mechanic,Diploma,64,G016
+A00398,Anirudh Halder,21,Female,Mysuru,Teacher,Graduate,84,G011
+A00399,Barkha Pillay,32,Female,Bengaluru Urban,Security Guard,PUC,29,G004
+A00400,Abeer Pant,38,Male,Shivamogga,Student,Graduate,38,G025
+A00401,Aarnav Goswami,60,Male,Kalaburagi,Businessman,PUC,55,G007
+A00402,Ojasvi Suresh,22,Female,Bengaluru Urban,Electrician,PUC,98,G050
+A00403,Ishwar Dhingra,29,Male,Shivamogga,Teacher,SSLC,99,G035
+A00404,Yashvi Dhar,38,Male,Shivamogga,Student,SSLC,12,G050
+A00405,Janya Malhotra,21,Female,Shivamogga,Security Guard,Diploma,51,G005
+A00406,Arunima Jhaveri,52,Male,Shivamogga,Software Engineer,Diploma,42,G042
+A00407,Osha Shanker,50,Female,Shivamogga,Driver,Graduate,39,G011
+A00408,Adya Khosla,37,Female,Bengaluru Rural,Businessman,Graduate,7,G016
+A00409,Banjeet Som,24,Male,Ballari,Electrician,Graduate,12,G008
+A00410,Maya Randhawa,30,Female,Kalaburagi,Driver,PUC,9,G018
+A00411,Ayushman Sahota,60,Male,Bengaluru Urban,Businessman,SSLC,93,G006
+A00412,Andrew Agarwal,48,Female,Kalaburagi,Student,Diploma,42,G043
+A00413,Isha Palan,32,Male,Hubballi-Dharwad,Security Guard,SSLC,1,G003
+A00414,Anya Madan,33,Female,Belagavi,Electrician,PUC,93,G039
+A00415,Udant Subramanian,46,Male,Shivamogga,Businessman,Graduate,61,G024
+A00416,Oliver Butala,54,Female,Mangaluru,Businessman,PUC,32,G006
+A00417,Idika Sandhu,57,Female,Bengaluru Urban,Farmer,Diploma,85,G032
+A00418,Girindra Uppal,50,Female,Tumakuru,Student,PUC,43,G047
+A00419,Daniel Vora,42,Male,Kalaburagi,Shop Owner,Graduate,48,G014
+A00420,Dhruv Nazareth,42,Male,Belagavi,Shop Owner,Diploma,16,G028
+A00421,Aryan Kaul,43,Female,Mysuru,Farmer,PUC,61,G043
+A00422,Warjas Pathak,20,Female,Mysuru,Teacher,PUC,86,G025
+A00423,Balhaar Bahri,26,Female,Ballari,Software Engineer,SSLC,21,G039
+A00424,Ekaja Nagar,59,Male,Bengaluru Urban,Shop Owner,PUC,34,G050
+A00425,Chasmum Doctor,60,Female,Bengaluru Rural,Shop Owner,Diploma,85,G023
+A00426,Maanas Mittal,29,Female,Shivamogga,Farmer,Diploma,21,G017
+A00427,Nidhi Rajan,59,Female,Belagavi,Farmer,SSLC,49,G012
+A00428,Varsha Dutt,21,Female,Bengaluru Urban,Security Guard,PUC,94,G045
+A00429,Divya Mitter,61,Male,Bengaluru Rural,Farmer,Diploma,89,G015
+A00430,Noah Murty,28,Female,Bengaluru Urban,Mechanic,SSLC,19,G023
+A00431,Forum Kothari,29,Male,Ballari,Farmer,PUC,58,G033
+A00432,Ekiya Dhillon,24,Female,Kalaburagi,Student,PUC,94,G025
+A00433,Arunima Bora,27,Male,Bengaluru Rural,Software Engineer,Graduate,72,G027
+A00434,Tanish Nigam,25,Female,Kalaburagi,Student,PUC,46,G013
+A00435,Priya Sarkar,50,Female,Shivamogga,Electrician,Diploma,28,G040
+A00436,Yochana Kala,63,Male,Mangaluru,Shop Owner,PUC,81,G010
+A00437,Chaitanya Dugar,51,Male,Hubballi-Dharwad,Student,SSLC,15,G018
+A00438,Ikbal Bir,44,Female,Tumakuru,Driver,PUC,27,G001
+A00439,Advay Gole,34,Female,Tumakuru,Software Engineer,Graduate,57,G009
+A00440,Amol Kumar,25,Male,Ballari,Software Engineer,PUC,93,G002
+A00441,Nicholas Varma,64,Male,Kalaburagi,Farmer,SSLC,68,G023
+A00442,Unnati Chaudry,40,Female,Ballari,Electrician,SSLC,4,G011
+A00443,Kritika Sandhu,49,Male,Mysuru,Businessman,PUC,66,G041
+A00444,Xavier Madan,28,Female,Mysuru,Electrician,PUC,5,G028
+A00445,Karan Gade,65,Male,Mysuru,Teacher,SSLC,1,G032
+A00446,Jacob Saraf,57,Female,Mangaluru,Security Guard,SSLC,71,G016
+A00447,Triya Kumer,59,Female,Shivamogga,Teacher,Diploma,4,G041
+A00448,Saumya Om,23,Female,Mangaluru,Teacher,Diploma,86,G016
+A00449,Amaira Bal,50,Female,Belagavi,Businessman,SSLC,19,G006
+A00450,Veer Kar,26,Female,Kalaburagi,Farmer,PUC,57,G029
+A00451,Rachit Misra,47,Male,Belagavi,Software Engineer,SSLC,10,G047
+A00452,Shaurya Khare,18,Male,Mysuru,Electrician,SSLC,26,G029
+A00453,David Dhar,62,Female,Mysuru,Businessman,Diploma,22,G046
+A00454,Ojasvi Doctor,65,Male,Hubballi-Dharwad,Electrician,Graduate,51,G023
+A00455,Adya Radhakrishnan,52,Female,Mysuru,Mechanic,Graduate,63,G002
+A00456,Yasti Divan,18,Female,Bengaluru Rural,Businessman,Diploma,3,G006
+A00457,Shivani Shukla,45,Male,Kalaburagi,Mechanic,SSLC,43,G028
+A00458,Ira Narayanan,25,Male,Shivamogga,Businessman,SSLC,69,G038
+A00459,Tamanna Dugal,23,Male,Mysuru,Student,Diploma,50,G034
+A00460,Aarush Hayre,31,Male,Mangaluru,Software Engineer,PUC,82,G007
+A00461,Aarna Sharaf,43,Female,Hubballi-Dharwad,Software Engineer,SSLC,56,G029
+A00462,Samar Aurora,56,Male,Tumakuru,Software Engineer,SSLC,77,G011
+A00463,Tara Krishnan,40,Female,Hubballi-Dharwad,Student,SSLC,49,G048
+A00464,Rachit Kalla,37,Female,Shivamogga,Shop Owner,SSLC,34,G038
+A00465,Neelima Deshpande,39,Female,Kalaburagi,Electrician,Diploma,17,G012
+A00466,Nitesh Chaudhry,39,Female,Kalaburagi,Student,SSLC,35,G049
+A00467,Priya Bala,31,Male,Ballari,Driver,SSLC,81,G040
+A00468,Naveen Nath,21,Male,Mysuru,Driver,PUC,42,G022
+A00469,Rushil Chokshi,19,Male,Bengaluru Urban,Shop Owner,SSLC,23,G001
+A00470,Shravya Raju,44,Male,Bengaluru Urban,Student,Diploma,66,G043
+A00471,Barkha Chopra,42,Male,Mangaluru,Security Guard,SSLC,89,G025
+A00472,Yachana Rastogi,27,Female,Ballari,Electrician,PUC,51,G002
+A00473,Vivaan Grover,39,Female,Tumakuru,Farmer,Graduate,97,G034
+A00474,Ladli Sampath,53,Male,Ballari,Security Guard,Graduate,65,G045
+A00475,Aishani D’Alia,38,Male,Hubballi-Dharwad,Student,SSLC,87,G002
+A00476,Ekta Kohli,49,Female,Mysuru,Software Engineer,Diploma,62,G001
+A00477,Akshay Roy,23,Female,Ballari,Security Guard,Graduate,3,G050
+A00478,Netra Sandal,56,Female,Belagavi,Software Engineer,SSLC,68,G011
+A00479,Advik Sant,33,Female,Mysuru,Student,Graduate,62,G046
+A00480,Maanas Pall,56,Female,Mangaluru,Mechanic,Graduate,60,G031
+A00481,Zansi Dara,27,Female,Belagavi,Software Engineer,SSLC,19,G046
+A00482,Netra Hayer,19,Male,Bengaluru Urban,Mechanic,Diploma,84,G023
+A00483,Faris Shetty,24,Male,Shivamogga,Security Guard,Diploma,7,G011
+A00484,Divya Kulkarni,38,Male,Shivamogga,Driver,PUC,2,G014
+A00485,Rohan Randhawa,45,Male,Mysuru,Student,Diploma,91,G043
+A00486,Zilmil Dhingra,39,Male,Ballari,Farmer,Graduate,99,G015
+A00487,Manbir Mahajan,54,Female,Ballari,Software Engineer,PUC,10,G029
+A00488,Omkaar Dhawan,62,Female,Tumakuru,Security Guard,Diploma,28,G039
+A00489,Rachit Bala,61,Male,Kalaburagi,Farmer,Graduate,63,G035
+A00490,Chatura Pingle,61,Male,Mangaluru,Driver,PUC,40,G034
+A00491,Indira Sarna,54,Male,Tumakuru,Teacher,Graduate,31,G037
+A00492,Eshana Dani,39,Female,Tumakuru,Businessman,PUC,26,G020
+A00493,Keya Mani,41,Male,Hubballi-Dharwad,Student,PUC,90,G040
+A00494,Lohit Ganesh,33,Male,Mysuru,Mechanic,Diploma,13,G003
+A00495,Megha Kumar,58,Female,Bengaluru Rural,Student,Diploma,72,G015
+A00496,Amaira Om,45,Male,Shivamogga,Mechanic,SSLC,10,G015
+A00497,Chaaya Edwin,53,Female,Tumakuru,Teacher,SSLC,12,G034
+A00498,Harrison Rajagopalan,37,Female,Bengaluru Urban,Student,PUC,92,G039
+A00499,Ranbir Vig,20,Female,Shivamogga,Electrician,SSLC,44,G018
+A00500,Baljiwan Sen,30,Female,Bengaluru Rural,Driver,Graduate,24,G048
+A00501,Yadavi Dora,56,Female,Mangaluru,Software Engineer,Graduate,62,G008
+A00502,Advay Dixit,51,Male,Tumakuru,Farmer,SSLC,63,G039
+A00503,Aahana Venkataraman,47,Female,Bengaluru Urban,Teacher,Graduate,36,G002
+A00504,Darsh Kaur,29,Male,Bengaluru Rural,Teacher,Graduate,57,G040
+A00505,Pushti Master,29,Male,Hubballi-Dharwad,Farmer,Graduate,51,G048
+A00506,Mason Vora,41,Male,Bengaluru Urban,Teacher,Diploma,86,G020
+A00507,Zehaan Din,65,Female,Ballari,Driver,PUC,59,G009
+A00508,Warjas Saha,62,Female,Tumakuru,Electrician,Graduate,1,G036
+A00509,Girik Golla,21,Male,Mangaluru,Driver,Diploma,46,G028
+A00510,Zinal Seshadri,49,Male,Hubballi-Dharwad,Farmer,PUC,3,G035
+A00511,Kai Sandhu,50,Female,Kalaburagi,Security Guard,PUC,41,G048
+A00512,Om Baral,54,Female,Mysuru,Electrician,SSLC,29,G038
+A00513,Vincent Sarin,30,Female,Bengaluru Urban,Mechanic,Graduate,68,G032
+A00514,Ekantika Pau,51,Male,Mysuru,Teacher,Graduate,17,G001
+A00515,Sarthak Chauhan,22,Male,Ballari,Shop Owner,SSLC,34,G012
+A00516,Jonathan Bhatia,19,Female,Kalaburagi,Farmer,Diploma,68,G039
+A00517,Vasana Sangha,62,Female,Belagavi,Shop Owner,SSLC,82,G044
+A00518,Jasmit Taneja,56,Male,Bengaluru Urban,Student,Diploma,98,G044
+A00519,Omkaar Dyal,32,Male,Mysuru,Shop Owner,SSLC,97,G039
+A00520,Gagan Nadig,32,Male,Bengaluru Rural,Electrician,Diploma,35,G010
+A00521,Ikbal Parikh,58,Male,Bengaluru Rural,Shop Owner,PUC,61,G009
+A00522,Oscar Desai,18,Female,Kalaburagi,Shop Owner,PUC,50,G012
+A00523,Niharika Madan,63,Female,Ballari,Security Guard,PUC,57,G043
+A00524,Upadhriti Bedi,38,Female,Tumakuru,Driver,Graduate,95,G044
+A00525,Mekhala Lad,36,Female,Tumakuru,Mechanic,Diploma,77,G030
+A00526,Yuvraj Singhal,35,Male,Bengaluru Urban,Security Guard,Diploma,90,G025
+A00527,Udarsh Kuruvilla,24,Female,Hubballi-Dharwad,Businessman,SSLC,43,G014
+A00528,Qasim Bahl,46,Female,Tumakuru,Mechanic,PUC,95,G024
+A00529,Janani Chhabra,65,Male,Tumakuru,Farmer,Diploma,89,G001
+A00530,Vasatika Handa,29,Female,Mysuru,Farmer,SSLC,8,G047
+A00531,Vasatika Shukla,52,Male,Ballari,Shop Owner,Diploma,97,G044
+A00532,Zarna Krish,20,Female,Ballari,Shop Owner,PUC,23,G047
+A00533,Anmol Mody,30,Male,Belagavi,Student,Graduate,85,G003
+A00534,Vivaan Ratta,54,Female,Tumakuru,Farmer,SSLC,31,G011
+A00535,Samesh Bath,50,Male,Belagavi,Student,SSLC,79,G020
+A00536,Oni Karan,19,Male,Mysuru,Shop Owner,Diploma,62,G009
+A00537,Charvi Dada,27,Female,Bengaluru Urban,Electrician,Diploma,94,G027
+A00538,Ekanta Kaul,26,Female,Bengaluru Rural,Electrician,Graduate,43,G018
+A00539,Sarthak Padmanabhan,64,Female,Tumakuru,Software Engineer,PUC,30,G031
+A00540,Charles Dua,41,Female,Mangaluru,Electrician,PUC,13,G019
+A00541,Saumya Ben,57,Male,Kalaburagi,Security Guard,PUC,78,G020
+A00542,Aishani Chander,60,Female,Kalaburagi,Farmer,SSLC,37,G018
+A00543,Rishi Seshadri,58,Male,Ballari,Farmer,PUC,30,G034
+A00544,Maya Panchal,38,Female,Tumakuru,Businessman,SSLC,76,G019
+A00545,Hemangini Varughese,64,Male,Ballari,Driver,Diploma,80,G034
+A00546,Ojas Chopra,48,Male,Bengaluru Urban,Student,PUC,21,G009
+A00547,Balendra Bahl,18,Male,Hubballi-Dharwad,Student,Graduate,70,G032
+A00548,Chaitanya Narasimhan,32,Male,Hubballi-Dharwad,Electrician,SSLC,24,G006
+A00549,Gautami Peri,26,Male,Kalaburagi,Teacher,Graduate,74,G018
+A00550,Garima Bandi,53,Female,Mysuru,Security Guard,Graduate,32,G039
+A00551,Nirja Chand,65,Male,Ballari,Farmer,SSLC,47,G041
+A00552,Hemani Saraf,20,Female,Bengaluru Urban,Security Guard,Graduate,99,G020
+A00553,Samesh Loyal,59,Male,Tumakuru,Electrician,SSLC,56,G028
+A00554,Warhi Oak,22,Female,Tumakuru,Farmer,Graduate,44,G048
+A00555,Xiti Vaidya,49,Female,Shivamogga,Software Engineer,Graduate,62,G017
+A00556,Dhriti Shere,46,Male,Kalaburagi,Teacher,PUC,26,G047
+A00557,Rajata Warrior,29,Male,Belagavi,Software Engineer,PUC,28,G040
+A00558,Januja Barman,65,Female,Kalaburagi,Mechanic,SSLC,78,G040
+A00559,Pranit Badal,46,Female,Tumakuru,Mechanic,Diploma,38,G014
+A00560,Nicholas Lanka,22,Male,Tumakuru,Student,SSLC,28,G008
+A00561,Sara Sethi,45,Male,Bengaluru Urban,Software Engineer,Graduate,11,G012
+A00562,Vedhika Dhaliwal,54,Female,Ballari,Mechanic,Graduate,29,G033
+A00563,Mahika Doshi,53,Male,Belagavi,Farmer,PUC,46,G016
+A00564,Urvi Sankaran,57,Male,Mangaluru,Teacher,Graduate,99,G002
+A00565,Wishi Vasa,55,Male,Kalaburagi,Shop Owner,Diploma,30,G046
+A00566,Jasmit Mohanty,27,Female,Mysuru,Businessman,PUC,68,G045
+A00567,Mugdha Tripathi,56,Male,Tumakuru,Mechanic,Graduate,98,G012
+A00568,Chandani Gara,50,Female,Tumakuru,Electrician,Graduate,31,G045
+A00569,Hritik Rama,27,Male,Kalaburagi,Shop Owner,Diploma,43,G047
+A00570,Faqid Vig,53,Female,Hubballi-Dharwad,Businessman,SSLC,47,G003
+A00571,Tanay Bose,44,Female,Tumakuru,Driver,Diploma,40,G033
+A00572,Ucchal Sawhney,51,Male,Shivamogga,Businessman,Graduate,100,G019
+A00573,Ekansh Hayer,23,Male,Belagavi,Businessman,Diploma,85,G043
+A00574,Nitara Thakur,56,Female,Ballari,Software Engineer,PUC,27,G047
+A00575,Aarna Mani,31,Female,Ballari,Student,SSLC,60,G013
+A00576,Adweta Divan,31,Male,Shivamogga,Mechanic,Diploma,26,G021
+A00577,Aashi Lad,46,Female,Mangaluru,Security Guard,Graduate,33,G007
+A00578,Samaksh Baral,34,Female,Tumakuru,Shop Owner,Graduate,24,G025
+A00579,Charan Lall,23,Male,Belagavi,Electrician,PUC,96,G009
+A00580,Harita Narain,63,Male,Bengaluru Rural,Software Engineer,PUC,65,G039
+A00581,Wishi Sama,27,Male,Mangaluru,Mechanic,PUC,95,G040
+A00582,Urvi Dara,56,Female,Shivamogga,Security Guard,Graduate,41,G039
+A00583,Dhriti Bedi,37,Female,Bengaluru Urban,Businessman,PUC,26,G010
+A00584,Sanaya Dhaliwal,36,Female,Tumakuru,Driver,PUC,66,G006
+A00585,Chaitanya Johal,22,Male,Bengaluru Urban,Software Engineer,Graduate,26,G032
+A00586,Omkaar Sanghvi,56,Male,Mangaluru,Shop Owner,PUC,1,G042
+A00587,Logan Sarma,22,Female,Tumakuru,Security Guard,SSLC,83,G048
+A00588,Aachal Sur,41,Male,Bengaluru Rural,Teacher,PUC,44,G007
+A00589,Omisha Patil,37,Male,Kalaburagi,Student,PUC,7,G033
+A00590,Madhav Aggarwal,23,Female,Bengaluru Rural,Shop Owner,SSLC,54,G020
+A00591,Harrison Palla,31,Male,Shivamogga,Farmer,PUC,34,G010
+A00592,Priya Sandal,29,Male,Mangaluru,Farmer,PUC,33,G019
+A00593,Ranveer Dutta,38,Male,Shivamogga,Software Engineer,Graduate,82,G023
+A00594,Watika Shenoy,55,Female,Bengaluru Urban,Electrician,Graduate,42,G032
+A00595,Tarak Sangha,46,Female,Shivamogga,Shop Owner,SSLC,22,G037
+A00596,Sai Munshi,51,Female,Ballari,Security Guard,PUC,100,G044
+A00597,Jackson Singh,31,Male,Hubballi-Dharwad,Electrician,Graduate,54,G023
+A00598,Gauri Mane,25,Male,Shivamogga,Mechanic,SSLC,4,G045
+A00599,Jeremiah Naik,31,Female,Hubballi-Dharwad,Software Engineer,SSLC,2,G002
+A00600,Andrew Oak,18,Female,Bengaluru Urban,Farmer,SSLC,91,G034
+A00601,Tanmayi Bhagat,55,Male,Mangaluru,Security Guard,Diploma,70,G004
+A00602,Osha Palla,29,Female,Kalaburagi,Mechanic,Diploma,41,G015
+A00603,Zayan Lala,55,Male,Ballari,Security Guard,Graduate,37,G028
+A00604,Kalpit Sheth,35,Male,Bengaluru Urban,Shop Owner,PUC,99,G032
+A00605,Gautami Iyengar,22,Male,Tumakuru,Mechanic,Diploma,63,G049
+A00606,Sachi Morar,25,Male,Mangaluru,Driver,Diploma,64,G024
+A00607,Aachal Rattan,44,Female,Mangaluru,Shop Owner,SSLC,63,G017
+A00608,Hitesh Warrior,57,Female,Bengaluru Urban,Software Engineer,Graduate,26,G044
+A00609,Warjas Rana,36,Male,Tumakuru,Security Guard,Graduate,36,G009
+A00610,Abha Kapadia,45,Female,Shivamogga,Farmer,Diploma,68,G018
+A00611,Frederick Purohit,52,Male,Kalaburagi,Teacher,Graduate,3,G034
+A00612,Lavanya Bhatti,30,Male,Mysuru,Farmer,Diploma,87,G015
+A00613,Keya Kaul,62,Female,Ballari,Shop Owner,SSLC,41,G048
+A00614,Yashodhara Sathe,44,Female,Ballari,Software Engineer,Graduate,46,G036
+A00615,Reyansh Batta,34,Male,Mangaluru,Security Guard,PUC,98,G035
+A00616,Chanchal Brar,49,Female,Ballari,Security Guard,PUC,98,G026
+A00617,Gavin Panchal,52,Female,Bengaluru Rural,Security Guard,PUC,70,G023
+A00618,Yash Mittal,25,Male,Bengaluru Urban,Driver,PUC,1,G033
+A00619,Mohammed Sarkar,48,Male,Bengaluru Rural,Shop Owner,SSLC,94,G009
+A00620,Neel Bhat,43,Female,Belagavi,Mechanic,SSLC,40,G047
+A00621,Parth Maharaj,30,Male,Belagavi,Mechanic,Diploma,36,G044
+A00622,Zaitra Shroff,55,Female,Hubballi-Dharwad,Teacher,Diploma,25,G013
+A00623,Chandresh Verma,18,Female,Mangaluru,Software Engineer,Diploma,22,G038
+A00624,Ojasvi Shanker,54,Male,Bengaluru Rural,Farmer,Graduate,84,G004
+A00625,Samaksh Balay,54,Female,Bengaluru Urban,Teacher,Diploma,80,G017
+A00626,Nakul Ramakrishnan,23,Female,Belagavi,Shop Owner,PUC,96,G035
+A00627,Tarak Ranganathan,21,Male,Hubballi-Dharwad,Shop Owner,Graduate,84,G012
+A00628,Hemani Nagy,36,Female,Belagavi,Teacher,SSLC,89,G021
+A00629,Ucchal Barman,30,Male,Ballari,Electrician,PUC,55,G037
+A00630,Eiravati Bansal,21,Female,Tumakuru,Farmer,Diploma,8,G024
+A00631,Arunima Gour,19,Female,Ballari,Driver,Diploma,98,G026
+A00632,Dhruv Goyal,53,Female,Hubballi-Dharwad,Student,Graduate,97,G022
+A00633,Dalaja Rajagopal,55,Male,Mangaluru,Businessman,SSLC,84,G038
+A00634,Ijaya Roy,44,Female,Mysuru,Electrician,SSLC,17,G007
+A00635,Jasmit Bhakta,55,Male,Mangaluru,Security Guard,SSLC,26,G030
+A00636,Utkarsh Gade,25,Male,Hubballi-Dharwad,Shop Owner,Graduate,11,G002
+A00637,Farhan Nath,56,Female,Belagavi,Farmer,Graduate,20,G037
+A00638,Yamini Tak,63,Male,Mysuru,Shop Owner,SSLC,36,G043
+A00639,Liam Mangat,50,Male,Mangaluru,Teacher,Graduate,5,G014
+A00640,Veer Barman,56,Female,Ballari,Teacher,PUC,80,G037
+A00641,Omisha Jhaveri,30,Female,Shivamogga,Mechanic,PUC,83,G046
+A00642,Mason Wason,20,Male,Hubballi-Dharwad,Mechanic,Diploma,60,G022
+A00643,Kashish Master,62,Male,Mysuru,Driver,Graduate,97,G021
+A00644,Januja Bhakta,37,Female,Bengaluru Rural,Electrician,Graduate,100,G027
+A00645,Aryan Shan,38,Male,Tumakuru,Shop Owner,Graduate,74,G026
+A00646,Prisha Peri,50,Female,Hubballi-Dharwad,Mechanic,Graduate,37,G026
+A00647,Rehaan Parekh,38,Male,Mysuru,Security Guard,Graduate,19,G010
+A00648,Baljiwan Sachdeva,34,Male,Bengaluru Rural,Software Engineer,Graduate,22,G017
+A00649,Girindra Kota,42,Female,Kalaburagi,Farmer,Diploma,56,G038
+A00650,Panini Nazareth,50,Female,Bengaluru Urban,Businessman,PUC,64,G025
+A00651,Ishwar Cheema,23,Female,Kalaburagi,Software Engineer,PUC,51,G049
+A00652,Max Chad,32,Male,Mangaluru,Teacher,Diploma,88,G016
+A00653,Gagan Shanker,28,Female,Hubballi-Dharwad,Student,Graduate,58,G028
+A00654,Ishita Uppal,23,Female,Bengaluru Urban,Software Engineer,PUC,18,G030
+A00655,Karan Talwar,20,Female,Hubballi-Dharwad,Student,Graduate,23,G041
+A00656,Abhimanyu Chad,53,Female,Kalaburagi,Mechanic,PUC,77,G022
+A00657,Hardik Goel,29,Male,Mysuru,Teacher,SSLC,61,G047
+A00658,Indrajit Kapur,59,Female,Shivamogga,Shop Owner,SSLC,90,G041
+A00659,Charan Ghosh,60,Female,Mangaluru,Farmer,SSLC,61,G043
+A00660,Jason Yohannan,26,Male,Tumakuru,Shop Owner,Diploma,5,G019
+A00661,Onkar Nair,30,Male,Mysuru,Electrician,PUC,40,G030
+A00662,Yasti De,38,Male,Mangaluru,Electrician,Graduate,16,G018
+A00663,Unni Bandi,50,Male,Ballari,Software Engineer,SSLC,80,G013
+A00664,Tanish Butala,41,Female,Belagavi,Teacher,SSLC,83,G029
+A00665,Netra Rai,36,Male,Bengaluru Rural,Mechanic,SSLC,28,G011
+A00666,Aarush Varkey,44,Female,Mangaluru,Driver,PUC,1,G005
+A00667,George Deo,29,Female,Hubballi-Dharwad,Businessman,PUC,30,G007
+A00668,Yash Baria,22,Male,Kalaburagi,Teacher,SSLC,65,G007
+A00669,Amruta Nayar,52,Female,Belagavi,Farmer,PUC,21,G038
+A00670,Urvi Panchal,55,Female,Shivamogga,Farmer,SSLC,27,G049
+A00671,Caleb Chada,52,Male,Ballari,Teacher,Graduate,71,G029
+A00672,Anusha Shah,40,Female,Mysuru,Electrician,Graduate,92,G005
+A00673,Azad Bansal,59,Male,Bengaluru Urban,Driver,SSLC,90,G046
+A00674,Matthew Keer,39,Male,Hubballi-Dharwad,Driver,Diploma,69,G045
+A00675,Shravya Srinivas,39,Male,Hubballi-Dharwad,Businessman,Diploma,90,G010
+A00676,Falak Buch,33,Female,Bengaluru Urban,Student,Diploma,56,G025
+A00677,Upkaar Bose,18,Male,Mysuru,Mechanic,Graduate,85,G012
+A00678,Harrison Sant,28,Female,Hubballi-Dharwad,Security Guard,Graduate,68,G023
+A00679,Unnati Agrawal,33,Male,Ballari,Farmer,SSLC,23,G019
+A00680,Ranbir Sengupta,31,Female,Mysuru,Farmer,Graduate,79,G002
+A00681,Ira Deshmukh,24,Female,Ballari,Electrician,SSLC,63,G022
+A00682,Gauri Datta,42,Male,Bengaluru Rural,Driver,Graduate,42,G017
+A00683,Abha Anand,44,Female,Ballari,Farmer,Graduate,43,G012
+A00684,Michael Deshpande,51,Female,Bengaluru Urban,Security Guard,PUC,74,G033
+A00685,Abdul Dhillon,20,Female,Tumakuru,Security Guard,PUC,73,G023
+A00686,Aashi Agrawal,18,Male,Bengaluru Rural,Software Engineer,SSLC,72,G019
+A00687,Jeremiah Ganesh,28,Female,Mangaluru,Farmer,SSLC,94,G027
+A00688,Hiral Hora,25,Female,Mangaluru,Student,SSLC,55,G005
+A00689,Dayamai Walla,39,Female,Shivamogga,Security Guard,PUC,17,G028
+A00690,Ekaja Raju,35,Female,Mangaluru,Teacher,SSLC,92,G017
+A00691,Priya Oza,30,Female,Shivamogga,Teacher,SSLC,62,G043
+A00692,Pranav Kibe,28,Male,Hubballi-Dharwad,Farmer,SSLC,47,G023
+A00693,Harish Wable,21,Male,Bengaluru Urban,Electrician,Diploma,93,G023
+A00694,Hiral Mutti,45,Female,Mysuru,Student,Graduate,17,G021
+A00695,Arya Mane,22,Male,Shivamogga,Teacher,Graduate,40,G002
+A00696,Bakhshi Patla,49,Male,Shivamogga,Security Guard,Diploma,90,G033
+A00697,Kavya Buch,27,Male,Shivamogga,Farmer,PUC,34,G040
+A00698,Rishi Nagi,35,Female,Shivamogga,Mechanic,SSLC,98,G013
+A00699,Pallavi Chatterjee,50,Male,Hubballi-Dharwad,Teacher,Graduate,62,G015
+A00700,Oni Behl,30,Female,Belagavi,Farmer,PUC,85,G009
+A00701,Siddharth Suresh,59,Female,Bengaluru Urban,Student,Graduate,1,G030
+A00702,Chanchal Chana,21,Male,Mangaluru,Software Engineer,Graduate,87,G044
+A00703,Balvan Sama,41,Male,Shivamogga,Driver,PUC,42,G023
+A00704,Nathan Ravi,55,Female,Kalaburagi,Student,SSLC,83,G021
+A00705,Zehaan Pant,26,Female,Mangaluru,Mechanic,Graduate,16,G018
+A00706,Falguni Pathak,21,Female,Mysuru,Businessman,Diploma,95,G023
+A00707,Hritik Loke,62,Female,Kalaburagi,Software Engineer,Graduate,1,G028
+A00708,Bimala Naidu,59,Male,Tumakuru,Shop Owner,Graduate,26,G049
+A00709,Eiravati Master,59,Female,Kalaburagi,Software Engineer,Diploma,22,G043
+A00710,Bhavini Patil,51,Male,Mysuru,Businessman,SSLC,40,G025
+A00711,Wyatt Patel,44,Male,Belagavi,Software Engineer,PUC,14,G047
+A00712,Rohan Barad,27,Female,Mysuru,Driver,Diploma,14,G044
+A00713,Gaurav Kannan,56,Male,Bengaluru Urban,Mechanic,PUC,57,G033
+A00714,Liam Dugal,42,Female,Mangaluru,Security Guard,Diploma,5,G007
+A00715,Upasna Sha,30,Female,Mangaluru,Driver,Graduate,16,G013
+A00716,Keya Shan,34,Male,Kalaburagi,Teacher,Diploma,1,G034
+A00717,Faqid Subramanian,55,Female,Ballari,Software Engineer,Graduate,6,G024
+A00718,Yachana Suresh,23,Female,Kalaburagi,Electrician,SSLC,94,G035
+A00719,Tanveer Raj,18,Female,Kalaburagi,Security Guard,Diploma,15,G034
+A00720,Zilmil Prashad,24,Male,Tumakuru,Student,PUC,41,G026
+A00721,Rajeshri Deol,40,Male,Shivamogga,Driver,Diploma,99,G028
+A00722,Saksham Sant,51,Male,Mysuru,Farmer,Diploma,70,G025
+A00723,Keya Prasad,22,Female,Belagavi,Electrician,PUC,73,G025
+A00724,Imaran Bhatt,24,Female,Mysuru,Driver,Diploma,28,G013
+A00725,Meghana Mani,23,Female,Kalaburagi,Security Guard,SSLC,59,G013
+A00726,Onveer Chadha,28,Female,Kalaburagi,Software Engineer,Graduate,95,G010
+A00727,Yatan Wable,35,Female,Mysuru,Security Guard,SSLC,62,G035
+A00728,Ekiya Ben,64,Female,Mysuru,Businessman,Graduate,12,G046
+A00729,Gayathri Soman,60,Female,Shivamogga,Businessman,Graduate,5,G029
+A00730,Lohit Prabhu,45,Female,Kalaburagi,Security Guard,PUC,83,G050
+A00731,Raksha Sundaram,19,Female,Bengaluru Rural,Shop Owner,PUC,19,G047
+A00732,Chavvi Chakraborty,32,Male,Bengaluru Urban,Teacher,Diploma,18,G023
+A00733,Irya Kala,65,Female,Tumakuru,Driver,Diploma,11,G043
+A00734,Nisha Sankar,56,Female,Mysuru,Software Engineer,Graduate,7,G024
+A00735,Qushi Dalal,54,Male,Ballari,Electrician,Graduate,68,G041
+A00736,Ridhi Ben,39,Female,Bengaluru Rural,Electrician,Graduate,93,G037
+A00737,Ranbir Shroff,44,Male,Ballari,Mechanic,Diploma,11,G045
+A00738,Kashvi Chadha,40,Female,Kalaburagi,Security Guard,Graduate,10,G049
+A00739,Mugdha Mohan,57,Male,Tumakuru,Businessman,SSLC,26,G043
+A00740,Raagini Swamy,63,Female,Shivamogga,Software Engineer,Graduate,95,G040
+A00741,Ekbal Johal,53,Male,Tumakuru,Teacher,Graduate,26,G019
+A00742,Jasmit Bakshi,22,Female,Ballari,Mechanic,Diploma,49,G020
+A00743,Inaya Seth,35,Male,Shivamogga,Software Engineer,Diploma,32,G026
+A00744,Pratyush Manne,60,Male,Bengaluru Rural,Farmer,SSLC,87,G017
+A00745,Anika Kakar,22,Male,Shivamogga,Businessman,SSLC,40,G030
+A00746,Aachal Muni,38,Male,Mysuru,Teacher,PUC,89,G042
+A00747,Rohan Rau,40,Male,Mangaluru,Shop Owner,Diploma,11,G001
+A00748,Vyanjana Biswas,65,Female,Bengaluru Urban,Shop Owner,Graduate,55,G018
+A00749,Charan Sridhar,42,Female,Belagavi,Shop Owner,Graduate,66,G029
+A00750,Idika Kibe,25,Male,Kalaburagi,Electrician,PUC,13,G047
+A00751,Lekha Dugar,28,Female,Hubballi-Dharwad,Electrician,SSLC,32,G003
+A00752,Abhimanyu Gala,53,Female,Bengaluru Rural,Farmer,Diploma,86,G034
+A00753,Yasti Srinivas,38,Female,Bengaluru Rural,Security Guard,PUC,89,G043
+A00754,Aadhya Chatterjee,37,Female,Ballari,Electrician,PUC,85,G014
+A00755,Udant Sengupta,44,Male,Belagavi,Software Engineer,PUC,47,G013
+A00756,Raksha Sani,62,Male,Mysuru,Software Engineer,SSLC,99,G036
+A00757,Deepa Sengupta,62,Female,Shivamogga,Software Engineer,PUC,71,G032
+A00758,Krisha Ravel,41,Female,Kalaburagi,Driver,PUC,18,G010
+A00759,Imaran Tank,52,Female,Mangaluru,Electrician,Graduate,93,G013
+A00760,Hemal Grover,20,Female,Shivamogga,Electrician,Diploma,57,G007
+A00761,Aarna Randhawa,20,Female,Ballari,Driver,Diploma,88,G019
+A00762,Ganga Gopal,40,Male,Bengaluru Urban,Electrician,Graduate,94,G008
+A00763,Ira Bhatia,59,Female,Shivamogga,Driver,PUC,72,G032
+A00764,Maanas Sarkar,26,Male,Bengaluru Urban,Electrician,PUC,94,G042
+A00765,Zarna Brahmbhatt,47,Female,Hubballi-Dharwad,Teacher,SSLC,86,G027
+A00766,Yadavi Sarraf,42,Male,Bengaluru Rural,Teacher,PUC,94,G039
+A00767,Chatresh Kari,39,Male,Shivamogga,Security Guard,SSLC,36,G032
+A00768,Kiaan Shere,26,Male,Bengaluru Urban,Mechanic,Diploma,90,G007
+A00769,Megha Das,57,Female,Hubballi-Dharwad,Businessman,SSLC,79,G048
+A00770,Samar Deep,48,Female,Kalaburagi,Farmer,SSLC,32,G048
+A00771,Zarna Pillay,20,Male,Tumakuru,Businessman,Diploma,68,G029
+A00772,Alexander Solanki,53,Male,Bengaluru Rural,Electrician,PUC,49,G018
+A00773,Reyansh Sidhu,20,Female,Ballari,Shop Owner,SSLC,87,G012
+A00774,Mason Sood,39,Male,Bengaluru Rural,Driver,PUC,66,G007
+A00775,Agastya Sandhu,58,Male,Kalaburagi,Student,Diploma,62,G042
+A00776,Chanakya Raman,25,Female,Hubballi-Dharwad,Farmer,SSLC,55,G019
+A00777,Vasatika Minhas,19,Female,Kalaburagi,Teacher,Diploma,22,G013
+A00778,Maya Nanda,45,Female,Ballari,Teacher,SSLC,39,G045
+A00779,Zayan Bandi,28,Male,Kalaburagi,Student,SSLC,36,G043
+A00780,Balhaar Dave,36,Female,Hubballi-Dharwad,Security Guard,Diploma,26,G001
+A00781,Sachi Goel,57,Female,Mangaluru,Security Guard,SSLC,98,G037
+A00782,Atharv Pradhan,32,Male,Belagavi,Student,Diploma,39,G047
+A00783,Hemal Brahmbhatt,27,Female,Hubballi-Dharwad,Mechanic,Diploma,21,G037
+A00784,Oliver Ghosh,52,Female,Shivamogga,Teacher,Diploma,82,G013
+A00785,Michael Sachdev,20,Female,Shivamogga,Electrician,Diploma,100,G040
+A00786,Gaurav Grover,36,Female,Belagavi,Businessman,PUC,15,G013
+A00787,Karan Saxena,39,Female,Belagavi,Mechanic,Diploma,74,G041
+A00788,Dayamai Dar,46,Male,Mysuru,Mechanic,PUC,56,G033
+A00789,Samesh Pillay,50,Male,Kalaburagi,Teacher,PUC,67,G007
+A00790,Arjun Hari,51,Female,Bengaluru Urban,Farmer,Diploma,27,G044
+A00791,Tanish Magar,46,Female,Tumakuru,Student,Diploma,60,G035
+A00792,Shaurya Gandhi,41,Male,Mangaluru,Driver,Graduate,60,G027
+A00793,Balhaar Biswas,34,Female,Mysuru,Security Guard,PUC,97,G013
+A00794,Rachita Virk,57,Female,Bengaluru Rural,Security Guard,PUC,44,G037
+A00795,Ridhi De,33,Female,Bengaluru Urban,Software Engineer,Diploma,58,G016
+A00796,Hardik Mannan,53,Male,Tumakuru,Teacher,PUC,44,G019
+A00797,Rajata Bose,24,Male,Hubballi-Dharwad,Farmer,SSLC,14,G040
+A00798,Lopa Jain,40,Female,Mysuru,Mechanic,SSLC,80,G026
+A00799,Rishi Bhat,46,Female,Kalaburagi,Farmer,Graduate,80,G012
+A00800,Harsh Wable,59,Male,Mysuru,Student,Graduate,40,G011
+A00801,Rishi Biswas,62,Female,Ballari,Student,PUC,80,G008
+A00802,Atharv Balay,63,Female,Kalaburagi,Software Engineer,Graduate,76,G048
+A00803,Abeer Lall,47,Male,Kalaburagi,Farmer,PUC,9,G013
+A00804,Jairaj Setty,43,Female,Mysuru,Farmer,PUC,57,G045
+A00805,Ladli Dugar,36,Male,Mangaluru,Shop Owner,Graduate,29,G029
+A00806,Ronith Mand,28,Female,Tumakuru,Driver,Graduate,8,G016
+A00807,Zayyan Chaudhari,45,Male,Bengaluru Urban,Shop Owner,SSLC,93,G018
+A00808,Zayan Dube,57,Female,Belagavi,Software Engineer,SSLC,37,G041
+A00809,Nihal Roy,38,Female,Mangaluru,Businessman,Diploma,100,G017
+A00810,Christopher Din,24,Female,Bengaluru Urban,Teacher,Graduate,60,G026
+A00811,Kevin Shroff,39,Male,Shivamogga,Mechanic,Diploma,31,G022
+A00812,Aishani Date,28,Male,Mangaluru,Businessman,SSLC,8,G006
+A00813,Joshua Singh,57,Male,Mangaluru,Electrician,SSLC,79,G042
+A00814,Adweta Vohra,56,Female,Belagavi,Security Guard,Graduate,70,G036
+A00815,Radhika Chander,43,Female,Shivamogga,Software Engineer,PUC,55,G038
+A00816,Frado Lall,36,Female,Hubballi-Dharwad,Farmer,PUC,99,G006
+A00817,Kavya Bal,54,Female,Tumakuru,Software Engineer,Diploma,13,G047
+A00818,Hemang Krish,36,Female,Belagavi,Teacher,SSLC,60,G033
+A00819,Kalpit Sarma,52,Female,Mangaluru,Driver,SSLC,94,G024
+A00820,Jalsa Dass,35,Female,Shivamogga,Farmer,Graduate,95,G009
+A00821,Geetika Kaur,23,Male,Ballari,Driver,SSLC,17,G010
+A00822,Mekhala Radhakrishnan,42,Male,Kalaburagi,Businessman,Diploma,14,G038
+A00823,Hamsini Pandya,49,Female,Kalaburagi,Farmer,SSLC,19,G022
+A00824,Libni Samra,48,Female,Ballari,Teacher,Graduate,68,G025
+A00825,Ethan Saxena,20,Female,Bengaluru Rural,Electrician,Graduate,27,G032
+A00826,Kabir Anne,46,Male,Bengaluru Rural,Mechanic,Diploma,4,G037
+A00827,Kalpit Thaman,19,Male,Kalaburagi,Software Engineer,PUC,76,G045
+A00828,Arin Sagar,50,Male,Mysuru,Driver,Graduate,51,G011
+A00829,Sneha Khanna,30,Male,Kalaburagi,Mechanic,SSLC,98,G007
+A00830,Barkha De,18,Female,Shivamogga,Electrician,Graduate,49,G017
+A00831,Edhitha Raval,61,Female,Bengaluru Urban,Driver,SSLC,33,G038
+A00832,Gabriel Gera,32,Female,Kalaburagi,Shop Owner,PUC,67,G002
+A00833,Isha Kunda,65,Male,Bengaluru Urban,Farmer,Diploma,48,G035
+A00834,Laban Prabhakar,25,Female,Mangaluru,Security Guard,SSLC,14,G047
+A00835,Amol Rau,43,Female,Shivamogga,Electrician,Diploma,57,G016
+A00836,Chaitaly Dalal,45,Male,Mysuru,Shop Owner,PUC,49,G015
+A00837,Ekta Peri,51,Male,Kalaburagi,Security Guard,PUC,26,G001
+A00838,Siya Merchant,18,Male,Shivamogga,Mechanic,Diploma,87,G029
+A00839,Owen Suri,25,Male,Kalaburagi,Security Guard,PUC,13,G005
+A00840,Henry Rastogi,33,Female,Kalaburagi,Electrician,Graduate,12,G040
+A00841,Lohit Ranganathan,27,Female,Kalaburagi,Mechanic,PUC,88,G050
+A00842,Waida Hans,64,Female,Ballari,Student,Diploma,60,G042
+A00843,Amrita Prabhu,47,Male,Tumakuru,Electrician,SSLC,2,G034
+A00844,Pahal Comar,51,Male,Bengaluru Rural,Businessman,PUC,65,G045
+A00845,Jack Sekhon,51,Male,Bengaluru Urban,Driver,SSLC,41,G006
+A00846,Suhani Singhal,43,Female,Belagavi,Farmer,SSLC,16,G007
+A00847,Noah Swamy,21,Female,Bengaluru Rural,Security Guard,Diploma,63,G030
+A00848,Michael Brar,34,Male,Bengaluru Rural,Software Engineer,SSLC,75,G003
+A00849,Jeremiah Kalita,63,Female,Tumakuru,Security Guard,SSLC,84,G036
+A00850,Suhani Dugar,24,Female,Shivamogga,Software Engineer,Graduate,90,G048
+A00851,Azaan Memon,41,Male,Ballari,Student,SSLC,84,G015
+A00852,Aashi Basak,36,Female,Belagavi,Mechanic,SSLC,67,G013
+A00853,Darsh Singhal,43,Female,Belagavi,Security Guard,SSLC,96,G023
+A00854,Harsh Varughese,60,Female,Hubballi-Dharwad,Shop Owner,Diploma,82,G036
+A00855,Kamala Mohanty,42,Female,Ballari,Student,Graduate,84,G034
+A00856,Jalsa Panchal,20,Female,Tumakuru,Software Engineer,Graduate,97,G015
+A00857,Shivansh Datta,61,Female,Mangaluru,Driver,SSLC,34,G002
+A00858,Mugdha Kulkarni,28,Male,Mangaluru,Security Guard,Diploma,71,G011
+A00859,Reva Dada,49,Male,Mysuru,Security Guard,PUC,48,G004
+A00860,Sachi Rattan,38,Male,Bengaluru Urban,Farmer,SSLC,20,G018
+A00861,Balveer Sami,47,Male,Tumakuru,Driver,Graduate,97,G003
+A00862,Caleb Hans,34,Male,Ballari,Farmer,Graduate,56,G010
+A00863,Jagrati Saraf,52,Male,Shivamogga,Student,PUC,48,G020
+A00864,Falguni Andra,59,Female,Bengaluru Urban,Electrician,SSLC,9,G031
+A00865,Yashvi Chand,44,Male,Mangaluru,Student,Diploma,22,G035
+A00866,Ekalinga Ray,18,Female,Belagavi,Mechanic,Diploma,63,G001
+A00867,Eesha Mani,46,Female,Hubballi-Dharwad,Businessman,Diploma,9,G009
+A00868,Bhavani Sundaram,42,Male,Hubballi-Dharwad,Software Engineer,PUC,31,G039
+A00869,Amara Kohli,35,Male,Mangaluru,Software Engineer,SSLC,14,G047
+A00870,Hitesh Khanna,61,Female,Shivamogga,Shop Owner,Diploma,72,G024
+A00871,Atharv Krishnamurthy,24,Female,Shivamogga,Student,Diploma,72,G042
+A00872,Benjamin Parekh,18,Female,Mangaluru,Businessman,Diploma,1,G014
+A00873,Gavin Bajwa,56,Female,Mysuru,Security Guard,SSLC,67,G004
+A00874,Isaac Agate,34,Female,Bengaluru Urban,Security Guard,Diploma,51,G010
+A00875,Avi Sharaf,19,Female,Kalaburagi,Student,PUC,57,G008
+A00876,Ranbir Bhandari,35,Male,Belagavi,Security Guard,PUC,83,G002
+A00877,Harish Sama,26,Female,Bengaluru Rural,Shop Owner,Diploma,55,G013
+A00878,Farhan Thaker,19,Male,Ballari,Driver,PUC,62,G046
+A00879,Nathaniel Keer,63,Male,Mangaluru,Businessman,Diploma,81,G017
+A00880,Neelima Chadha,36,Female,Bengaluru Rural,Electrician,Diploma,53,G026
+A00881,Vanya Khurana,46,Male,Mysuru,Software Engineer,Diploma,73,G024
+A00882,Ranveer Vala,57,Male,Kalaburagi,Driver,SSLC,85,G026
+A00883,Mohini Chada,42,Male,Kalaburagi,Driver,PUC,58,G046
+A00884,Saksham Ram,45,Male,Bengaluru Urban,Businessman,PUC,21,G008
+A00885,Raksha Narula,52,Male,Hubballi-Dharwad,Shop Owner,Graduate,79,G018
+A00886,Harrison Kunda,20,Female,Belagavi,Mechanic,SSLC,54,G050
+A00887,Yochana Rout,53,Female,Kalaburagi,Mechanic,PUC,86,G003
+A00888,Edhitha Mannan,61,Female,Ballari,Teacher,Diploma,12,G038
+A00889,Yatan Samra,33,Female,Mysuru,Shop Owner,Diploma,38,G009
+A00890,Rohan Tiwari,19,Male,Shivamogga,Software Engineer,PUC,94,G039
+A00891,Aadhya Shenoy,30,Female,Mangaluru,Driver,Diploma,14,G037
+A00892,Ladli Chaudhuri,36,Female,Kalaburagi,Electrician,SSLC,75,G011
+A00893,Kai Atwal,48,Female,Bengaluru Rural,Electrician,Diploma,75,G035
+A00894,Ganga Hans,62,Female,Ballari,Shop Owner,PUC,47,G017
+A00895,Aarav Purohit,34,Male,Mysuru,Shop Owner,Graduate,66,G017
+A00896,Januja Bhardwaj,32,Female,Ballari,Farmer,Graduate,6,G040
+A00897,Dhriti Sathe,22,Female,Bengaluru Urban,Shop Owner,PUC,60,G024
+A00898,Gautam Salvi,62,Male,Shivamogga,Shop Owner,PUC,98,G032
+A00899,Chandresh Deshpande,39,Male,Tumakuru,Teacher,Diploma,3,G042
+A00900,Neel Purohit,54,Male,Kalaburagi,Shop Owner,SSLC,60,G037
+A00901,Chanchal Handa,59,Male,Shivamogga,Mechanic,Diploma,35,G004
+A00902,Gavin Basak,23,Female,Mysuru,Businessman,SSLC,16,G021
+A00903,Vyanjana Shah,21,Male,Bengaluru Rural,Driver,Diploma,18,G035
+A00904,Joshua Das,27,Female,Ballari,Electrician,PUC,23,G043
+A00905,Anusha Kala,19,Male,Ballari,Businessman,PUC,74,G037
+A00906,Robert Agrawal,31,Female,Tumakuru,Software Engineer,SSLC,23,G013
+A00907,Bakhshi Khanna,30,Male,Hubballi-Dharwad,Security Guard,PUC,4,G046
+A00908,Nisha Date,47,Male,Bengaluru Rural,Teacher,SSLC,44,G034
+A00909,Keya Kumer,43,Female,Tumakuru,Electrician,Diploma,76,G034
+A00910,Meera Patla,37,Male,Belagavi,Electrician,Graduate,22,G030
+A00911,Vaishnavi Mahajan,30,Male,Bengaluru Urban,Electrician,SSLC,33,G040
+A00912,Baljiwan Dasgupta,40,Male,Ballari,Farmer,PUC,88,G047
+A00913,Anay Thaker,32,Female,Bengaluru Rural,Businessman,Diploma,73,G004
+A00914,Advik Wagle,54,Male,Belagavi,Security Guard,Diploma,18,G028
+A00915,Yatin Vig,62,Male,Bengaluru Urban,Businessman,SSLC,21,G031
+A00916,Gaurav Shroff,28,Female,Bengaluru Urban,Security Guard,PUC,44,G050
+A00917,Raagini Sane,61,Male,Mysuru,Shop Owner,Graduate,99,G022
+A00918,Faqid Kibe,38,Female,Tumakuru,Security Guard,SSLC,11,G031
+A00919,Harinakshi Yohannan,24,Male,Mysuru,Shop Owner,Graduate,56,G038
+A00920,Aarna Sabharwal,31,Male,Kalaburagi,Farmer,Diploma,33,G018
+A00921,Abha Bansal,39,Female,Shivamogga,Teacher,Diploma,89,G031
+A00922,Bhavika Choudhry,48,Female,Hubballi-Dharwad,Student,Diploma,99,G035
+A00923,Matthew Wali,48,Female,Ballari,Driver,Diploma,38,G019
+A00924,Yadavi Divan,46,Male,Mysuru,Shop Owner,PUC,90,G034
+A00925,Oviya Pandey,51,Female,Bengaluru Rural,Electrician,Graduate,41,G038
+A00926,Sathvik Dasgupta,54,Male,Mangaluru,Mechanic,PUC,24,G014
+A00927,Farhan Borah,62,Male,Mangaluru,Software Engineer,Graduate,72,G049
+A00928,Hardik Sama,45,Male,Kalaburagi,Teacher,Diploma,25,G036
+A00929,Nathaniel Kata,45,Male,Belagavi,Mechanic,Diploma,65,G021
+A00930,Indali Deo,53,Female,Mysuru,Driver,SSLC,10,G023
+A00931,Indali Sant,23,Male,Belagavi,Software Engineer,SSLC,60,G031
+A00932,Nitara Rau,59,Male,Hubballi-Dharwad,Teacher,Graduate,69,G014
+A00933,Gopal Bhalla,45,Male,Belagavi,Electrician,Graduate,93,G029
+A00934,Suhani Mukhopadhyay,58,Female,Belagavi,Student,Graduate,94,G028
+A00935,Neha Mand,41,Female,Tumakuru,Software Engineer,Graduate,66,G010
+A00936,Girish Shanker,54,Male,Belagavi,Mechanic,Graduate,6,G030
+A00937,Vritti Banik,18,Male,Mysuru,Student,Graduate,58,G015
+A00938,Pooja Mallick,54,Male,Hubballi-Dharwad,Farmer,Graduate,46,G040
+A00939,Vedika Choudhry,26,Male,Bengaluru Urban,Mechanic,PUC,38,G011
+A00940,Shravya Soman,51,Male,Bengaluru Urban,Electrician,SSLC,29,G034
+A00941,Faras Manne,63,Female,Mysuru,Security Guard,Diploma,68,G049
+A00942,Lavanya Pandey,29,Female,Tumakuru,Shop Owner,Diploma,72,G030
+A00943,Advik Guha,44,Female,Mangaluru,Teacher,Graduate,41,G013
+A00944,Saumya Rattan,36,Female,Tumakuru,Student,SSLC,77,G038
+A00945,Amol Solanki,65,Male,Shivamogga,Electrician,Diploma,55,G012
+A00946,Rehaan Mander,26,Female,Belagavi,Driver,Diploma,47,G012
+A00947,Indali Seshadri,33,Male,Belagavi,Teacher,SSLC,66,G039
+A00948,Ekansh Bala,54,Female,Shivamogga,Teacher,SSLC,30,G026
+A00949,Nidhi Prabhakar,31,Female,Belagavi,Student,Diploma,98,G008
+A00950,Urmi Manda,56,Male,Bengaluru Urban,Security Guard,PUC,60,G017
+A00951,Ekantika Kale,58,Male,Bengaluru Rural,Security Guard,Diploma,3,G030
+A00952,Vihaan Parekh,29,Male,Ballari,Mechanic,Graduate,75,G023
+A00953,George Sant,45,Male,Bengaluru Urban,Teacher,PUC,82,G035
+A00954,Yasti Jhaveri,47,Male,Shivamogga,Shop Owner,SSLC,2,G029
+A00955,Samarth Suri,41,Male,Kalaburagi,Electrician,PUC,61,G030
+A00956,Gabriel Bhardwaj,35,Male,Bengaluru Rural,Driver,Diploma,10,G040
+A00957,Xiti Rama,54,Male,Tumakuru,Student,Diploma,79,G014
+A00958,Sai Sood,23,Female,Shivamogga,Driver,PUC,1,G046
+A00959,Jai Lalla,37,Male,Kalaburagi,Software Engineer,PUC,5,G006
+A00960,Niharika Bora,28,Female,Belagavi,Farmer,SSLC,3,G048
+A00961,Ryan Goda,55,Male,Ballari,Mechanic,SSLC,11,G042
+A00962,Gautam Madan,40,Male,Tumakuru,Businessman,Diploma,57,G017
+A00963,Champak Dewan,36,Female,Kalaburagi,Shop Owner,Graduate,83,G034
+A00964,Nidra Borah,65,Female,Bengaluru Rural,Driver,SSLC,46,G020
+A00965,Tanveer Bora,45,Male,Tumakuru,Businessman,Graduate,48,G021
+A00966,Indrajit Varty,44,Male,Bengaluru Urban,Student,Graduate,97,G043
+A00967,Samaksh Banik,25,Female,Kalaburagi,Mechanic,Diploma,30,G004
+A00968,Rehaan Vasa,64,Male,Hubballi-Dharwad,Software Engineer,SSLC,31,G018
+A00969,Dev Bhargava,59,Female,Hubballi-Dharwad,Shop Owner,PUC,22,G042
+A00970,Xalak Dani,30,Female,Mysuru,Businessman,Graduate,61,G039
+A00971,Tanay Amble,33,Female,Bengaluru Rural,Student,PUC,55,G032
+A00972,Harrison Natt,54,Female,Bengaluru Urban,Electrician,Diploma,98,G003
+A00973,Idika Iyer,24,Female,Belagavi,Security Guard,PUC,70,G027
+A00974,Bina Arora,25,Male,Bengaluru Rural,Shop Owner,PUC,45,G032
+A00975,Vedika Korpal,23,Male,Ballari,Businessman,PUC,19,G047
+A00976,Aadhya Bains,52,Male,Kalaburagi,Shop Owner,SSLC,19,G042
+A00977,Yashawini Pradhan,37,Female,Bengaluru Urban,Student,SSLC,65,G010
+A00978,Nilima Tandon,42,Female,Bengaluru Urban,Electrician,Diploma,77,G034
+A00979,Onveer Baria,64,Female,Mangaluru,Software Engineer,SSLC,29,G007
+A00980,Urvashi Radhakrishnan,28,Male,Mysuru,Shop Owner,SSLC,85,G032
+A00981,Atharv Ram,26,Male,Mangaluru,Teacher,Diploma,49,G042
+A00982,Lakshmi Nagi,48,Male,Mangaluru,Shop Owner,SSLC,11,G014
+A00983,Jalsa Deshmukh,65,Female,Tumakuru,Software Engineer,SSLC,8,G045
+A00984,Irya Natt,36,Female,Mysuru,Security Guard,SSLC,54,G047
+A00985,Onkar Parsa,49,Female,Hubballi-Dharwad,Software Engineer,Graduate,32,G015
+A00986,Adya Kala,60,Male,Mangaluru,Security Guard,SSLC,32,G004
+A00987,Watika Mani,58,Male,Bengaluru Urban,Software Engineer,SSLC,52,G007
+A00988,Hemangini Minhas,56,Female,Mysuru,Businessman,SSLC,37,G044
+A00989,Joshua Bala,65,Female,Tumakuru,Businessman,Diploma,66,G030
+A00990,Vivaan Madan,47,Female,Shivamogga,Farmer,PUC,63,G037
+A00991,Samaksh Chanda,57,Male,Bengaluru Urban,Teacher,PUC,34,G014
+A00992,Gagan Kade,58,Male,Shivamogga,Mechanic,SSLC,81,G046
+A00993,Ati Chad,22,Female,Tumakuru,Businessman,Diploma,79,G047
+A00994,Krisha Sachar,60,Female,Bengaluru Rural,Electrician,Graduate,45,G014
+A00995,Bhavika Bhandari,34,Female,Belagavi,Mechanic,Diploma,54,G026
+A00996,Gaurang Panchal,34,Female,Mysuru,Farmer,Graduate,41,G041
+A00997,Joshua Sinha,28,Female,Bengaluru Rural,Driver,SSLC,52,G034
+A00998,Bhanumati Rastogi,39,Female,Bengaluru Urban,Businessman,Graduate,20,G045
+A00999,Dhruv Rana,32,Female,Shivamogga,Electrician,PUC,2,G031
+A01000,Chaitanya Madan,31,Male,Bengaluru Urban,Driver,SSLC,26,G037
+A01001,Ekansh Venkatesh,53,Male,Bengaluru Urban,Software Engineer,Diploma,69,G028
+A01002,Azaan Raja,56,Female,Shivamogga,Shop Owner,SSLC,94,G005
+A01003,Manthan Radhakrishnan,54,Female,Bengaluru Rural,Shop Owner,Diploma,94,G024
+A01004,Alka Tata,56,Female,Bengaluru Rural,Shop Owner,SSLC,82,G015
+A01005,Kamya Balakrishnan,57,Female,Belagavi,Farmer,Graduate,9,G015
+A01006,Wyatt Balasubramanian,47,Female,Bengaluru Urban,Farmer,PUC,91,G025
+A01007,Amara Shere,19,Female,Shivamogga,Electrician,Graduate,56,G040
+A01008,Logan Krishna,60,Female,Bengaluru Rural,Security Guard,PUC,42,G036
+A01009,Dayita Pillai,35,Female,Shivamogga,Businessman,Diploma,50,G049
+A01010,Tristan Date,30,Male,Hubballi-Dharwad,Farmer,SSLC,24,G039
+A01011,Urvashi Chakrabarti,39,Male,Mysuru,Farmer,Graduate,41,G031
+A01012,Tanvi Kala,64,Male,Bengaluru Rural,Security Guard,PUC,97,G050
+A01013,Warhi Chakraborty,45,Female,Tumakuru,Security Guard,Graduate,7,G039
+A01014,Ayush Deol,62,Male,Bengaluru Urban,Driver,PUC,46,G006
+A01015,Pranit Lal,55,Female,Mysuru,Shop Owner,Graduate,65,G036
+A01016,Onkar Batta,25,Male,Mysuru,Electrician,PUC,75,G044
+A01017,Frado Johal,30,Male,Kalaburagi,Teacher,Diploma,79,G036
+A01018,Hamsini Tripathi,43,Female,Ballari,Software Engineer,Graduate,48,G020
+A01019,Widisha Anne,24,Female,Bengaluru Urban,Shop Owner,Graduate,12,G015
+A01020,Janya Patil,59,Female,Shivamogga,Mechanic,Graduate,56,G036
+A01021,Samarth Bakshi,58,Female,Bengaluru Urban,Teacher,Diploma,65,G006
+A01022,Matthew Madan,43,Male,Bengaluru Rural,Driver,Graduate,72,G045
+A01023,Robert Sodhi,24,Male,Mysuru,Student,SSLC,91,G020
+A01024,Omisha Sunder,27,Male,Mangaluru,Security Guard,SSLC,30,G023
+A01025,Bishakha Toor,50,Male,Bengaluru Urban,Teacher,Diploma,68,G012
+A01026,Shivani Soni,24,Female,Tumakuru,Software Engineer,SSLC,21,G010
+A01027,Dev Randhawa,19,Male,Shivamogga,Teacher,PUC,27,G039
+A01028,Warinder Sahota,52,Female,Kalaburagi,Electrician,Diploma,84,G023
+A01029,Harrison Kala,32,Female,Tumakuru,Mechanic,PUC,36,G029
+A01030,Bhavya Bakshi,59,Male,Belagavi,Teacher,Diploma,20,G012
+A01031,Gavin Naidu,53,Female,Mangaluru,Farmer,Graduate,44,G025
+A01032,Ati Chandran,19,Female,Mangaluru,Driver,Diploma,13,G033
+A01033,Laban Sibal,38,Male,Tumakuru,Shop Owner,PUC,39,G007
+A01034,Aarush Rau,51,Male,Tumakuru,Driver,Graduate,85,G023
+A01035,Abdul Kant,57,Male,Belagavi,Student,Diploma,55,G027
+A01036,Dhriti Sridhar,42,Female,Mangaluru,Teacher,Diploma,80,G050
+A01037,Chavvi Sachdeva,20,Female,Kalaburagi,Mechanic,PUC,40,G003
+A01038,Chaitaly Sunder,54,Male,Shivamogga,Businessman,SSLC,30,G014
+A01039,Urmi Lad,31,Female,Bengaluru Rural,Security Guard,PUC,65,G014
+A01040,Nidhi Korpal,29,Female,Ballari,Shop Owner,PUC,21,G016
+A01041,Ekansh Bandi,29,Female,Ballari,Shop Owner,Graduate,49,G023
+A01042,Varenya Das,30,Male,Mysuru,Student,SSLC,16,G027
+A01043,Samaksh Prabhakar,21,Male,Shivamogga,Driver,PUC,28,G044
+A01044,Chandran Sidhu,31,Male,Tumakuru,Electrician,SSLC,27,G031
+A01045,Zarna Pandey,33,Male,Ballari,Farmer,SSLC,99,G008
+A01046,Samar Mandal,23,Female,Tumakuru,Teacher,SSLC,91,G028
+A01047,Rachita Pant,27,Female,Belagavi,Businessman,Graduate,33,G015
+A01048,Nirja Uppal,21,Male,Shivamogga,Farmer,PUC,71,G027
+A01049,Aadhya Koshy,40,Male,Ballari,Teacher,SSLC,96,G012
+A01050,Orinder Mander,38,Male,Bengaluru Rural,Security Guard,PUC,34,G002
+A01051,Shivansh Wason,61,Male,Belagavi,Farmer,SSLC,58,G001
+A01052,Charan Bala,21,Female,Hubballi-Dharwad,Security Guard,PUC,57,G025
+A01053,Chavvi Ghosh,62,Female,Shivamogga,Farmer,Graduate,80,G015
+A01054,Faras Merchant,50,Male,Belagavi,Teacher,PUC,93,G018
+A01055,Amara Dara,30,Female,Mangaluru,Teacher,Diploma,40,G040
+A01056,Nathaniel Barman,57,Male,Bengaluru Rural,Student,Diploma,24,G017
+A01057,Amaira Bal,57,Male,Shivamogga,Electrician,Diploma,42,G020
+A01058,Kai Singh,32,Female,Kalaburagi,Driver,Graduate,43,G008
+A01059,William Handa,52,Male,Kalaburagi,Businessman,Diploma,40,G046
+A01060,Lavanya Naidu,37,Male,Hubballi-Dharwad,Software Engineer,Diploma,77,G029
+A01061,Ranveer Bakshi,23,Male,Shivamogga,Teacher,Diploma,54,G013
+A01062,Wridesh Pall,44,Male,Belagavi,Electrician,Graduate,53,G004
+A01063,Tanay Bail,24,Male,Bengaluru Rural,Electrician,Graduate,13,G044
+A01064,Xiti Tara,40,Male,Belagavi,Security Guard,SSLC,73,G016
+A01065,Ladli Hans,36,Female,Belagavi,Shop Owner,SSLC,50,G030
+A01066,Luke Madan,18,Female,Bengaluru Urban,Driver,Graduate,40,G025
+A01067,Charita Kapur,46,Female,Mysuru,Teacher,SSLC,48,G019
+A01068,Vanya Mallick,59,Female,Tumakuru,Businessman,PUC,35,G011
+A01069,Neelima Guha,49,Female,Tumakuru,Shop Owner,PUC,81,G035
+A01070,Anjali Ram,60,Male,Mangaluru,Software Engineer,SSLC,95,G016
+A01071,Qushi Ganesh,65,Female,Bengaluru Rural,Student,PUC,78,G041
+A01072,Adweta Bawa,42,Female,Bengaluru Urban,Shop Owner,Graduate,68,G006
+A01073,Tripti Buch,41,Male,Bengaluru Rural,Software Engineer,Graduate,20,G019
+A01074,Ishaan Kannan,54,Male,Hubballi-Dharwad,Electrician,PUC,31,G018
+A01075,Tanish Kapoor,46,Male,Shivamogga,Teacher,PUC,68,G018
+A01076,Vamakshi Dani,64,Male,Hubballi-Dharwad,Driver,PUC,74,G019
+A01077,Gautam Bahl,44,Female,Belagavi,Businessman,PUC,76,G035
+A01078,Ekavir Prakash,34,Female,Shivamogga,Teacher,Graduate,97,G045
+A01079,Meghana Chanda,57,Female,Hubballi-Dharwad,Farmer,PUC,94,G029
+A01080,Aarnav Lanka,44,Male,Bengaluru Urban,Electrician,Graduate,43,G022
+A01081,Xiti Ramakrishnan,65,Male,Kalaburagi,Electrician,Graduate,44,G047
+A01082,Arjun Seth,54,Female,Shivamogga,Security Guard,Diploma,21,G048
+A01083,Raghav Sekhon,27,Female,Hubballi-Dharwad,Businessman,Graduate,22,G046
+A01084,Tristan Nagy,38,Female,Mysuru,Electrician,Graduate,21,G021
+A01085,Shivani Thakkar,42,Male,Mangaluru,Software Engineer,SSLC,84,G020
+A01086,Meera Kara,28,Male,Tumakuru,Businessman,Diploma,80,G030
+A01087,Zinal Mander,61,Male,Hubballi-Dharwad,Businessman,PUC,80,G028
+A01088,Eesha Ramanathan,64,Male,Hubballi-Dharwad,Businessman,Diploma,89,G050
+A01089,Samar Amble,47,Female,Kalaburagi,Student,Graduate,91,G009
+A01090,Raghav Shroff,45,Male,Mangaluru,Electrician,Diploma,26,G019
+A01091,Jacob Deshmukh,61,Male,Ballari,Businessman,Graduate,78,G045
+A01092,Ekapad Seshadri,61,Male,Mangaluru,Shop Owner,Graduate,95,G016
+A01093,Rudra Iyer,47,Female,Belagavi,Electrician,SSLC,51,G022
+A01094,Turvi Brahmbhatt,36,Male,Kalaburagi,Student,Graduate,24,G006
+A01095,Ekaraj Dutta,18,Male,Kalaburagi,Teacher,Graduate,5,G022
+A01096,Zinal Sabharwal,30,Male,Mysuru,Driver,PUC,80,G043
+A01097,Oscar Padmanabhan,24,Male,Mysuru,Farmer,Graduate,92,G005
+A01098,David Radhakrishnan,46,Male,Bengaluru Rural,Shop Owner,PUC,31,G021
+A01099,Barkha Dhawan,59,Male,Bengaluru Urban,Mechanic,Diploma,20,G026
+A01100,Aarush Gokhale,34,Female,Belagavi,Security Guard,PUC,50,G006
+A01101,Januja Samra,52,Male,Ballari,Mechanic,PUC,70,G041
+A01102,Hredhaan Aggarwal,40,Female,Hubballi-Dharwad,Student,Diploma,4,G002
+A01103,Saanvi Oak,59,Female,Mysuru,Driver,PUC,37,G020
+A01104,Reva Gandhi,54,Female,Belagavi,Mechanic,Graduate,43,G048
+A01105,Tanveer Bhattacharyya,39,Female,Mysuru,Mechanic,Diploma,61,G044
+A01106,Dayamai Om,22,Female,Tumakuru,Mechanic,SSLC,98,G001
+A01107,Tanvi Lanka,53,Male,Ballari,Farmer,PUC,96,G026
+A01108,Ekavir Anand,65,Female,Bengaluru Rural,Teacher,PUC,89,G033
+A01109,Bhavini Narayanan,26,Male,Shivamogga,Driver,Graduate,62,G044
+A01110,Wriddhish Bhatnagar,59,Female,Hubballi-Dharwad,Businessman,SSLC,73,G012
+A01111,Jason Tara,55,Male,Bengaluru Urban,Electrician,SSLC,93,G015
+A01112,Lucky Randhawa,25,Female,Mysuru,Mechanic,SSLC,48,G028
+A01113,Charvi Khalsa,48,Male,Belagavi,Electrician,PUC,65,G035
+A01114,Harita Garg,29,Female,Hubballi-Dharwad,Shop Owner,PUC,65,G034
+A01115,Diya Wali,34,Male,Ballari,Security Guard,SSLC,100,G042
+A01116,Jatin Kannan,52,Female,Tumakuru,Farmer,SSLC,70,G041
+A01117,Sathvik Subramaniam,30,Male,Shivamogga,Shop Owner,Diploma,71,G007
+A01118,Warda Kaul,28,Female,Kalaburagi,Driver,PUC,40,G027
+A01119,Kai Sharaf,62,Male,Mangaluru,Mechanic,Graduate,56,G004
+A01120,Mahika Choudhary,63,Female,Tumakuru,Software Engineer,Graduate,32,G041
+A01121,Xalak Dhar,51,Male,Ballari,Electrician,Diploma,21,G040
+A01122,Lajita Setty,49,Female,Bengaluru Urban,Businessman,SSLC,49,G050
+A01123,Lila Devi,48,Female,Mysuru,Shop Owner,Diploma,85,G010
+A01124,Abeer Sankaran,46,Male,Bengaluru Urban,Teacher,PUC,1,G048
+A01125,Hritik Lall,49,Female,Kalaburagi,Driver,SSLC,38,G048
+A01126,Anirudh Kashyap,65,Female,Shivamogga,Businessman,PUC,80,G037
+A01127,Xalak Sangha,50,Female,Shivamogga,Shop Owner,Diploma,54,G006
+A01128,Nihal Bakshi,44,Male,Kalaburagi,Shop Owner,Diploma,40,G048
+A01129,Osha Ravi,49,Female,Hubballi-Dharwad,Businessman,SSLC,60,G006
+A01130,Bhanumati Sridhar,34,Male,Mangaluru,Software Engineer,SSLC,68,G029
+A01131,Varsha Sahota,39,Female,Bengaluru Rural,Student,Diploma,36,G013
+A01132,Baghyawati Kannan,46,Female,Ballari,Security Guard,Diploma,36,G047
+A01133,Udant Gopal,31,Male,Bengaluru Urban,Teacher,PUC,98,G035
+A01134,Alka Shroff,57,Female,Ballari,Driver,PUC,53,G021
+A01135,Ekapad Deo,48,Female,Belagavi,Teacher,Graduate,100,G039
+A01136,Robert Chadha,65,Male,Mangaluru,Teacher,Diploma,16,G034
+A01137,Devansh Sachar,61,Male,Ballari,Businessman,SSLC,66,G018
+A01138,Matthew Bajwa,44,Male,Kalaburagi,Farmer,PUC,37,G031
+A01139,Yagnesh Nadig,24,Male,Bengaluru Rural,Shop Owner,SSLC,7,G009
+A01140,Mohammed Ray,20,Male,Bengaluru Rural,Farmer,Graduate,13,G012
+A01141,Radha Dalal,48,Female,Shivamogga,Student,SSLC,89,G007
+A01142,Neelima Rao,41,Male,Kalaburagi,Software Engineer,PUC,27,G027
+A01143,Harrison Apte,47,Male,Bengaluru Urban,Software Engineer,SSLC,34,G011
+A01144,Chanakya Sood,47,Female,Bengaluru Rural,Software Engineer,SSLC,4,G024
+A01145,Vrishti Bansal,49,Male,Bengaluru Rural,Driver,Graduate,81,G044
+A01146,Guneet Dube,46,Male,Shivamogga,Farmer,PUC,42,G023
+A01147,Dev Kade,59,Male,Bengaluru Urban,Software Engineer,PUC,43,G021
+A01148,Lopa Rau,55,Female,Ballari,Businessman,Diploma,34,G017
+A01149,Mohammed Contractor,61,Female,Mysuru,Shop Owner,Diploma,50,G008
+A01150,Qasim Krishna,43,Female,Bengaluru Rural,Driver,SSLC,58,G034
+A01151,Jeevika De,48,Male,Tumakuru,Businessman,PUC,60,G049
+A01152,Wakeeta Issac,40,Male,Bengaluru Rural,Driver,Diploma,100,G009
+A01153,Fariq Borde,31,Female,Bengaluru Rural,Driver,Graduate,26,G018
+A01154,Baljiwan Chaudry,42,Male,Bengaluru Rural,Electrician,Graduate,70,G040
+A01155,Aradhana Kakar,41,Male,Bengaluru Rural,Teacher,PUC,42,G028
+A01156,Brijesh Deshmukh,20,Female,Hubballi-Dharwad,Electrician,Graduate,80,G020
+A01157,Gaurika Bir,63,Male,Bengaluru Rural,Shop Owner,SSLC,42,G041
+A01158,Anirudh Ganesh,39,Female,Hubballi-Dharwad,Electrician,Graduate,11,G048
+A01159,Qarin Oak,25,Male,Bengaluru Rural,Software Engineer,PUC,19,G006
+A01160,Pranit Varkey,37,Male,Kalaburagi,Software Engineer,SSLC,15,G030
+A01161,Prisha Sur,19,Male,Ballari,Businessman,PUC,77,G025
+A01162,Ishwar Pingle,44,Male,Tumakuru,Teacher,Diploma,9,G048
+A01163,Lajita Kumar,34,Female,Hubballi-Dharwad,Mechanic,SSLC,12,G050
+A01164,Elijah Babu,52,Male,Belagavi,Student,Graduate,97,G016
+A01165,Vaishnavi Brahmbhatt,40,Male,Hubballi-Dharwad,Electrician,PUC,72,G028
+A01166,Arunima Lalla,31,Female,Ballari,Businessman,PUC,20,G018
+A01167,Triya Parmer,65,Female,Ballari,Security Guard,Graduate,34,G011
+A01168,Idika Varughese,47,Male,Tumakuru,Shop Owner,SSLC,55,G028
+A01169,Vedika Prasad,65,Female,Hubballi-Dharwad,Businessman,PUC,90,G015
+A01170,Alexander Dar,44,Female,Bengaluru Urban,Teacher,Graduate,53,G001
+A01171,Akshay Menon,64,Male,Belagavi,Electrician,SSLC,8,G004
+A01172,Chaitaly Nagar,41,Male,Bengaluru Rural,Security Guard,PUC,67,G037
+A01173,Ekalinga Tara,26,Male,Bengaluru Rural,Mechanic,Diploma,61,G032
+A01174,Lekha Devi,35,Male,Ballari,Software Engineer,SSLC,64,G017
+A01175,Aryan Walla,50,Female,Shivamogga,Electrician,PUC,64,G010
+A01176,Simon Garg,49,Female,Tumakuru,Teacher,Graduate,8,G045
+A01177,Radha Golla,53,Male,Belagavi,Businessman,Diploma,33,G026
+A01178,Aahana Mane,36,Male,Mysuru,Security Guard,Graduate,56,G046
+A01179,Ekbal Bajaj,39,Female,Shivamogga,Shop Owner,Diploma,62,G011
+A01180,Meera Tailor,59,Male,Shivamogga,Teacher,SSLC,72,G023
+A01181,Dev Keer,44,Male,Mangaluru,Student,Graduate,76,G008
+A01182,Ishani Bora,51,Female,Mangaluru,Student,SSLC,59,G026
+A01183,Bhavani Chatterjee,22,Female,Mangaluru,Security Guard,Diploma,74,G038
+A01184,Kamya Kanda,30,Female,Hubballi-Dharwad,Student,Diploma,77,G047
+A01185,Indrajit Dayal,59,Female,Belagavi,Mechanic,SSLC,14,G041
+A01186,Amara Bumb,55,Female,Tumakuru,Farmer,Graduate,50,G005
+A01187,Shaurya Nanda,18,Female,Hubballi-Dharwad,Software Engineer,SSLC,5,G033
+A01188,Daksh Hayer,44,Female,Kalaburagi,Shop Owner,Diploma,6,G025
+A01189,Nitesh Hari,63,Female,Ballari,Farmer,Diploma,93,G016
+A01190,Siya Sood,60,Male,Bengaluru Urban,Software Engineer,Diploma,38,G048
+A01191,Sara Solanki,55,Male,Tumakuru,Teacher,Graduate,86,G037
+A01192,Ekaraj Bhardwaj,59,Male,Mangaluru,Software Engineer,Diploma,13,G003
+A01193,Chanakya Singhal,40,Male,Belagavi,Security Guard,SSLC,49,G028
+A01194,Kai Nagy,39,Female,Hubballi-Dharwad,Driver,Graduate,51,G012
+A01195,Victor Bandi,46,Male,Mangaluru,Teacher,PUC,81,G018
+A01196,Lila Madan,29,Male,Hubballi-Dharwad,Security Guard,Graduate,96,G002
+A01197,Fariq Gour,18,Female,Bengaluru Urban,Mechanic,Graduate,86,G006
+A01198,Girik Yadav,47,Female,Shivamogga,Teacher,Graduate,37,G039
+A01199,Kritika Barman,52,Male,Bengaluru Rural,Businessman,PUC,2,G043
+A01200,Varenya Kohli,35,Female,Mysuru,Student,SSLC,91,G036
+A01201,Anya Chawla,59,Female,Ballari,Driver,Diploma,96,G050
+A01202,Vedant Devan,26,Female,Kalaburagi,Student,PUC,51,G043
+A01203,Omisha Sanghvi,48,Female,Tumakuru,Farmer,SSLC,5,G030
+A01204,Yauvani Naik,40,Female,Kalaburagi,Security Guard,SSLC,46,G003
+A01205,Faqid Padmanabhan,38,Female,Hubballi-Dharwad,Farmer,PUC,67,G030
+A01206,Benjamin Kuruvilla,38,Female,Mysuru,Electrician,Graduate,80,G017
+A01207,Anya Bhattacharyya,51,Male,Belagavi,Electrician,Diploma,22,G036
+A01208,Saumya Krishnan,26,Male,Kalaburagi,Security Guard,Graduate,40,G035
+A01209,Watika Bahl,24,Female,Ballari,Software Engineer,SSLC,92,G026
+A01210,Yatin Venkataraman,50,Female,Mangaluru,Security Guard,SSLC,92,G044
+A01211,Logan Kulkarni,37,Female,Shivamogga,Shop Owner,Graduate,9,G029
+A01212,Azaan Wason,19,Male,Mysuru,Farmer,SSLC,39,G016
+A01213,Hemang Parmar,40,Male,Hubballi-Dharwad,Shop Owner,PUC,94,G027
+A01214,Amaira Narasimhan,46,Male,Bengaluru Urban,Shop Owner,SSLC,90,G013
+A01215,Charles Khurana,65,Male,Bengaluru Rural,Security Guard,Diploma,26,G030
+A01216,Logan Wason,44,Male,Tumakuru,Shop Owner,SSLC,55,G015
+A01217,Kabir Bahri,18,Female,Ballari,Farmer,PUC,81,G049
+A01218,Jeevika Rama,61,Female,Mysuru,Farmer,PUC,26,G028
+A01219,Umang Bhargava,39,Male,Shivamogga,Farmer,SSLC,79,G042
+A01220,Anirudh Lata,26,Female,Tumakuru,Shop Owner,SSLC,38,G019
+A01221,Amrita Rao,24,Female,Kalaburagi,Businessman,Graduate,40,G047
+A01222,Ishanvi Sarin,34,Male,Ballari,Electrician,PUC,36,G002
+A01223,Ishwar Kunda,61,Male,Bengaluru Rural,Driver,Graduate,53,G048
+A01224,Zilmil Ratti,58,Female,Hubballi-Dharwad,Student,SSLC,77,G049
+A01225,Nirja Amble,22,Male,Ballari,Student,SSLC,30,G008
+A01226,Faris Singhal,28,Female,Mangaluru,Teacher,Graduate,92,G002
+A01227,Neel Badami,46,Female,Hubballi-Dharwad,Mechanic,Graduate,87,G013
+A01228,Arjun Kohli,62,Male,Belagavi,Student,Graduate,40,G009
+A01229,Chameli Ravel,40,Female,Bengaluru Urban,Security Guard,PUC,9,G017
+A01230,Yoshita Varughese,52,Male,Mangaluru,Student,Diploma,12,G049
+A01231,Saanvi Nair,26,Female,Mangaluru,Student,PUC,18,G041
+A01232,Kritika Khanna,23,Male,Shivamogga,Businessman,Diploma,83,G042
+A01233,Urishilla Rau,41,Male,Ballari,Electrician,SSLC,35,G001
+A01234,Pallavi Dash,39,Female,Mysuru,Student,PUC,55,G024
+A01235,Anusha Kota,21,Male,Tumakuru,Shop Owner,Graduate,7,G046
+A01236,Yashawini Kade,19,Male,Bengaluru Urban,Student,Diploma,41,G023
+A01237,Jalsa Bajwa,19,Female,Kalaburagi,Student,SSLC,87,G040
+A01238,Kavya Parmar,58,Female,Bengaluru Urban,Student,Graduate,40,G026
+A01239,Nidra Chaudhary,60,Female,Belagavi,Driver,SSLC,1,G011
+A01240,Hemang Konda,26,Female,Tumakuru,Mechanic,SSLC,48,G008
+A01241,Ekantika Ram,32,Male,Hubballi-Dharwad,Electrician,Graduate,100,G015
+A01242,Oliver Narang,59,Female,Bengaluru Rural,Software Engineer,PUC,48,G036
+A01243,Maanav Sampath,19,Female,Shivamogga,Security Guard,Graduate,93,G028
+A01244,Chavvi Borde,63,Female,Shivamogga,Electrician,PUC,33,G022
+A01245,Utkarsh Sankaran,58,Female,Ballari,Mechanic,Graduate,22,G004
+A01246,Jack Butala,20,Male,Ballari,Driver,Diploma,4,G012
+A01247,Lajita Shukla,54,Male,Hubballi-Dharwad,Businessman,Diploma,51,G022
+A01248,Samuel Bora,62,Female,Hubballi-Dharwad,Teacher,Diploma,17,G044
+A01249,Chasmum Merchant,53,Female,Kalaburagi,Shop Owner,Graduate,53,G005
+A01250,Ubika Panchal,32,Male,Ballari,Driver,Diploma,27,G012
+A01251,Oviya More,41,Male,Hubballi-Dharwad,Businessman,SSLC,20,G018
+A01252,Ekbal Nadkarni,29,Female,Kalaburagi,Shop Owner,PUC,85,G029
+A01253,Chameli Lalla,31,Female,Mysuru,Software Engineer,Graduate,20,G029
+A01254,Chasmum Bansal,29,Male,Mangaluru,Mechanic,SSLC,96,G006
+A01255,Maya Bakshi,31,Male,Mangaluru,Security Guard,Graduate,74,G002
+A01256,Harini Sundaram,53,Female,Ballari,Driver,Diploma,49,G029
+A01257,Wazir Batta,37,Male,Ballari,Electrician,PUC,49,G048
+A01258,Rachit Dua,58,Male,Mangaluru,Shop Owner,SSLC,89,G012
+A01259,Banjeet Roy,20,Female,Shivamogga,Electrician,SSLC,12,G050
+A01260,Riya Handa,57,Male,Mysuru,Shop Owner,Diploma,8,G007
+A01261,Udarsh Samra,26,Female,Kalaburagi,Security Guard,PUC,53,G037
+A01262,Falan Grover,34,Female,Hubballi-Dharwad,Farmer,Graduate,5,G018
+A01263,Hemang Kapadia,35,Female,Mangaluru,Student,Diploma,42,G002
+A01264,Ikbal Sastry,41,Female,Belagavi,Software Engineer,SSLC,22,G012
+A01265,Lila Konda,32,Female,Ballari,Security Guard,SSLC,39,G005
+A01266,Janaki Kamdar,22,Male,Ballari,Teacher,Diploma,22,G008
+A01267,Zayyan Butala,39,Female,Bengaluru Rural,Businessman,PUC,41,G009
+A01268,Yashoda Dugar,21,Male,Mangaluru,Farmer,Diploma,94,G033
+A01269,Sathvik Natarajan,36,Male,Ballari,Mechanic,Diploma,58,G040
+A01270,Falak Bera,36,Male,Ballari,Security Guard,Graduate,15,G021
+A01271,Lavanya Khatri,25,Male,Mangaluru,Shop Owner,Graduate,60,G030
+A01272,Agastya Mallick,35,Female,Mysuru,Mechanic,PUC,95,G004
+A01273,Chandani Gara,37,Male,Hubballi-Dharwad,Shop Owner,PUC,82,G032
+A01274,Logan Bal,53,Female,Mangaluru,Shop Owner,Graduate,89,G013
+A01275,Ekalinga Pant,55,Female,Bengaluru Urban,Software Engineer,PUC,44,G027
+A01276,Kritika Mahal,20,Male,Mangaluru,Shop Owner,Diploma,13,G046
+A01277,Frederick Dada,50,Female,Bengaluru Rural,Shop Owner,Graduate,49,G020
+A01278,Anvi Mukherjee,30,Male,Ballari,Student,Diploma,52,G024
+A01279,Arin Bhagat,35,Male,Tumakuru,Teacher,SSLC,24,G016
+A01280,Manan Zacharia,60,Female,Ballari,Software Engineer,PUC,100,G006
+A01281,Vyanjana Balan,49,Female,Ballari,Mechanic,Diploma,72,G015
+A01282,Imaran Shroff,47,Male,Mysuru,Driver,Graduate,45,G025
+A01283,Hema Buch,64,Female,Bengaluru Rural,Electrician,SSLC,33,G036
+A01284,Krishna Mann,37,Female,Mangaluru,Driver,PUC,94,G024
+A01285,Ira Bajaj,25,Male,Kalaburagi,Mechanic,Graduate,67,G028
+A01286,Jagvi Lad,48,Male,Mangaluru,Mechanic,SSLC,68,G004
+A01287,Tanmayi Rajagopalan,50,Male,Mangaluru,Teacher,PUC,3,G047
+A01288,Girindra Chandra,53,Male,Mangaluru,Driver,Diploma,11,G020
+A01289,Qabil Dey,30,Female,Kalaburagi,Software Engineer,Diploma,57,G023
+A01290,Mitesh Dugar,37,Female,Bengaluru Rural,Businessman,Graduate,86,G042
+A01291,Reyansh Jain,54,Male,Kalaburagi,Farmer,Graduate,59,G004
+A01292,Isaac Varkey,62,Female,Belagavi,Businessman,Graduate,71,G027
+A01293,Zayan Prabhakar,20,Male,Hubballi-Dharwad,Mechanic,SSLC,21,G033
+A01294,Tejas Khalsa,61,Female,Bengaluru Urban,Shop Owner,SSLC,58,G015
+A01295,Vanya Mishra,41,Female,Tumakuru,Security Guard,PUC,84,G009
+A01296,Ekansh Date,62,Male,Tumakuru,Mechanic,SSLC,18,G013
+A01297,Ridhi Sahni,27,Female,Belagavi,Farmer,SSLC,56,G047
+A01298,Banjeet Kala,45,Male,Bengaluru Rural,Student,PUC,6,G036
+A01299,Kashish Mall,49,Male,Bengaluru Urban,Electrician,SSLC,84,G003
+A01300,Krisha Ghose,18,Male,Shivamogga,Security Guard,Graduate,90,G021
+A01301,Aditya Bhardwaj,47,Female,Hubballi-Dharwad,Software Engineer,Graduate,95,G042
+A01302,Lipika Kapoor,53,Female,Kalaburagi,Farmer,PUC,30,G047
+A01303,Wazir Ranganathan,50,Female,Ballari,Software Engineer,SSLC,77,G015
+A01304,Tanvi Sant,39,Female,Kalaburagi,Farmer,PUC,26,G014
+A01305,Nitara Wali,19,Female,Shivamogga,Software Engineer,Graduate,91,G007
+A01306,Luke Oak,47,Female,Shivamogga,Driver,PUC,58,G029
+A01307,Daksha Mital,45,Male,Shivamogga,Businessman,Graduate,11,G040
+A01308,Kashvi Shah,56,Female,Shivamogga,Student,SSLC,85,G032
+A01309,Sanaya Sarin,31,Male,Bengaluru Rural,Driver,Diploma,31,G040
+A01310,Ucchal Thakur,59,Female,Bengaluru Urban,Security Guard,PUC,70,G001
+A01311,Hitesh Pandey,30,Male,Tumakuru,Driver,SSLC,13,G016
+A01312,Manan Karan,57,Female,Tumakuru,Software Engineer,Graduate,11,G040
+A01313,Ayush Bhakta,42,Male,Belagavi,Businessman,Diploma,65,G028
+A01314,Yasti Loyal,32,Female,Mangaluru,Farmer,PUC,79,G018
+A01315,Ojas Shan,64,Female,Belagavi,Security Guard,Graduate,45,G018
+A01316,Dalaja Agrawal,23,Female,Tumakuru,Software Engineer,Graduate,81,G046
+A01317,Nidhi Gole,54,Female,Tumakuru,Security Guard,SSLC,12,G043
+A01318,Faris Bhat,28,Male,Ballari,Mechanic,Graduate,93,G034
+A01319,Gayathri Kari,33,Male,Hubballi-Dharwad,Electrician,Graduate,13,G026
+A01320,Harita Raghavan,51,Male,Bengaluru Rural,Businessman,PUC,99,G037
+A01321,Leena Vasa,40,Male,Mysuru,Electrician,SSLC,92,G039
+A01322,Barkha Swaminathan,60,Female,Tumakuru,Businessman,PUC,35,G050
+A01323,Ranbir Ben,21,Male,Mysuru,Software Engineer,Diploma,40,G038
+A01324,Jack Narayanan,30,Female,Bengaluru Urban,Software Engineer,PUC,68,G032
+A01325,Saanvi Kunda,31,Male,Belagavi,Software Engineer,Graduate,58,G047
+A01326,Omisha Shukla,33,Male,Mangaluru,Shop Owner,SSLC,86,G047
+A01327,Nachiket Krishnamurthy,27,Male,Mangaluru,Electrician,Diploma,42,G008
+A01328,Krisha Handa,33,Female,Tumakuru,Mechanic,SSLC,15,G019
+A01329,Matthew Naidu,48,Female,Kalaburagi,Businessman,Diploma,46,G016
+A01330,Idika Parmer,26,Male,Kalaburagi,Electrician,Diploma,19,G047
+A01331,Qadim Agrawal,40,Female,Shivamogga,Driver,Diploma,38,G007
+A01332,Anay Bera,56,Female,Belagavi,Mechanic,Graduate,36,G044
+A01333,Bachittar Varkey,38,Male,Ballari,Student,PUC,18,G003
+A01334,Tejas Gour,20,Female,Hubballi-Dharwad,Businessman,SSLC,100,G021
+A01335,Zilmil Kaul,41,Male,Bengaluru Rural,Student,SSLC,28,G040
+A01336,Harish Anne,30,Male,Hubballi-Dharwad,Driver,Diploma,83,G012
+A01337,Shivani Solanki,21,Male,Ballari,Businessman,Diploma,39,G004
+A01338,Lila Sarna,29,Female,Belagavi,Software Engineer,Diploma,49,G043
+A01339,Lila Saraf,64,Female,Mangaluru,Mechanic,SSLC,42,G030
+A01340,Urishilla Keer,58,Male,Mangaluru,Driver,PUC,94,G036
+A01341,Aashi Anne,51,Female,Hubballi-Dharwad,Student,PUC,21,G001
+A01342,Kabir Chanda,50,Female,Bengaluru Rural,Driver,Diploma,81,G034
+A01343,Avi Krishna,38,Female,Ballari,Teacher,SSLC,9,G028
+A01344,Indrajit Sunder,22,Female,Shivamogga,Security Guard,Graduate,17,G040
+A01345,Umang Roy,61,Male,Shivamogga,Security Guard,PUC,67,G010
+A01346,Girik Sidhu,31,Female,Bengaluru Urban,Mechanic,Diploma,17,G031
+A01347,Nisha Mukherjee,59,Female,Tumakuru,Electrician,PUC,46,G022
+A01348,Eshana Varughese,59,Female,Hubballi-Dharwad,Mechanic,Diploma,31,G047
+A01349,Ansh Nagy,26,Male,Bengaluru Urban,Driver,Graduate,53,G024
+A01350,Qadim Keer,26,Female,Kalaburagi,Student,Graduate,74,G009
+A01351,Neel Narayanan,28,Female,Bengaluru Urban,Shop Owner,Graduate,72,G029
+A01352,Udant Kashyap,40,Female,Kalaburagi,Electrician,SSLC,74,G049
+A01353,Shaurya Bhatt,43,Female,Shivamogga,Mechanic,Graduate,33,G029
+A01354,Ati Bansal,21,Female,Belagavi,Security Guard,PUC,22,G027
+A01355,Ijaya Oommen,44,Male,Tumakuru,Electrician,Diploma,16,G033
+A01356,Hardik Bala,56,Male,Belagavi,Farmer,PUC,90,G010
+A01357,Jagrati Rastogi,19,Female,Shivamogga,Shop Owner,Graduate,66,G018
+A01358,Jack Doshi,52,Female,Shivamogga,Electrician,SSLC,37,G041
+A01359,Shivansh Radhakrishnan,56,Female,Mangaluru,Teacher,PUC,83,G010
+A01360,Girish Rajan,62,Male,Tumakuru,Software Engineer,PUC,4,G028
+A01361,Yasti Rajagopal,63,Female,Mysuru,Teacher,PUC,97,G024
+A01362,Ryan Mitra,59,Male,Tumakuru,Businessman,Graduate,6,G020
+A01363,Radhika Warrior,20,Female,Bengaluru Urban,Software Engineer,Diploma,21,G001
+A01364,Vanya Bandi,37,Female,Hubballi-Dharwad,Mechanic,Diploma,48,G018
+A01365,Tanay Gill,18,Female,Shivamogga,Teacher,PUC,70,G048
+A01366,Yachana Solanki,59,Male,Hubballi-Dharwad,Farmer,SSLC,95,G007
+A01367,Yashodhara Korpal,34,Female,Shivamogga,Businessman,Graduate,61,G031
+A01368,Rushil Narain,62,Male,Shivamogga,Mechanic,PUC,39,G023
+A01369,Faris Badami,18,Male,Belagavi,Farmer,Diploma,5,G005
+A01370,Jagvi Bhatia,60,Male,Mangaluru,Teacher,Diploma,79,G007
+A01371,Samuel Prasad,56,Male,Mysuru,Businessman,PUC,33,G007
+A01372,Harita Mahal,22,Male,Bengaluru Rural,Student,PUC,62,G047
+A01373,Ranveer Gupta,26,Female,Shivamogga,Driver,PUC,6,G004
+A01374,Indali De,47,Female,Hubballi-Dharwad,Mechanic,Diploma,99,G014
+A01375,Chakradhar Patla,29,Male,Belagavi,Farmer,Diploma,47,G045
+A01376,Daksha Sinha,49,Male,Kalaburagi,Farmer,Diploma,15,G041
+A01377,Aarna Verma,39,Female,Kalaburagi,Electrician,PUC,91,G020
+A01378,Aayush Pillai,62,Female,Hubballi-Dharwad,Businessman,SSLC,72,G011
+A01379,Balhaar Thakur,63,Male,Shivamogga,Businessman,Graduate,72,G031
+A01380,Yashica Butala,39,Female,Belagavi,Software Engineer,Graduate,53,G001
+A01381,Gaurika Muni,24,Female,Kalaburagi,Electrician,Graduate,43,G010
+A01382,Gunbir Bera,21,Male,Belagavi,Software Engineer,Diploma,51,G017
+A01383,Kabir Mukherjee,32,Female,Hubballi-Dharwad,Farmer,PUC,2,G041
+A01384,Isaiah Narayan,39,Female,Mangaluru,Student,Graduate,23,G004
+A01385,Naksh Saran,18,Male,Bengaluru Urban,Student,PUC,4,G015
+A01386,Teerth Mann,23,Male,Bengaluru Rural,Software Engineer,Graduate,70,G050
+A01387,Netra Datta,51,Male,Shivamogga,Mechanic,Graduate,8,G040
+A01388,Ati Kohli,30,Female,Kalaburagi,Teacher,Diploma,58,G046
+A01389,Omaja Parekh,62,Female,Shivamogga,Businessman,Graduate,9,G011
+A01390,Yatin Devi,62,Female,Bengaluru Rural,Security Guard,PUC,17,G018
+A01391,Harinakshi Kade,57,Male,Bengaluru Urban,Driver,Diploma,30,G049
+A01392,Peter Bhasin,65,Male,Bengaluru Rural,Farmer,SSLC,84,G001
+A01393,Ekani Bahri,37,Female,Hubballi-Dharwad,Software Engineer,Diploma,96,G045
+A01394,Chaitaly Vasa,58,Female,Belagavi,Driver,SSLC,92,G004
+A01395,Nikita Mukhopadhyay,34,Male,Hubballi-Dharwad,Businessman,PUC,28,G047
+A01396,Tanveer Dyal,50,Female,Bengaluru Rural,Student,PUC,77,G016
+A01397,Kritika Rai,23,Female,Tumakuru,Software Engineer,SSLC,85,G024
+A01398,Quincy Butala,51,Male,Kalaburagi,Shop Owner,SSLC,72,G027
+A01399,Isha Kari,33,Female,Shivamogga,Student,PUC,15,G007
+A01400,Ladli Rau,47,Male,Bengaluru Urban,Student,Diploma,95,G050
+A01401,Oviya Babu,45,Male,Ballari,Teacher,SSLC,11,G024
+A01402,Vincent Pillay,38,Male,Mysuru,Security Guard,Diploma,74,G007
+A01403,Imaran Chowdhury,52,Female,Bengaluru Rural,Shop Owner,PUC,27,G016
+A01404,Kavya Pandya,22,Female,Belagavi,Driver,PUC,64,G022
+A01405,Jatin Nori,18,Female,Tumakuru,Software Engineer,Diploma,36,G035
+A01406,Logan Sur,64,Male,Tumakuru,Driver,Graduate,37,G020
+A01407,Zaitra Muni,39,Male,Shivamogga,Businessman,PUC,11,G038
+A01408,Kalpit Sem,45,Female,Bengaluru Rural,Shop Owner,PUC,25,G010
+A01409,Osha Kota,37,Male,Mysuru,Teacher,SSLC,62,G003
+A01410,Aayush Ghosh,46,Male,Belagavi,Businessman,PUC,58,G011
+A01411,Chandani Ravi,60,Male,Kalaburagi,Farmer,Diploma,76,G006
+A01412,Neelima Pall,20,Female,Shivamogga,Software Engineer,Graduate,81,G005
+A01413,Dhruv Loke,55,Male,Bengaluru Urban,Businessman,PUC,10,G027
+A01414,Dalaja Natt,41,Male,Ballari,Student,Graduate,85,G010
+A01415,Udarsh Suresh,39,Male,Ballari,Software Engineer,Graduate,70,G010
+A01416,Pranit Sharaf,34,Male,Mangaluru,Student,PUC,67,G049
+A01417,Watika Badami,22,Male,Kalaburagi,Farmer,Diploma,3,G025
+A01418,Aarav Mallick,23,Male,Bengaluru Urban,Teacher,Diploma,97,G030
+A01419,Anjali Singhal,45,Male,Tumakuru,Farmer,SSLC,2,G036
+A01420,Sanya Trivedi,33,Female,Mysuru,Software Engineer,SSLC,90,G048
+A01421,Damini Tank,53,Female,Ballari,Shop Owner,Graduate,14,G001
+A01422,Omaja Goyal,51,Male,Bengaluru Urban,Driver,Graduate,41,G015
+A01423,Harini Ranganathan,64,Female,Shivamogga,Mechanic,PUC,66,G003
+A01424,Odika Din,33,Female,Bengaluru Urban,Businessman,PUC,89,G047
+A01425,Anya Din,20,Female,Belagavi,Software Engineer,PUC,78,G023
+A01426,Kamya Gara,59,Male,Shivamogga,Businessman,Diploma,28,G042
+A01427,Tamanna Ganesh,43,Female,Belagavi,Teacher,SSLC,34,G011
+A01428,Zaid Seth,24,Female,Hubballi-Dharwad,Security Guard,PUC,58,G016
+A01429,Ganga Ramakrishnan,49,Male,Mysuru,Farmer,Graduate,36,G024
+A01430,Xalak Madan,57,Female,Hubballi-Dharwad,Teacher,SSLC,14,G004
+A01431,Sneha Sahni,35,Male,Shivamogga,Farmer,PUC,51,G050
+A01432,Jagrati Mann,40,Male,Kalaburagi,Electrician,PUC,78,G043
+A01433,Bhavika Borah,52,Male,Shivamogga,Teacher,Diploma,36,G034
+A01434,Zinal Subramanian,23,Female,Bengaluru Urban,Software Engineer,Graduate,47,G001
+A01435,Ekavir Kurian,59,Male,Mangaluru,Driver,SSLC,71,G015
+A01436,Tanvi Pandey,42,Female,Ballari,Shop Owner,PUC,68,G005
+A01437,Chandresh Iyengar,40,Male,Bengaluru Rural,Security Guard,PUC,4,G036
+A01438,Priya Thaker,64,Female,Bengaluru Rural,Student,PUC,48,G020
+A01439,Aishani Bose,25,Female,Bengaluru Urban,Businessman,PUC,59,G049
+A01440,Bhanumati Brar,26,Female,Bengaluru Urban,Farmer,Diploma,16,G017
+A01441,Dhruv Swamy,24,Male,Mysuru,Shop Owner,Diploma,58,G007
+A01442,Tanveer Sekhon,34,Male,Hubballi-Dharwad,Electrician,Diploma,51,G013
+A01443,Zansi Brahmbhatt,56,Female,Ballari,Driver,Graduate,10,G017
+A01444,Kabir Sood,62,Female,Kalaburagi,Teacher,Diploma,33,G046
+A01445,Zaitra Natarajan,41,Male,Shivamogga,Software Engineer,Diploma,6,G040
+A01446,Harinakshi Bail,42,Female,Bengaluru Rural,Businessman,SSLC,100,G038
+A01447,Hitesh Tripathi,51,Female,Hubballi-Dharwad,Businessman,SSLC,34,G004
+A01448,Chatura Sankaran,42,Male,Bengaluru Rural,Student,Graduate,69,G048
+A01449,Elijah Mani,29,Male,Shivamogga,Electrician,SSLC,85,G043
+A01450,Eiravati Mammen,40,Male,Bengaluru Urban,Shop Owner,PUC,79,G020
+A01451,Lakshmi Palan,39,Female,Hubballi-Dharwad,Teacher,SSLC,6,G028
+A01452,Akshay Mannan,45,Male,Hubballi-Dharwad,Businessman,PUC,34,G003
+A01453,Neelima Dyal,60,Female,Shivamogga,Farmer,Graduate,50,G030
+A01454,Luke Jain,63,Female,Bengaluru Rural,Student,PUC,46,G038
+A01455,Turvi Rastogi,22,Male,Ballari,Businessman,Graduate,74,G016
+A01456,Sarthak Krish,22,Male,Tumakuru,Teacher,SSLC,35,G007
+A01457,Aadi Uppal,53,Male,Tumakuru,Farmer,PUC,98,G039
+A01458,Peter Bal,34,Male,Hubballi-Dharwad,Student,PUC,68,G038
+A01459,Sathvik Ahluwalia,47,Male,Tumakuru,Teacher,Diploma,18,G044
+A01460,Yagnesh Chawla,37,Male,Tumakuru,Businessman,PUC,14,G040
+A01461,Aishani Wason,52,Female,Bengaluru Rural,Farmer,PUC,27,G039
+A01462,Zaitra Kuruvilla,58,Female,Hubballi-Dharwad,Shop Owner,Graduate,4,G003
+A01463,Lucky Nayar,20,Female,Hubballi-Dharwad,Mechanic,PUC,19,G050
+A01464,Umang Jhaveri,50,Male,Bengaluru Urban,Software Engineer,PUC,78,G024
+A01465,Wriddhish Venkataraman,62,Male,Belagavi,Security Guard,PUC,67,G005
+A01466,Manbir Puri,33,Male,Bengaluru Rural,Farmer,SSLC,66,G023
+A01467,Gabriel Gill,24,Female,Shivamogga,Farmer,PUC,70,G042
+A01468,Gopal Mody,22,Female,Bengaluru Urban,Driver,SSLC,64,G025
+A01469,Upma Kant,20,Male,Hubballi-Dharwad,Businessman,Diploma,75,G042
+A01470,Yachana Nair,21,Male,Kalaburagi,Mechanic,SSLC,99,G032
+A01471,Hemangini Khosla,55,Male,Shivamogga,Businessman,Graduate,96,G040
+A01472,Chanakya Batta,25,Female,Shivamogga,Shop Owner,Diploma,49,G002
+A01473,Daniel Sunder,63,Female,Belagavi,Student,Diploma,56,G043
+A01474,Vasudha Dave,58,Female,Hubballi-Dharwad,Shop Owner,Graduate,38,G006
+A01475,Timothy Hayre,52,Female,Mysuru,Electrician,Diploma,97,G034
+A01476,Sai Nadig,37,Female,Mangaluru,Shop Owner,PUC,1,G017
+A01477,Aayush Sharaf,21,Male,Mangaluru,Security Guard,Diploma,42,G042
+A01478,Ladli Cheema,19,Male,Bengaluru Urban,Driver,PUC,11,G016
+A01479,Peter Ramanathan,64,Male,Bengaluru Urban,Driver,Graduate,36,G011
+A01480,Baghyawati Roy,33,Female,Hubballi-Dharwad,Mechanic,PUC,91,G014
+A01481,Dipta Salvi,39,Male,Hubballi-Dharwad,Farmer,SSLC,77,G011
+A01482,Yoshita Sarna,58,Male,Hubballi-Dharwad,Security Guard,PUC,44,G043
+A01483,Ojas Gara,58,Female,Hubballi-Dharwad,Driver,SSLC,69,G034
+A01484,Xalak Brar,37,Female,Mangaluru,Mechanic,SSLC,40,G007
+A01485,Girik Tailor,59,Male,Hubballi-Dharwad,Driver,Graduate,57,G039
+A01486,Mahika Munshi,26,Female,Tumakuru,Mechanic,SSLC,66,G048
+A01487,Varenya Sule,61,Male,Shivamogga,Businessman,PUC,92,G026
+A01488,Imaran Sehgal,65,Male,Bengaluru Urban,Student,Graduate,23,G038
+A01489,Bhanumati Sane,46,Male,Shivamogga,Businessman,PUC,3,G045
+A01490,Aarav Rajan,62,Female,Hubballi-Dharwad,Farmer,PUC,65,G046
+A01491,Pavani Basak,53,Female,Tumakuru,Businessman,PUC,11,G020
+A01492,Falguni Chhabra,49,Female,Shivamogga,Software Engineer,SSLC,73,G018
+A01493,Krishna Lad,60,Male,Shivamogga,Mechanic,Graduate,44,G029
+A01494,Faqid Raghavan,54,Male,Kalaburagi,Businessman,Graduate,64,G045
+A01495,Sarthak Khalsa,26,Female,Bengaluru Rural,Electrician,PUC,97,G012
+A01496,Indrajit Sagar,30,Female,Belagavi,Mechanic,Diploma,24,G029
+A01497,Benjamin Bhakta,54,Female,Tumakuru,Electrician,Graduate,90,G045
+A01498,Mitesh Manne,59,Male,Kalaburagi,Electrician,PUC,87,G030
+A01499,Ucchal Palla,31,Male,Belagavi,Farmer,Diploma,78,G044
+A01500,Chaitaly Kuruvilla,29,Male,Bengaluru Rural,Mechanic,PUC,50,G026
+A01501,Vrinda Rege,27,Male,Ballari,Driver,PUC,82,G017
+A01502,Rehaan Doshi,43,Male,Kalaburagi,Farmer,SSLC,61,G014
+A01503,Fariq Pal,54,Male,Kalaburagi,Driver,PUC,56,G020
+A01504,Max Gandhi,62,Male,Bengaluru Urban,Software Engineer,Graduate,47,G041
+A01505,Vaishnavi Mannan,41,Female,Bengaluru Urban,Businessman,Graduate,61,G013
+A01506,Victor Kale,28,Female,Tumakuru,Electrician,Diploma,24,G043
+A01507,Devansh Kala,52,Female,Tumakuru,Teacher,PUC,1,G019
+A01508,Onkar Khanna,19,Male,Bengaluru Rural,Mechanic,Diploma,65,G042
+A01509,Andrew Sule,39,Female,Tumakuru,Farmer,Diploma,81,G034
+A01510,Abdul Tella,20,Female,Belagavi,Student,Diploma,32,G025
+A01511,Kevin Anand,51,Female,Bengaluru Rural,Farmer,PUC,26,G028
+A01512,Jai Swaminathan,29,Female,Belagavi,Student,Graduate,11,G036
+A01513,Bhavini Contractor,23,Male,Mangaluru,Student,PUC,43,G046
+A01514,Pavani Sabharwal,63,Male,Tumakuru,Mechanic,Diploma,82,G040
+A01515,Ati Bail,44,Female,Hubballi-Dharwad,Mechanic,SSLC,92,G021
+A01516,Tripti Shah,56,Female,Shivamogga,Security Guard,Diploma,37,G035
+A01517,Chaaya Chakraborty,57,Female,Ballari,Farmer,Graduate,62,G044
+A01518,Azaan Yohannan,28,Female,Ballari,Software Engineer,Diploma,72,G043
+A01519,Lila Rana,59,Male,Tumakuru,Farmer,PUC,30,G024
+A01520,Advika Buch,33,Female,Kalaburagi,Teacher,Graduate,6,G043
+A01521,Isaiah Doshi,36,Male,Belagavi,Farmer,PUC,16,G029
+A01522,Dalbir Rama,60,Male,Hubballi-Dharwad,Software Engineer,SSLC,43,G003
+A01523,Kiaan Chander,18,Male,Tumakuru,Mechanic,PUC,42,G038
+A01524,Oni Mital,65,Male,Belagavi,Software Engineer,Diploma,54,G034
+A01525,Chandani Johal,35,Male,Ballari,Shop Owner,Diploma,54,G002
+A01526,Vihaan Bahri,48,Female,Shivamogga,Farmer,PUC,13,G040
+A01527,Tanish Mammen,59,Female,Hubballi-Dharwad,Software Engineer,SSLC,35,G003
+A01528,Yashvi Rama,57,Female,Bengaluru Urban,Software Engineer,Graduate,76,G038
+A01529,Nikita Naik,43,Male,Hubballi-Dharwad,Security Guard,Diploma,23,G043
+A01530,Simon Hora,47,Female,Shivamogga,Electrician,Graduate,92,G022
+A01531,Leela Dhillon,56,Male,Hubballi-Dharwad,Teacher,PUC,32,G046
+A01532,Praneel Parmar,54,Male,Bengaluru Rural,Security Guard,SSLC,24,G043
+A01533,Dev Morar,38,Male,Bengaluru Urban,Software Engineer,SSLC,48,G047
+A01534,Aarini Anand,30,Male,Hubballi-Dharwad,Software Engineer,SSLC,98,G018
+A01535,Pranav Shah,43,Male,Ballari,Teacher,PUC,47,G007
+A01536,Urvashi Raman,24,Male,Kalaburagi,Teacher,PUC,37,G016
+A01537,Bishakha Bera,35,Male,Mysuru,Driver,Diploma,33,G046
+A01538,Daksh Ahuja,65,Female,Kalaburagi,Software Engineer,SSLC,43,G029
+A01539,Bimala Kala,52,Female,Hubballi-Dharwad,Electrician,Graduate,49,G050
+A01540,Ijaya Muni,40,Female,Bengaluru Rural,Electrician,Diploma,4,G050
+A01541,Gautami Gokhale,64,Female,Mysuru,Driver,SSLC,84,G047
+A01542,Neha Toor,23,Female,Ballari,Driver,Diploma,71,G048
+A01543,Abhiram Boase,33,Male,Mangaluru,Student,SSLC,94,G039
+A01544,Yachana Arya,22,Female,Bengaluru Urban,Businessman,SSLC,84,G049
+A01545,Lila Warrior,58,Female,Belagavi,Driver,PUC,1,G005
+A01546,Yashawini Thaman,63,Male,Bengaluru Rural,Electrician,Graduate,61,G003
+A01547,Frado Brahmbhatt,61,Male,Kalaburagi,Shop Owner,Diploma,44,G024
+A01548,Lipika Kohli,20,Female,Bengaluru Rural,Student,SSLC,26,G047
+A01549,Janya Tank,65,Female,Shivamogga,Electrician,PUC,22,G002
+A01550,Aarini Nadkarni,53,Male,Bengaluru Urban,Electrician,SSLC,27,G031
+A01551,Aarush Sarna,62,Male,Ballari,Mechanic,PUC,65,G042
+A01552,Ryan Sankar,63,Female,Mangaluru,Electrician,Graduate,23,G001
+A01553,Lila Natarajan,47,Female,Mangaluru,Software Engineer,Graduate,88,G016
+A01554,Umang Prashad,35,Male,Shivamogga,Driver,Diploma,10,G026
+A01555,Ishani Atwal,33,Male,Mysuru,Farmer,SSLC,38,G042
+A01556,Peter Lad,20,Male,Bengaluru Rural,Electrician,Graduate,30,G015
+A01557,Lila Yadav,27,Male,Tumakuru,Student,SSLC,6,G039
+A01558,Ojas Cheema,42,Male,Tumakuru,Electrician,PUC,41,G014
+A01559,Darika Mahal,36,Female,Shivamogga,Mechanic,Diploma,84,G039
+A01560,Balhaar Manda,63,Female,Bengaluru Rural,Student,SSLC,75,G027
+A01561,Netra Ghosh,35,Male,Hubballi-Dharwad,Mechanic,Graduate,10,G025
+A01562,Ikshita Choudhry,49,Male,Hubballi-Dharwad,Mechanic,PUC,7,G003
+A01563,Jeremiah Jain,38,Female,Kalaburagi,Security Guard,SSLC,44,G038
+A01564,Indrajit Prasad,23,Female,Kalaburagi,Teacher,Diploma,83,G021
+A01565,Manya Ganguly,33,Male,Bengaluru Rural,Farmer,Diploma,6,G018
+A01566,Maanav Kapadia,18,Male,Kalaburagi,Electrician,Diploma,56,G042
+A01567,Harinakshi Natarajan,39,Female,Bengaluru Urban,Student,Graduate,96,G014
+A01568,Rudra Kapur,39,Male,Bengaluru Rural,Shop Owner,Diploma,66,G020
+A01569,Jonathan Desai,60,Male,Tumakuru,Farmer,Graduate,12,G007
+A01570,Anay Dhar,40,Female,Hubballi-Dharwad,Student,Graduate,20,G022
+A01571,Oviya Dash,30,Female,Mangaluru,Student,SSLC,31,G037
+A01572,Indrajit Raghavan,33,Male,Ballari,Shop Owner,Graduate,97,G050
+A01573,Ekantika Karpe,45,Female,Kalaburagi,Software Engineer,Graduate,58,G029
+A01574,Ayushman Mohan,59,Male,Bengaluru Rural,Shop Owner,PUC,3,G048
+A01575,Laban Roy,39,Female,Mangaluru,Shop Owner,Graduate,86,G031
+A01576,Hema Sarma,55,Female,Hubballi-Dharwad,Teacher,Diploma,2,G008
+A01577,Tripti Natt,18,Male,Shivamogga,Software Engineer,Graduate,67,G042
+A01578,Hamsini Narain,43,Male,Hubballi-Dharwad,Businessman,PUC,72,G032
+A01579,Abhimanyu Tara,26,Male,Bengaluru Rural,Security Guard,Graduate,60,G038
+A01580,Zilmil Narula,40,Male,Kalaburagi,Mechanic,Graduate,53,G037
+A01581,Urvi Dada,62,Female,Ballari,Driver,Graduate,97,G020
+A01582,Azad Keer,61,Female,Belagavi,Mechanic,PUC,70,G011
+A01583,Balhaar Cherian,29,Male,Bengaluru Urban,Teacher,Graduate,24,G034
+A01584,Balhaar Goyal,50,Female,Bengaluru Urban,Businessman,PUC,85,G025
+A01585,Ekiya Sant,45,Male,Mysuru,Student,Graduate,15,G010
+A01586,Rehaan Pal,45,Male,Belagavi,Shop Owner,SSLC,46,G027
+A01587,Forum Palla,23,Male,Kalaburagi,Shop Owner,Diploma,29,G043
+A01588,Jagat Dora,37,Male,Mangaluru,Electrician,SSLC,12,G044
+A01589,Yug Kumer,47,Male,Mysuru,Security Guard,Diploma,45,G034
+A01590,Vansha Halder,53,Female,Hubballi-Dharwad,Mechanic,SSLC,94,G039
+A01591,Krisha Dutta,61,Female,Bengaluru Rural,Teacher,Diploma,82,G034
+A01592,Nimrat Choudhary,25,Female,Kalaburagi,Teacher,SSLC,57,G036
+A01593,Vincent Batta,60,Male,Hubballi-Dharwad,Software Engineer,Diploma,61,G028
+A01594,Upadhriti Lal,47,Male,Mangaluru,Electrician,Diploma,38,G004
+A01595,Yug Srivastava,61,Female,Hubballi-Dharwad,Businessman,Diploma,93,G039
+A01596,Tripti Ratta,25,Female,Ballari,Teacher,Diploma,41,G026
+A01597,Tanvi Golla,56,Male,Belagavi,Shop Owner,Graduate,71,G016
+A01598,Pranav Ravel,56,Male,Mysuru,Businessman,Diploma,41,G045
+A01599,Urmi Thaman,53,Female,Ballari,Mechanic,Diploma,67,G004
+A01600,Viraj Raj,43,Female,Ballari,Driver,Diploma,12,G011
+A01601,Oni Kibe,47,Female,Mangaluru,Businessman,SSLC,63,G038
+A01602,Yoshita Dutt,64,Female,Belagavi,Electrician,SSLC,82,G015
+A01603,Aradhana Sahni,23,Male,Shivamogga,Shop Owner,Graduate,35,G019
+A01604,Anusha Korpal,36,Female,Shivamogga,Teacher,SSLC,1,G021
+A01605,Yoshita Kothari,28,Female,Hubballi-Dharwad,Driver,Diploma,2,G014
+A01606,Ubika Kumar,63,Male,Bengaluru Urban,Businessman,SSLC,14,G001
+A01607,Prisha Rai,47,Female,Shivamogga,Shop Owner,Diploma,79,G016
+A01608,Karan Mohanty,49,Male,Bengaluru Urban,Driver,Graduate,25,G047
+A01609,Jacob Buch,50,Male,Mangaluru,Software Engineer,SSLC,83,G039
+A01610,Naveen Edwin,56,Female,Belagavi,Driver,Graduate,19,G025
+A01611,Yash Wali,20,Male,Tumakuru,Shop Owner,Diploma,82,G026
+A01612,Manthan Mohanty,21,Male,Hubballi-Dharwad,Electrician,SSLC,63,G028
+A01613,Aachal Natt,51,Female,Hubballi-Dharwad,Security Guard,Diploma,58,G046
+A01614,Lavanya Agarwal,36,Male,Kalaburagi,Driver,Graduate,21,G021
+A01615,Jason Kale,51,Female,Belagavi,Shop Owner,PUC,31,G043
+A01616,Upma Tandon,53,Male,Shivamogga,Security Guard,Diploma,23,G007
+A01617,Triveni Rout,32,Male,Bengaluru Urban,Student,Diploma,6,G002
+A01618,Jonathan Batta,45,Male,Shivamogga,Electrician,PUC,35,G042
+A01619,Mekhala Mammen,51,Male,Bengaluru Rural,Businessman,SSLC,75,G021
+A01620,Tarak Sur,25,Female,Mysuru,Electrician,PUC,93,G038
+A01621,Nisha Sanghvi,27,Male,Shivamogga,Driver,Graduate,41,G036
+A01622,Upkaar Karnik,53,Male,Mysuru,Teacher,SSLC,17,G045
+A01623,Samaksh Iyer,52,Male,Shivamogga,Businessman,Diploma,95,G048
+A01624,Yashica Borah,31,Male,Mysuru,Software Engineer,Graduate,78,G039
+A01625,Yatan Kari,31,Male,Tumakuru,Security Guard,Graduate,95,G040
+A01626,Diya Doctor,23,Male,Ballari,Teacher,Diploma,43,G012
+A01627,Faqid Mahajan,64,Male,Kalaburagi,Teacher,Diploma,19,G019
+A01628,Veer Yohannan,45,Female,Mysuru,Teacher,PUC,72,G023
+A01629,Lipika Wable,44,Male,Hubballi-Dharwad,Student,Diploma,89,G008
+A01630,Jairaj Kalla,45,Female,Mangaluru,Student,Diploma,51,G043
+A01631,Pooja Lala,56,Male,Mysuru,Businessman,SSLC,46,G049
+A01632,Vidhi Roy,22,Female,Hubballi-Dharwad,Software Engineer,Diploma,55,G014
+A01633,Turvi Ratti,57,Female,Bengaluru Rural,Software Engineer,PUC,53,G001
+A01634,Girish Gala,51,Female,Mysuru,Student,Diploma,69,G019
+A01635,Jonathan Dhar,25,Female,Bengaluru Urban,Software Engineer,SSLC,47,G013
+A01636,Deepa Agrawal,65,Female,Bengaluru Urban,Security Guard,SSLC,33,G030
+A01637,Nidra Dash,45,Male,Kalaburagi,Teacher,Diploma,37,G003
+A01638,Anirudh Dhar,32,Male,Shivamogga,Businessman,Graduate,14,G008
+A01639,Advaith Patla,26,Female,Bengaluru Urban,Student,PUC,28,G015
+A01640,Chavvi Sodhi,26,Female,Bengaluru Urban,Shop Owner,Graduate,85,G007
+A01641,Veer Saxena,29,Male,Ballari,Software Engineer,SSLC,60,G014
+A01642,Ikbal Buch,24,Female,Tumakuru,Farmer,SSLC,97,G005
+A01643,Aarav Sarraf,44,Male,Mangaluru,Security Guard,SSLC,69,G016
+A01644,Falguni Karan,56,Female,Bengaluru Urban,Driver,SSLC,7,G011
+A01645,Kala Chanda,39,Male,Bengaluru Urban,Electrician,PUC,35,G033
+A01646,Yachana Purohit,34,Female,Ballari,Driver,SSLC,44,G011
+A01647,Amrita Chada,61,Female,Tumakuru,Student,Diploma,28,G040
+A01648,Nidra Balakrishnan,50,Male,Kalaburagi,Farmer,Diploma,44,G032
+A01649,Kabir Nigam,36,Male,Belagavi,Businessman,Diploma,15,G032
+A01650,Noah Wagle,22,Male,Hubballi-Dharwad,Businessman,PUC,41,G016
+A01651,Ganga Kota,60,Male,Mangaluru,Businessman,Graduate,34,G040
+A01652,Omaja Choudhary,36,Male,Hubballi-Dharwad,Teacher,Diploma,41,G034
+A01653,Kamya Wason,49,Female,Ballari,Shop Owner,Graduate,15,G045
+A01654,Reva Kamdar,60,Female,Bengaluru Urban,Mechanic,SSLC,87,G022
+A01655,Faras Narain,49,Female,Tumakuru,Electrician,Graduate,31,G031
+A01656,Radha Sabharwal,52,Female,Hubballi-Dharwad,Security Guard,Diploma,22,G027
+A01657,Balhaar Bahl,62,Male,Bengaluru Rural,Electrician,PUC,15,G010
+A01658,Ladli Chhabra,57,Male,Mysuru,Driver,SSLC,53,G028
+A01659,Yatin Sandhu,50,Male,Shivamogga,Software Engineer,Graduate,59,G008
+A01660,Divya Iyer,60,Female,Shivamogga,Mechanic,SSLC,23,G027
+A01661,Yashoda Mangal,28,Male,Ballari,Businessman,PUC,63,G048
+A01662,Vincent Lata,28,Male,Mysuru,Security Guard,PUC,73,G002
+A01663,Manbir Randhawa,60,Female,Kalaburagi,Driver,Diploma,40,G027
+A01664,Divya Bose,56,Male,Kalaburagi,Security Guard,PUC,55,G021
+A01665,Dalaja Bali,37,Female,Belagavi,Farmer,Graduate,28,G040
+A01666,Harshil Biswas,22,Male,Hubballi-Dharwad,Mechanic,PUC,43,G027
+A01667,Ekani Barad,56,Female,Shivamogga,Teacher,SSLC,3,G047
+A01668,Mitali Chaudhari,39,Female,Mysuru,Businessman,Graduate,18,G017
+A01669,Lipika Dass,28,Female,Ballari,Software Engineer,Diploma,17,G012
+A01670,Brijesh Bassi,51,Male,Belagavi,Farmer,Diploma,70,G048
+A01671,Naksh Nayak,59,Male,Hubballi-Dharwad,Electrician,Graduate,83,G006
+A01672,Falan Dara,20,Male,Tumakuru,Driver,Diploma,93,G019
+A01673,Vamakshi Chokshi,47,Male,Mysuru,Driver,PUC,33,G049
+A01674,Garima Gala,56,Female,Belagavi,Driver,Graduate,93,G027
+A01675,Irya Thakkar,47,Female,Shivamogga,Businessman,Graduate,20,G048
+A01676,Girindra Dewan,51,Male,Kalaburagi,Teacher,PUC,96,G038
+A01677,Wakeeta Chawla,46,Female,Ballari,Farmer,SSLC,82,G036
+A01678,Lavanya Bansal,37,Male,Mangaluru,Businessman,Diploma,31,G010
+A01679,Jairaj Sood,59,Female,Belagavi,Software Engineer,PUC,66,G045
+A01680,Edhitha Dugar,28,Female,Ballari,Driver,SSLC,100,G029
+A01681,Logan Sanghvi,39,Male,Bengaluru Rural,Software Engineer,PUC,65,G036
+A01682,Bina Bhardwaj,48,Female,Belagavi,Driver,Graduate,19,G050
+A01683,Anjali Kant,25,Male,Belagavi,Security Guard,PUC,5,G022
+A01684,William Soni,20,Female,Bengaluru Rural,Student,SSLC,12,G028
+A01685,Unnati Mand,46,Female,Mysuru,Businessman,Diploma,89,G048
+A01686,Bhavika Rastogi,39,Male,Mangaluru,Mechanic,Graduate,22,G030
+A01687,Unnati Rajagopalan,49,Female,Mysuru,Mechanic,PUC,28,G029
+A01688,Udant Sule,44,Male,Hubballi-Dharwad,Farmer,Diploma,66,G023
+A01689,Vrishti Raja,56,Male,Kalaburagi,Teacher,PUC,21,G020
+A01690,Ayush Nigam,33,Male,Kalaburagi,Electrician,Graduate,96,G019
+A01691,Ucchal Dave,47,Male,Kalaburagi,Electrician,Graduate,1,G048
+A01692,Yahvi Dugar,55,Male,Belagavi,Security Guard,PUC,67,G026
+A01693,Bhavani Dhingra,36,Female,Belagavi,Businessman,SSLC,30,G036
+A01694,Kavya Som,48,Female,Mysuru,Software Engineer,Diploma,53,G039
+A01695,Jhalak Date,62,Female,Tumakuru,Security Guard,SSLC,55,G030
+A01696,Gaurangi Chandra,65,Male,Bengaluru Urban,Mechanic,PUC,92,G044
+A01697,Ishita Krish,20,Male,Ballari,Security Guard,SSLC,78,G016
+A01698,Vidhi Desai,21,Male,Mangaluru,Security Guard,SSLC,11,G042
+A01699,Guneet Kale,28,Male,Kalaburagi,Electrician,Diploma,76,G043
+A01700,Siya Dugar,30,Female,Hubballi-Dharwad,Teacher,SSLC,53,G036
+A01701,Harini Sood,60,Male,Bengaluru Rural,Student,SSLC,81,G032
+A01702,Wishi Gala,38,Male,Bengaluru Rural,Farmer,PUC,48,G014
+A01703,Yashasvi Sehgal,36,Female,Tumakuru,Businessman,Diploma,53,G012
+A01704,Jeet Mammen,49,Female,Hubballi-Dharwad,Farmer,Graduate,1,G028
+A01705,Falan Bath,62,Female,Shivamogga,Student,Graduate,15,G035
+A01706,Oeshi Prasad,46,Female,Shivamogga,Electrician,PUC,60,G014
+A01707,Brijesh Modi,23,Male,Mangaluru,Shop Owner,SSLC,26,G039
+A01708,Vasana Andra,44,Male,Mangaluru,Shop Owner,Graduate,63,G006
+A01709,Jyoti Toor,42,Female,Bengaluru Urban,Mechanic,SSLC,84,G030
+A01710,Falan Grewal,35,Female,Tumakuru,Driver,Diploma,79,G034
+A01711,Xavier Sinha,32,Female,Hubballi-Dharwad,Teacher,Diploma,61,G024
+A01712,Abdul Ganesh,41,Male,Hubballi-Dharwad,Teacher,SSLC,94,G040
+A01713,Veda Anand,43,Female,Bengaluru Rural,Security Guard,Graduate,62,G031
+A01714,Aarav Sen,27,Male,Bengaluru Rural,Mechanic,Graduate,89,G003
+A01715,Ethan Sane,34,Male,Tumakuru,Businessman,SSLC,26,G001
+A01716,Robert Shukla,20,Male,Bengaluru Urban,Teacher,PUC,13,G034
+A01717,Oviya Bhakta,54,Male,Shivamogga,Mechanic,Diploma,37,G015
+A01718,Zayyan Dara,34,Male,Mangaluru,Mechanic,Graduate,42,G017
+A01719,Kritika Borah,41,Male,Hubballi-Dharwad,Teacher,PUC,38,G043
+A01720,Aditya Bath,35,Female,Bengaluru Rural,Businessman,Diploma,1,G024
+A01721,Tristan Handa,18,Male,Belagavi,Shop Owner,PUC,53,G043
+A01722,Aryan D’Alia,37,Female,Shivamogga,Shop Owner,PUC,5,G035
+A01723,Netra Pillai,36,Male,Bengaluru Rural,Teacher,Graduate,41,G040
+A01724,Viraj Kashyap,31,Female,Mysuru,Teacher,Graduate,42,G030
+A01725,Vedant Raghavan,44,Male,Mysuru,Farmer,PUC,61,G036
+A01726,Sarthak Narasimhan,37,Female,Mangaluru,Shop Owner,SSLC,62,G015
+A01727,Anmol Nazareth,32,Female,Kalaburagi,Mechanic,Diploma,15,G035
+A01728,Ridhi Bhatia,26,Female,Belagavi,Software Engineer,Diploma,82,G011
+A01729,Christopher Yohannan,21,Female,Tumakuru,Teacher,PUC,91,G034
+A01730,Faris Samra,49,Female,Shivamogga,Businessman,Diploma,5,G049
+A01731,Anirudh Chowdhury,58,Male,Mangaluru,Driver,PUC,78,G009
+A01732,Saanvi Narula,52,Female,Kalaburagi,Electrician,Graduate,34,G007
+A01733,Vansha Chaudhuri,65,Female,Ballari,Student,PUC,53,G030
+A01734,Hemani Chaudry,48,Male,Belagavi,Student,Diploma,91,G019
+A01735,Liam Savant,65,Male,Belagavi,Software Engineer,Graduate,72,G028
+A01736,Alexander Dewan,19,Female,Mangaluru,Farmer,Diploma,65,G043
+A01737,Tanay Bobal,27,Female,Shivamogga,Student,SSLC,31,G004
+A01738,Tanvi Panchal,35,Male,Mysuru,Software Engineer,SSLC,39,G007
+A01739,Ekantika Pandit,47,Male,Kalaburagi,Student,PUC,25,G026
+A01740,Samaksh Chahal,52,Female,Shivamogga,Driver,PUC,62,G032
+A01741,Tristan Roy,36,Female,Kalaburagi,Mechanic,Graduate,70,G026
+A01742,Advay Tak,63,Female,Tumakuru,Businessman,PUC,31,G016
+A01743,Bimala Nagy,27,Male,Mysuru,Software Engineer,Diploma,62,G036
+A01744,Aditya Pandey,47,Male,Shivamogga,Student,Diploma,78,G047
+A01745,Chatura Bajaj,58,Female,Bengaluru Rural,Shop Owner,SSLC,8,G042
+A01746,Chakrika Kant,60,Female,Bengaluru Urban,Student,PUC,78,G023
+A01747,Nikita Nagarajan,18,Male,Hubballi-Dharwad,Businessman,SSLC,70,G036
+A01748,Shivani Dhar,57,Female,Kalaburagi,Teacher,Graduate,66,G010
+A01749,Balveer Mistry,48,Male,Tumakuru,Farmer,PUC,18,G006
+A01750,Megha Rastogi,31,Male,Belagavi,Farmer,SSLC,79,G018
+A01751,Hema Goda,50,Female,Ballari,Teacher,Diploma,49,G027
+A01752,Lakshit Kohli,63,Male,Bengaluru Rural,Security Guard,SSLC,67,G015
+A01753,Hiral Oommen,44,Male,Mangaluru,Farmer,SSLC,31,G031
+A01754,Vincent Das,36,Male,Tumakuru,Shop Owner,PUC,5,G002
+A01755,Vritti Raja,40,Female,Tumakuru,Electrician,Graduate,66,G024
+A01756,Aashi Balakrishnan,29,Female,Tumakuru,Driver,SSLC,34,G044
+A01757,Pratyush Mutti,28,Male,Bengaluru Urban,Software Engineer,SSLC,25,G020
+A01758,Vyanjana Tara,25,Female,Ballari,Student,PUC,2,G037
+A01759,Pushti Salvi,55,Male,Ballari,Security Guard,PUC,19,G008
+A01760,Faris Batta,27,Female,Ballari,Software Engineer,PUC,5,G042
+A01761,Eiravati Radhakrishnan,61,Female,Tumakuru,Teacher,PUC,99,G039
+A01762,Chakradhar Bajwa,55,Female,Belagavi,Security Guard,Diploma,64,G020
+A01763,Aahana Nagarajan,21,Male,Mysuru,Student,SSLC,38,G016
+A01764,Guneet Choudhry,60,Male,Mangaluru,Mechanic,PUC,67,G044
+A01765,Indrajit Rau,44,Female,Mysuru,Student,Diploma,16,G039
+A01766,Amol Kannan,24,Male,Ballari,Electrician,SSLC,5,G001
+A01767,Michael Prashad,51,Female,Mysuru,Student,Diploma,15,G001
+A01768,Yutika Mohanty,18,Male,Mysuru,Driver,PUC,33,G015
+A01769,Arin Chandran,44,Male,Ballari,Farmer,PUC,81,G032
+A01770,Maya Sani,55,Female,Hubballi-Dharwad,Security Guard,Graduate,70,G023
+A01771,Tejas Johal,50,Female,Mangaluru,Shop Owner,Graduate,27,G033
+A01772,Adweta Murty,37,Female,Shivamogga,Teacher,Diploma,3,G018
+A01773,Jyoti Nagy,26,Male,Bengaluru Urban,Businessman,Graduate,11,G032
+A01774,Ria Shere,65,Female,Bengaluru Rural,Security Guard,Graduate,42,G037
+A01775,Pallavi Varughese,33,Female,Belagavi,Shop Owner,Graduate,85,G040
+A01776,Amara Bajaj,26,Male,Bengaluru Rural,Student,PUC,29,G047
+A01777,Zayyan Gole,59,Male,Mysuru,Teacher,SSLC,32,G005
+A01778,Aashi Mohanty,23,Male,Kalaburagi,Software Engineer,PUC,41,G024
+A01779,Qabil Butala,22,Male,Tumakuru,Teacher,SSLC,13,G010
+A01780,Guneet Krishnan,56,Female,Mangaluru,Driver,PUC,17,G022
+A01781,Laban Date,63,Female,Kalaburagi,Shop Owner,Graduate,50,G005
+A01782,Ansh Bhalla,25,Male,Hubballi-Dharwad,Student,Diploma,82,G012
+A01783,Shravya Deep,22,Male,Shivamogga,Teacher,Graduate,39,G023
+A01784,Jagdish Sunder,56,Male,Kalaburagi,Driver,PUC,51,G028
+A01785,Advik Kota,63,Male,Mangaluru,Mechanic,PUC,49,G005
+A01786,Qadim Srinivas,44,Male,Belagavi,Mechanic,PUC,13,G044
+A01787,Janaki Ratta,34,Male,Tumakuru,Electrician,Graduate,41,G012
+A01788,Hamsini Mandal,18,Female,Belagavi,Software Engineer,SSLC,1,G046
+A01789,Aachal Barman,62,Female,Mangaluru,Student,Graduate,31,G015
+A01790,Ethan Mohan,43,Male,Hubballi-Dharwad,Student,SSLC,3,G032
+A01791,Jagvi Patla,29,Male,Kalaburagi,Mechanic,Diploma,49,G016
+A01792,Gaurika Chandra,39,Female,Kalaburagi,Teacher,PUC,49,G032
+A01793,Chasmum Pau,39,Female,Mangaluru,Security Guard,SSLC,5,G001
+A01794,Niharika Dhingra,25,Female,Belagavi,Security Guard,SSLC,79,G003
+A01795,Chanakya Vasa,33,Female,Tumakuru,Student,Graduate,78,G004
+A01796,Jatin Char,42,Female,Hubballi-Dharwad,Teacher,SSLC,13,G019
+A01797,Agastya Tak,32,Male,Shivamogga,Security Guard,PUC,61,G012
+A01798,Neelima Shah,46,Female,Ballari,Software Engineer,SSLC,23,G040
+A01799,Jai Ram,58,Male,Shivamogga,Shop Owner,Graduate,62,G007
+A01800,Bhavika Rana,18,Male,Mysuru,Teacher,SSLC,74,G037
+A01801,Farhan Mahajan,43,Female,Mangaluru,Businessman,SSLC,50,G022
+A01802,Gayathri Rajagopal,62,Female,Shivamogga,Electrician,PUC,90,G032
+A01803,Charles Saini,58,Female,Bengaluru Rural,Student,Diploma,69,G024
+A01804,Forum Shroff,59,Male,Kalaburagi,Mechanic,Diploma,49,G026
+A01805,Rayaan Deol,56,Male,Mangaluru,Electrician,PUC,23,G040
+A01806,Robert Naik,33,Female,Hubballi-Dharwad,Driver,Diploma,84,G045
+A01807,Krisha Goda,35,Female,Ballari,Teacher,Graduate,81,G040
+A01808,Aarna Nanda,18,Male,Mysuru,Mechanic,PUC,4,G043
+A01809,Aarini Tiwari,40,Female,Bengaluru Rural,Shop Owner,PUC,25,G024
+A01810,Vidhi Rao,65,Female,Mangaluru,Mechanic,PUC,63,G003
+A01811,Brinda Sachdev,38,Male,Tumakuru,Driver,Graduate,94,G012
+A01812,Geetika Khatri,56,Male,Bengaluru Urban,Mechanic,SSLC,67,G008
+A01813,Aashi Dalal,62,Male,Mangaluru,Electrician,Diploma,25,G010
+A01814,Abha Bhasin,23,Male,Hubballi-Dharwad,Security Guard,Diploma,5,G049
+A01815,Chakrika Bansal,38,Male,Shivamogga,Teacher,SSLC,83,G010
+A01816,Damini Badami,52,Male,Hubballi-Dharwad,Software Engineer,Graduate,14,G010
+A01817,Reva Choudhary,62,Female,Hubballi-Dharwad,Teacher,Diploma,61,G021
+A01818,Imaran Sura,50,Female,Ballari,Electrician,SSLC,57,G039
+A01819,Harshil Pandey,30,Male,Belagavi,Security Guard,Graduate,91,G040
+A01820,Amol Pai,36,Male,Kalaburagi,Software Engineer,Graduate,61,G011
+A01821,Azaan Prashad,29,Female,Ballari,Mechanic,PUC,54,G012
+A01822,Zaitra Magar,46,Male,Kalaburagi,Farmer,SSLC,65,G006
+A01823,Gaurangi Rout,24,Male,Mangaluru,Farmer,SSLC,17,G018
+A01824,Frederick Kaur,29,Male,Bengaluru Rural,Driver,Diploma,29,G022
+A01825,Finn Iyer,31,Male,Ballari,Driver,Graduate,70,G039
+A01826,Triveni Deol,52,Male,Hubballi-Dharwad,Driver,Graduate,21,G025
+A01827,Ishita Bhasin,55,Female,Hubballi-Dharwad,Businessman,Diploma,61,G036
+A01828,Shivani Kapoor,36,Female,Belagavi,Security Guard,Graduate,92,G008
+A01829,Pooja Merchant,35,Female,Tumakuru,Teacher,Diploma,59,G014
+A01830,Yagnesh Walia,31,Male,Kalaburagi,Electrician,SSLC,27,G022
+A01831,Mugdha Bir,32,Female,Mangaluru,Student,Graduate,67,G010
+A01832,Aarush Mahajan,60,Male,Bengaluru Urban,Mechanic,SSLC,57,G050
+A01833,Ishanvi Sankaran,23,Male,Belagavi,Farmer,SSLC,10,G022
+A01834,Lila Rau,39,Male,Belagavi,Mechanic,PUC,98,G022
+A01835,Gautami Bath,55,Female,Hubballi-Dharwad,Software Engineer,Diploma,3,G005
+A01836,Parth Sant,28,Male,Shivamogga,Businessman,SSLC,31,G034
+A01837,Watika Munshi,22,Male,Hubballi-Dharwad,Shop Owner,Graduate,47,G044
+A01838,Akshay Bansal,18,Female,Ballari,Electrician,PUC,73,G018
+A01839,Manya Bir,31,Male,Bengaluru Rural,Student,PUC,71,G034
+A01840,Charita Devan,31,Female,Belagavi,Software Engineer,PUC,100,G005
+A01841,Xavier Borah,48,Female,Kalaburagi,Shop Owner,Graduate,19,G021
+A01842,Suhani Kale,21,Female,Ballari,Teacher,Diploma,42,G025
+A01843,Nitesh Pandya,24,Male,Ballari,Businessman,Graduate,60,G011
+A01844,Udant Wali,54,Male,Belagavi,Businessman,Graduate,4,G044
+A01845,Kamya Nadkarni,53,Male,Ballari,Electrician,Graduate,73,G046
+A01846,Oeshi Ganesan,39,Female,Mysuru,Mechanic,Graduate,75,G009
+A01847,Indira Dar,26,Male,Kalaburagi,Driver,Graduate,52,G017
+A01848,Upkaar Bhalla,60,Female,Hubballi-Dharwad,Security Guard,PUC,96,G035
+A01849,Jeevika Gala,63,Female,Belagavi,Teacher,PUC,7,G047
+A01850,Aarnav Sankaran,28,Male,Hubballi-Dharwad,Student,Diploma,30,G049
+A01851,Aadhya Madan,40,Male,Mysuru,Shop Owner,Diploma,68,G037
+A01852,Krisha Yadav,26,Male,Ballari,Businessman,Graduate,39,G017
+A01853,Bakhshi Bava,60,Female,Hubballi-Dharwad,Software Engineer,PUC,93,G041
+A01854,Rachita Kapadia,45,Male,Mysuru,Security Guard,SSLC,66,G024
+A01855,Zayyan Bhat,41,Male,Tumakuru,Electrician,Graduate,41,G009
+A01856,Anita Wable,34,Male,Ballari,Mechanic,Graduate,67,G019
+A01857,Abha Din,49,Female,Mangaluru,Shop Owner,SSLC,41,G043
+A01858,Parth Bandi,39,Female,Ballari,Teacher,Graduate,34,G021
+A01859,Garima Rege,21,Male,Mangaluru,Student,Diploma,50,G029
+A01860,Andrew Shenoy,57,Male,Tumakuru,Student,PUC,96,G019
+A01861,Chandani Narayanan,47,Male,Mangaluru,Teacher,Diploma,98,G035
+A01862,Waida Mandal,31,Male,Kalaburagi,Software Engineer,PUC,17,G047
+A01863,Timothy Hora,27,Male,Kalaburagi,Mechanic,SSLC,21,G045
+A01864,Aarna Goel,58,Male,Mysuru,Electrician,SSLC,59,G047
+A01865,Ishanvi Aggarwal,48,Female,Ballari,Electrician,Graduate,11,G014
+A01866,Baghyawati Sarraf,58,Female,Shivamogga,Farmer,PUC,84,G046
+A01867,Nidra Subramaniam,48,Female,Bengaluru Rural,Student,Graduate,57,G010
+A01868,Charvi Master,61,Male,Bengaluru Rural,Student,SSLC,32,G042
+A01869,Shaurya Borde,28,Female,Mangaluru,Security Guard,PUC,99,G005
+A01870,Aarnav Nanda,31,Female,Bengaluru Urban,Shop Owner,SSLC,35,G045
+A01871,Damyanti Manda,57,Female,Ballari,Mechanic,PUC,11,G044
+A01872,Eesha Dewan,46,Male,Hubballi-Dharwad,Shop Owner,Diploma,67,G034
+A01873,Sara Thaker,39,Female,Mysuru,Security Guard,PUC,94,G021
+A01874,Balveer Vyas,53,Female,Tumakuru,Student,Diploma,76,G044
+A01875,Qabil Hora,30,Female,Bengaluru Rural,Businessman,SSLC,13,G019
+A01876,Bhanumati Narang,57,Male,Kalaburagi,Farmer,Diploma,28,G019
+A01877,Meghana Nazareth,25,Male,Shivamogga,Farmer,Diploma,1,G027
+A01878,Krishna Shenoy,56,Male,Bengaluru Rural,Farmer,SSLC,19,G023
+A01879,Meghana Dhawan,21,Female,Tumakuru,Mechanic,Diploma,27,G022
+A01880,Wakeeta Arya,37,Male,Hubballi-Dharwad,Mechanic,Diploma,100,G023
+A01881,Eesha Dada,18,Female,Mangaluru,Security Guard,Diploma,28,G039
+A01882,Parth Kapadia,52,Male,Ballari,Shop Owner,Graduate,26,G013
+A01883,Abha Garg,44,Male,Tumakuru,Student,Graduate,43,G032
+A01884,Chaitaly Deol,49,Male,Hubballi-Dharwad,Security Guard,PUC,57,G007
+A01885,Gauri Ben,48,Male,Mangaluru,Businessman,SSLC,19,G024
+A01886,Ojasvi Panchal,63,Female,Shivamogga,Teacher,PUC,26,G007
+A01887,Faraj Madan,39,Male,Bengaluru Rural,Shop Owner,Graduate,62,G009
+A01888,Bhavini Oommen,65,Female,Shivamogga,Farmer,Graduate,82,G023
+A01889,Idika Parmar,52,Female,Belagavi,Teacher,Diploma,72,G031
+A01890,Karan Mukhopadhyay,19,Male,Mangaluru,Electrician,Diploma,67,G048
+A01891,Qushi Sood,43,Female,Mysuru,Driver,SSLC,45,G012
+A01892,Aarav Chaudhuri,39,Female,Hubballi-Dharwad,Security Guard,SSLC,83,G011
+A01893,Ganga Minhas,61,Female,Bengaluru Rural,Electrician,PUC,67,G004
+A01894,Anamika Singhal,48,Female,Tumakuru,Farmer,Diploma,61,G003
+A01895,Lipika Bhat,62,Male,Bengaluru Rural,Teacher,Diploma,78,G032
+A01896,Kalpit Jain,62,Female,Hubballi-Dharwad,Student,PUC,41,G009
+A01897,Zaitra Iyengar,54,Male,Mysuru,Driver,SSLC,41,G038
+A01898,Brijesh Sheth,52,Female,Bengaluru Urban,Farmer,Graduate,6,G021
+A01899,Jacob Batra,48,Male,Shivamogga,Teacher,Graduate,33,G023
+A01900,Nachiket Dyal,24,Male,Belagavi,Shop Owner,SSLC,63,G037
+A01901,Pratyush Sharaf,28,Male,Tumakuru,Electrician,PUC,63,G015
+A01902,Anmol Solanki,54,Male,Kalaburagi,Electrician,Graduate,92,G026
+A01903,Sanya Acharya,47,Male,Kalaburagi,Student,Diploma,77,G003
+A01904,Yahvi Sen,43,Female,Hubballi-Dharwad,Teacher,Diploma,6,G034
+A01905,Gaurav Dyal,27,Male,Hubballi-Dharwad,Student,SSLC,93,G048
+A01906,Rachana Sehgal,28,Male,Bengaluru Rural,Businessman,Graduate,77,G019
+A01907,Anmol Garg,55,Female,Belagavi,Software Engineer,Diploma,5,G030
+A01908,Kalpit Kadakia,42,Female,Mangaluru,Shop Owner,SSLC,33,G007
+A01909,Odika Badami,49,Female,Bengaluru Urban,Businessman,Diploma,14,G003
+A01910,Advika Narain,25,Female,Shivamogga,Driver,Graduate,58,G003
+A01911,Jeevika Kala,48,Male,Ballari,Farmer,Diploma,59,G035
+A01912,Yadavi Chawla,57,Male,Bengaluru Rural,Electrician,Graduate,36,G019
+A01913,Manan Choudhury,53,Male,Mysuru,Teacher,SSLC,66,G026
+A01914,Advaith Sha,58,Female,Mysuru,Driver,Diploma,10,G038
+A01915,Riya Vyas,52,Male,Shivamogga,Security Guard,PUC,36,G007
+A01916,Rachit Dhillon,25,Female,Ballari,Shop Owner,Diploma,89,G004
+A01917,Eta Mital,55,Male,Shivamogga,Businessman,SSLC,56,G048
+A01918,Aahana Tandon,23,Female,Mysuru,Teacher,Graduate,29,G038
+A01919,Qadim Suresh,29,Male,Tumakuru,Shop Owner,Graduate,17,G038
+A01920,Geetika Venkataraman,54,Female,Bengaluru Urban,Shop Owner,PUC,63,G049
+A01921,Mekhala Madan,59,Female,Mangaluru,Shop Owner,Graduate,6,G043
+A01922,Turvi Garde,39,Female,Bengaluru Rural,Driver,SSLC,70,G044
+A01923,Madhav Bir,42,Female,Mangaluru,Businessman,Graduate,31,G009
+A01924,Suhani Narayanan,42,Male,Belagavi,Farmer,SSLC,30,G044
+A01925,Gaurav Contractor,53,Female,Ballari,Software Engineer,PUC,55,G010
+A01926,Varenya Srinivasan,31,Male,Mysuru,Driver,Diploma,98,G035
+A01927,Harrison Mishra,36,Male,Mangaluru,Shop Owner,Graduate,42,G031
+A01928,Warhi Bhatti,36,Female,Bengaluru Rural,Software Engineer,PUC,71,G022
+A01929,Rachita Bajaj,20,Female,Mangaluru,Security Guard,Graduate,38,G038
+A01930,Balveer Sridhar,52,Male,Belagavi,Student,Graduate,47,G050
+A01931,Samar Pillay,23,Female,Bengaluru Rural,Student,Graduate,6,G047
+A01932,Neha Chowdhury,48,Male,Bengaluru Rural,Driver,Graduate,79,G008
+A01933,Ekansh Chander,22,Male,Kalaburagi,Shop Owner,Diploma,2,G009
+A01934,Manya Bera,43,Male,Bengaluru Rural,Businessman,Diploma,35,G022
+A01935,Lohit Savant,22,Female,Hubballi-Dharwad,Teacher,PUC,18,G050
+A01936,Krish Jani,58,Male,Belagavi,Security Guard,PUC,52,G032
+A01937,Leela Bala,27,Female,Bengaluru Rural,Shop Owner,Diploma,65,G024
+A01938,Hritik Sengupta,54,Female,Shivamogga,Teacher,SSLC,32,G048
+A01939,Aryan Keer,23,Female,Mysuru,Shop Owner,Diploma,65,G049
+A01940,Kashvi Narain,24,Female,Mangaluru,Businessman,Diploma,62,G022
+A01941,Zehaan Dey,20,Female,Kalaburagi,Electrician,SSLC,10,G013
+A01942,Xiti Prabhakar,56,Female,Tumakuru,Software Engineer,PUC,40,G024
+A01943,Farhan Vala,18,Female,Shivamogga,Electrician,PUC,27,G010
+A01944,Aishani Ganesh,56,Male,Hubballi-Dharwad,Businessman,Diploma,89,G046
+A01945,Pavani Grewal,56,Female,Tumakuru,Teacher,SSLC,42,G035
+A01946,Nachiket Sundaram,62,Male,Mangaluru,Businessman,Diploma,75,G015
+A01947,Siya Bandi,18,Male,Kalaburagi,Software Engineer,Diploma,70,G007
+A01948,Dhruv Sharma,34,Male,Hubballi-Dharwad,Electrician,PUC,38,G023
+A01949,Rachita Doshi,60,Male,Belagavi,Shop Owner,PUC,88,G017
+A01950,Ranveer Sibal,30,Female,Mysuru,Teacher,Diploma,35,G037
+A01951,Aarush Ranganathan,40,Female,Hubballi-Dharwad,Electrician,Diploma,48,G035
+A01952,Zinal Ganesan,28,Male,Bengaluru Urban,Shop Owner,Graduate,79,G023
+A01953,Falan Deo,31,Male,Belagavi,Security Guard,SSLC,81,G036
+A01954,Yatin Kaul,28,Male,Bengaluru Urban,Electrician,SSLC,33,G030
+A01955,Aryan Amble,50,Male,Tumakuru,Electrician,Graduate,99,G025
+A01956,Pratyush Bhakta,46,Female,Bengaluru Rural,Mechanic,Graduate,98,G036
+A01957,Barkha Murty,26,Female,Kalaburagi,Electrician,Diploma,3,G014
+A01958,Anmol Kata,21,Male,Bengaluru Urban,Security Guard,Diploma,29,G017
+A01959,Udyati Sinha,43,Female,Belagavi,Mechanic,Graduate,97,G016
+A01960,Dominic Prabhakar,57,Female,Mysuru,Security Guard,Diploma,12,G040
+A01961,Ekani Atwal,45,Male,Mysuru,Farmer,SSLC,68,G046
+A01962,Advika Loyal,30,Female,Bengaluru Urban,Businessman,PUC,26,G007
+A01963,Arunima Sarin,21,Female,Shivamogga,Software Engineer,Diploma,65,G018
+A01964,Indali Sidhu,57,Female,Tumakuru,Teacher,SSLC,88,G049
+A01965,Mugdha Balay,55,Male,Shivamogga,Electrician,SSLC,73,G019
+A01966,Maanav Mital,30,Male,Shivamogga,Teacher,Graduate,67,G044
+A01967,Pranit Vasa,52,Male,Bengaluru Urban,Security Guard,PUC,64,G021
+A01968,Mekhala Walla,65,Male,Hubballi-Dharwad,Mechanic,Diploma,21,G013
+A01969,Kamala Sahota,23,Male,Belagavi,Driver,Graduate,18,G015
+A01970,Simon Roy,63,Female,Ballari,Farmer,SSLC,47,G050
+A01971,Nidra Minhas,31,Female,Tumakuru,Teacher,PUC,1,G014
+A01972,Reva Pandey,30,Male,Mysuru,Shop Owner,Diploma,53,G019
+A01973,Urishilla Rana,64,Female,Bengaluru Urban,Security Guard,SSLC,76,G029
+A01974,Waida Raval,64,Female,Bengaluru Rural,Software Engineer,Graduate,59,G014
+A01975,Lekha Manne,61,Male,Kalaburagi,Teacher,Diploma,88,G034
+A01976,Veda Kapoor,33,Male,Bengaluru Urban,Security Guard,SSLC,10,G016
+A01977,Jeremiah Varty,33,Male,Mysuru,Driver,PUC,64,G010
+A01978,Gayathri Acharya,61,Male,Shivamogga,Electrician,PUC,14,G003
+A01979,Mitesh Sami,55,Female,Hubballi-Dharwad,Driver,Graduate,89,G015
+A01980,Yashasvi Bhatnagar,41,Male,Mysuru,Mechanic,Diploma,57,G024
+A01981,Samar Bhattacharyya,27,Female,Hubballi-Dharwad,Businessman,PUC,48,G001
+A01982,Rushil Tailor,22,Male,Mangaluru,Mechanic,Diploma,21,G044
+A01983,Mason Mitter,54,Male,Mysuru,Teacher,PUC,34,G050
+A01984,Chaitaly Kapur,56,Male,Belagavi,Mechanic,Diploma,39,G042
+A01985,Lucky Sathe,44,Male,Bengaluru Rural,Farmer,Graduate,42,G014
+A01986,Nidra Badami,45,Male,Mysuru,Driver,SSLC,73,G022
+A01987,Ishanvi Ramaswamy,61,Male,Ballari,Driver,Graduate,70,G028
+A01988,Jacob Manne,50,Male,Mangaluru,Electrician,Graduate,49,G029
+A01989,Chatresh Sachdeva,22,Female,Hubballi-Dharwad,Electrician,SSLC,8,G025
+A01990,Chaitaly Kothari,39,Male,Shivamogga,Mechanic,PUC,6,G002
+A01991,Guneet Behl,21,Male,Belagavi,Teacher,Diploma,39,G026
+A01992,Ijaya Morar,52,Male,Tumakuru,Security Guard,Graduate,7,G034
+A01993,Chasmum Chacko,60,Male,Shivamogga,Driver,Diploma,23,G026
+A01994,Maanas Tata,43,Female,Mysuru,Security Guard,SSLC,69,G033
+A01995,Wriddhish Prasad,35,Male,Mangaluru,Security Guard,SSLC,12,G023
+A01996,Siya Ray,22,Male,Mysuru,Driver,Diploma,67,G004
+A01997,Amol Pillai,28,Male,Tumakuru,Security Guard,PUC,87,G031
+A01998,Gauri Swamy,21,Female,Ballari,Farmer,SSLC,85,G030
+A01999,Advaith Bandi,46,Male,Bengaluru Rural,Software Engineer,Diploma,66,G049
+A02000,Nidhi Comar,40,Male,Hubballi-Dharwad,Software Engineer,Graduate,87,G050

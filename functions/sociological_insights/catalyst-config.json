@@ -1,0 +1,11 @@
+{
+	"deployment": {
+		"name": "sociological_insights",
+		"stack": "node20",
+		"type": "advancedio",
+		"env_variables": {}
+	},
+	"execution": {
+		"main": "index.js"
+	}
+}

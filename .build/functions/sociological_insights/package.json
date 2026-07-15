@@ -1,0 +1,10 @@
+{
+	"name": "sociological_insights",
+	"version": "1.0.0",
+	"main": "index.js",
+	"author": "preetsachani@gmail.com",
+	"dependencies": {
+		"axios": "^1.18.1",
+		"zcatalyst-sdk-node": "latest"
+	}
+}

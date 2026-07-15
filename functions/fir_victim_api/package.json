@@ -1,0 +1,9 @@
+{
+	"name": "fir_victim_api",
+	"version": "1.0.0",
+	"main": "index.js",
+	"author": "preetsachani@gmail.com",
+	"dependencies": {
+		"zcatalyst-sdk-node": "latest"
+	}
+}
