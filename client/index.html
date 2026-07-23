@@ -1,16 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="kn-IN">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>KSP - Global Intelligence Command Node</title>
+    <meta name="description" content="Karnataka State Police - Crime Intelligence Command Center | ಕರ್ನಾಟಕ ರಾಜ್ಯ ಪೊಲೀಸ್ ಅಪರಾಧ ಗುಪ್ತಚರ ಆಜ್ಞಾ ಕೇಂದ್ರ">
+    <meta name="keywords" content="Karnataka Police, KSP CICC, Crime Intelligence, ಕರ್ನಾಟಕ ಪೊಲೀಸ್">
+    <title>KSP CICC | Karnataka State Police — Crime Intelligence Command Center</title>
 
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Share+Tech+Mono&display=swap" rel="stylesheet">
-    
+    <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@300;400;500;600;700&family=Noto+Sans+Kannada:wght@300;400;500;600;700&family=Share+Tech+Mono&display=swap" rel="stylesheet">
     <!-- CSS -->
     <link rel="stylesheet" href="main.css">
-    
     <!-- Libraries -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
@@ -18,463 +18,727 @@
 </head>
 <body>
 
-    <!-- Cyberpunk grid background -->
-    <div class="bg-grid"></div>
-
-    <!-- SIDEBAR -->
-    <div class="sidebar">
-        <div class="logo-container">
-            <div class="logo-glow"></div>
-            <h2 class="sys-title">KSP CICC</h2>
-            <p class="sys-sub">INTELLIGENCE PLATFORM</p>
+    <!-- ═════════════════════════════════════════
+         TOP UTILITY BAR
+         ═════════════════════════════════════════ -->
+    <div class="top-util-bar">
+        <div>
+            <span>ಕರ್ನಾಟಕ ಸರ್ಕಾರ — Government of Karnataka</span>
+            <span style="margin-left:16px;opacity:0.6">|</span>
+            <a href="https://www.karnataka.gov.in" target="_blank" style="color:rgba(255,255,255,0.75);text-decoration:none;margin-left:12px;font-size:11.5px;">karnataka.gov.in ↗</a>
         </div>
-
-        <div class="nav-menu custom-scrollbar">
-            <ul>
-                <li onclick="showSection('dashboardSection')" class="active">
-                    <span class="nav-icon">📊</span> Dashboard
-                </li>
-                <li onclick="showSection('assistantSection')">
-                    <span class="nav-icon">🤖</span> AI Assistant
-                </li>
-                <li onclick="showSection('firSection')">
-                    <span class="nav-icon">🔍</span> FIR Search
-                </li>
-                <li onclick="showSection('networkSection')">
-                    <span class="nav-icon">🕸️</span> Criminal Network
-                </li>
-                <li onclick="showSection('analyticsSection')">
-                    <span class="nav-icon">📈</span> Crime Analytics
-                </li>
-                <li onclick="showSection('financialSection')">
-                    <span class="nav-icon">💰</span> Financial Analysis
-                </li>
-                <li onclick="showSection('behaviorSection')">
-                    <span class="nav-icon">🧠</span> Behavioral Profiling
-                </li>
-                <li onclick="showSection('explainableSection')">
-                    <span class="nav-icon">💡</span> Explainable AI
-                </li>
-                <li onclick="showSection('decisionSection')">
-                    <span class="nav-icon">⚖️</span> Decision Support
-                </li>
-                <li onclick="showSection('sociologicalSection')">
-                    <span class="nav-icon">👥</span> Sociological Insights
-                </li>
-                <li onclick="showSection('forecastSection')">
-                    <span class="nav-icon">🔮</span> Crime Forecasting
-                </li>
-                <li onclick="showSection('highRiskSection')">
-                    <span class="nav-icon">⚠️</span> High Risk Accused
-                </li>
-                <li onclick="showSection('alertsSection')">
-                    <span class="nav-icon">🚨</span> Alerts Center
-                </li>
-            </ul>
-        </div>
-        
-        <div class="system-status">
-            <div class="status-led online"></div>
-            <span>NODE SECURE // L4</span>
+        <div class="util-links" style="display:flex;align-items:center;gap:14px;">
+            <span style="font-size:11px;opacity:0.7">ತುರ್ತು ಸಂಖ್ಯೆ :</span>
+            <span class="emergency-badge">📞 112</span>
         </div>
     </div>
 
-    <!-- MAIN WORKSPACE -->
-    <div class="main">
-        <div class="header">
-            <div class="header-left">
-                <h1>KARNATAKA STATE POLICE</h1>
-                <p class="subtitle">Crime Intelligence Command Center</p>
-            </div>
-            <div class="header-right">
-                <div class="network-pulse">
-                    <div class="pulse-ring"></div>
-                    <div class="pulse-ring delay"></div>
-                </div>
-                <div id="clock"></div>
+    <!-- ═════════════════════════════════════════
+         MAIN HEADER
+         ═════════════════════════════════════════ -->
+    <header class="ka-header">
+        <div class="ka-header-brand">
+            <!-- Karnataka State Emblem -->
+            <img src="ka_emblem.png" alt="Government of Karnataka Emblem" class="ka-state-emblem"
+                 title="ಕರ್ನಾಟಕ ರಾಜ್ಯ ಲಾಂಛನ — Karnataka State Emblem">
+            <div class="ka-header-divider"></div>
+            <!-- KSP Badge -->
+            <img src="ksp_badge.png" alt="Karnataka State Police Badge" class="ka-police-badge"
+                 title="Karnataka State Police — SEVA SURAKSHA">
+            <div class="ka-header-text">
+                <h1>Karnataka State Police</h1>
+                <div class="ka-dept">Crime Intelligence Command Center (CICC)</div>
+                <div class="ka-subtitle">ಕರ್ನಾಟಕ ರಾಜ್ಯ ಪೊಲೀಸ್ · ಅಪರಾಧ ಗುಪ್ತಚರ ಆಜ್ಞಾ ಕೇಂದ್ರ</div>
             </div>
         </div>
+        <div class="ka-header-right">
+            <div class="ka-emergency-label">EMERGENCY · ತುರ್ತು</div>
+            <div class="ka-emergency">📞 112</div>
+            <div id="clock" style="font-size:12px;color:rgba(255,255,255,0.65);margin-top:4px;font-family:'Share Tech Mono',monospace;"></div>
+        </div>
+    </header>
 
-        <div class="content-area">
+    <!-- ═════════════════════════════════════════
+         GOLD NAVIGATION BAR
+         ═════════════════════════════════════════ -->
+    <nav class="ka-nav-bar" id="topNav" aria-label="ಮುಖ್ಯ ನ್ಯಾವಿಗೇಷನ್">
+        <a href="#" class="active" onclick="navGo('dashboardSection',this);return false;">🏠 ಮುಖಪುಟ / Home</a>
+        <a href="#" onclick="navGo('firSection',this);return false;">📁 ಎಫ್‌ಐಆರ್ / FIR</a>
+        <a href="#" onclick="navGo('networkSection',this);return false;">🕸️ ಅಪರಾಧಿ ಜಾಲ / Network</a>
+        <a href="#" onclick="navGo('analyticsSection',this);return false;">📈 ವಿಶ್ಲೇಷಣೆ / Analytics</a>
+        <a href="#" onclick="navGo('financialSection',this);return false;">💰 ಹಣಕಾಸು / Financial</a>
+        <a href="#" onclick="navGo('forecastSection',this);return false;">🔮 ಮುನ್ಸೂಚನೆ / Forecast</a>
+        <a href="#" onclick="navGo('highRiskSection',this);return false;">⚠️ ಅಪಾಯ / High Risk</a>
+        <a href="#" onclick="navGo('alertsSection',this);return false;">🚨 ಎಚ್ಚರಿಕೆ / Alerts</a>
+        <a href="#" onclick="navGo('assistantSection',this);return false;">🤖 AI ಸಹಾಯಕ</a>
+        <a href="#" onclick="navGo('decisionSection',this);return false;" style="margin-left:auto;">⚖️ ನಿರ್ಧಾರ</a>
+    </nav>
 
-            <!-- 1. DASHBOARD -->
-            <div id="dashboardSection" class="section glass-panel">
-                <div id="dashboard"></div>
-                <div class="section-header">
-                    <h2>EXECUTIVE DASHBOARD</h2>
-                    <div class="glitch-line"></div>
-                </div>
-                
-                <div class="kpi-grid mb-20">
-                    <div class="kpi-card">
-                        <div class="kpi-title">TOTAL FIRS</div>
-                        <div class="kpi-value cyan-text" id="totalFirs">0</div>
-                        <div class="kpi-chart line-anim"></div>
-                    </div>
-                    <div class="kpi-card">
-                        <div class="kpi-title">TOTAL ACCUSED</div>
-                        <div class="kpi-value red-text" id="totalAccused">0</div>
-                        <div class="kpi-chart bar-anim"></div>
-                    </div>
-                    <div class="kpi-card">
-                        <div class="kpi-title">TOTAL VICTIMS</div>
-                        <div class="kpi-value cyan-text" id="totalVictims">0</div>
-                        <div class="kpi-chart wave-anim"></div>
-                    </div>
-                    <div class="kpi-card">
-                        <div class="kpi-title">OPEN CASES</div>
-                        <div class="kpi-value red-text" id="openCases">0</div>
-                        <div class="kpi-chart pulse-anim"></div>
-                    </div>
-                </div>
+    <!-- ═════════════════════════════════════════
+         PAGE WRAPPER (sidebar + content)
+         ═════════════════════════════════════════ -->
+    <div class="page-wrapper">
 
-                <div class="grid-2col">
-                    <div class="sub-panel">
-                        <h3 class="panel-title">CRIME TREND</h3>
-                        <div class="chart-container">
-                            <canvas id="crimeTrendChart" height="200"></canvas>
-                        </div>
-                    </div>
-                    <div class="sub-panel">
-                        <h3 class="panel-title">CRIME HOTSPOTS</h3>
-                        <div class="chart-container">
-                            <canvas id="hotspotTrendChart" height="200"></canvas>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="grid-2col mt-20">
-                    <div class="sub-panel flex-center">
-                        <h3 class="panel-title">SYSTEM RISK LEVEL</h3>
-                        <div class="gauge-container">
-                            <div class="gauge-circle" style="background: conic-gradient(var(--red) 70%, rgba(255,42,85,0.1) 0);"></div>
-                            <div class="gauge-inner">
-                                <span class="gauge-value text-red">CRITICAL</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="sub-panel">
-                        <h3 class="panel-title">RECENT ALERTS</h3>
-                        <div class="alert-item high">
-                            <span class="alert-type">SEC-01</span>
-                            <span class="alert-msg">Elevated financial anomalies detected.</span>
-                        </div>
-                        <div class="alert-item med">
-                            <span class="alert-type">NET-04</span>
-                            <span class="alert-msg">Network cluster density increased by 14%.</span>
-                        </div>
+
+        <!-- ═══════════════════════════════════
+             SIDEBAR
+             ═══════════════════════════════════ -->
+        <aside class="sidebar" role="navigation" aria-label="ಸೈಡ್‌ಬಾರ್ ನ್ಯಾವಿಗೇಷನ್">
+
+            <div class="logo-container">
+                <div class="sidebar-logo-row">
+                    <img src="ksp_badge.png" alt="Karnataka State Police Badge" class="sidebar-badge">
+                    <div class="sidebar-title-block">
+                        <div class="sys-title">KSP CICC</div>
+                        <span class="sys-sub">Crime Intelligence<br>Command Center</span>
+                        <span class="sys-kn">ಗುಪ್ತಚರ ಆಜ್ಞಾ ಕೇಂದ್ರ</span>
                     </div>
                 </div>
             </div>
 
-            <!-- 2. AI ASSISTANT -->
-            <div id="assistantSection" class="section glass-panel" style="display:none;">
-                <div class="section-header">
-                    <h2>AI INVESTIGATION ASSISTANT</h2>
-                    <div class="glitch-line"></div>
-                </div>
+            <div class="ka-emblem-strip">
+                <img src="ka_emblem.png" alt="Karnataka Emblem">
+                <span>ಸತ್ಯಮೇವ ಜಯತೇ · Govt. of Karnataka</span>
+            </div>
 
-                <div class="ai-layout">
-                    <div class="ai-main">
-                        <div class="chat-container">
-                            <div class="chat-header">
-                                <div class="status-led online"></div>
-                                <span>KSP GOTHAM AI KERNEL</span>
+            <nav class="nav-menu custom-scrollbar" aria-label="ವಿಭಾಗ ನ್ಯಾವಿಗೇಷನ್">
+                <ul>
+                    <li onclick="showSection('dashboardSection')" class="active" id="nav-dashboard">
+                        <div class="nav-item-main">
+                            <span class="nav-icon">📊</span> Dashboard
+                        </div>
+                        <span class="nav-kn">ಡ್ಯಾಶ್‌ಬೋರ್ಡ್</span>
+                    </li>
+                    <li onclick="showSection('assistantSection')" id="nav-assistant">
+                        <div class="nav-item-main">
+                            <span class="nav-icon">🤖</span> AI Assistant
+                        </div>
+                        <span class="nav-kn">ಎಐ ಸಹಾಯಕ</span>
+                    </li>
+                    <li onclick="showSection('firSection')" id="nav-fir">
+                        <div class="nav-item-main">
+                            <span class="nav-icon">🔍</span> FIR Search
+                        </div>
+                        <span class="nav-kn">ಎಫ್‌ಐಆರ್ ಹುಡುಕಾಟ</span>
+                    </li>
+                    <li onclick="showSection('networkSection')" id="nav-network">
+                        <div class="nav-item-main">
+                            <span class="nav-icon">🕸️</span> Criminal Network
+                        </div>
+                        <span class="nav-kn">ಅಪರಾಧಿ ಜಾಲ</span>
+                    </li>
+                    <li onclick="showSection('analyticsSection')" id="nav-analytics">
+                        <div class="nav-item-main">
+                            <span class="nav-icon">📈</span> Crime Analytics
+                        </div>
+                        <span class="nav-kn">ಅಪರಾಧ ವಿಶ್ಲೇಷಣೆ</span>
+                    </li>
+                    <li onclick="showSection('financialSection')" id="nav-financial">
+                        <div class="nav-item-main">
+                            <span class="nav-icon">💰</span> Financial Analysis
+                        </div>
+                        <span class="nav-kn">ಹಣಕಾಸು ವಿಶ್ಲೇಷಣೆ</span>
+                    </li>
+                    <li onclick="showSection('behaviorSection')" id="nav-behavior">
+                        <div class="nav-item-main">
+                            <span class="nav-icon">🧠</span> Behavioral Profiling
+                        </div>
+                        <span class="nav-kn">ನಡವಳಿಕೆ ಪ್ರೊಫೈಲಿಂಗ್</span>
+                    </li>
+                    <li onclick="showSection('explainableSection')" id="nav-explainable">
+                        <div class="nav-item-main">
+                            <span class="nav-icon">💡</span> Explainable AI
+                        </div>
+                        <span class="nav-kn">ವಿವರಣಾತ್ಮಕ ಎಐ</span>
+                    </li>
+                    <li onclick="showSection('decisionSection')" id="nav-decision">
+                        <div class="nav-item-main">
+                            <span class="nav-icon">⚖️</span> Decision Support
+                        </div>
+                        <span class="nav-kn">ನಿರ್ಧಾರ ಬೆಂಬಲ</span>
+                    </li>
+                    <li onclick="showSection('sociologicalSection')" id="nav-sociological">
+                        <div class="nav-item-main">
+                            <span class="nav-icon">👥</span> Sociological Insights
+                        </div>
+                        <span class="nav-kn">ಸಾಮಾಜಿಕ ಒಳನೋಟ</span>
+                    </li>
+                    <li onclick="showSection('forecastSection')" id="nav-forecast">
+                        <div class="nav-item-main">
+                            <span class="nav-icon">🔮</span> Crime Forecasting
+                        </div>
+                        <span class="nav-kn">ಅಪರಾಧ ಮುನ್ಸೂಚನೆ</span>
+                    </li>
+                    <li onclick="showSection('highRiskSection')" id="nav-highrisk">
+                        <div class="nav-item-main">
+                            <span class="nav-icon">⚠️</span> High Risk Accused
+                        </div>
+                        <span class="nav-kn">ಅಧಿಕ ಅಪಾಯದ ಆರೋಪಿ</span>
+                    </li>
+                    <li onclick="showSection('alertsSection')" id="nav-alerts">
+                        <div class="nav-item-main">
+                            <span class="nav-icon">🚨</span> Alerts Center
+                        </div>
+                        <span class="nav-kn">ಎಚ್ಚರಿಕೆ ಕೇಂದ್ರ</span>
+                    </li>
+                </ul>
+            </nav>
+
+            <div class="system-status">
+                <div class="status-row">
+                    <div class="status-led online"></div>
+                    <span>SYSTEM ONLINE · L4 SECURE</span>
+                </div>
+                <span class="status-kn">ವ್ಯವಸ್ಥೆ ಸುರಕ್ಷಿತ · ಸ್ತರ ೪</span>
+            </div>
+        </aside>
+
+        <!-- ═══════════════════════════════════
+             MAIN CONTENT
+             ═══════════════════════════════════ -->
+        <main class="main" role="main">
+
+            <!-- Old header hidden via CSS -->
+            <div class="header" style="display:none;"></div>
+
+            <!-- Breadcrumb -->
+            <div class="breadcrumb-bar">
+                <a href="#">ಮುಖಪುಟ / Home</a> &rsaquo;
+                <a href="#">KSP CICC</a> &rsaquo;
+                <span id="breadcrumb-current">ಡ್ಯಾಶ್‌ಬೋರ್ಡ್ / Dashboard</span>
+            </div>
+
+            <div class="content-area">
+
+                <!-- ─────────────────────────────────
+                     1. DASHBOARD — ಡ್ಯಾಶ್‌ಬೋರ್ಡ್
+                     ───────────────────────────────── -->
+                <div id="dashboardSection" class="section glass-panel">
+                    <div id="dashboard"></div>
+                    <div class="section-header">
+                        <div class="section-header-row">
+                            <h2>📊 EXECUTIVE DASHBOARD</h2>
+                            <div class="glitch-line"></div>
+                        </div>
+                        <span class="section-kn">ಕಾರ್ಯನಿರ್ವಾಹಕ ಡ್ಯಾಶ್‌ಬೋರ್ಡ್ · Crime Intelligence Overview</span>
+                    </div>
+
+                    <!-- KPI Cards -->
+                    <div class="kpi-grid mb-20">
+                        <div class="kpi-card">
+                            <div class="kpi-title">TOTAL FIRs REGISTERED</div>
+                            <span class="kpi-title-kn">ಒಟ್ಟು ಎಫ್‌ಐಆರ್‌ಗಳು</span>
+                            <div class="kpi-value cyan-text" id="totalFirs">—</div>
+                            <div class="kpi-chart line-anim"></div>
+                        </div>
+                        <div class="kpi-card">
+                            <div class="kpi-title">TOTAL ACCUSED</div>
+                            <span class="kpi-title-kn">ಒಟ್ಟು ಆರೋಪಿಗಳು</span>
+                            <div class="kpi-value red-text" id="totalAccused">—</div>
+                            <div class="kpi-chart bar-anim"></div>
+                        </div>
+                        <div class="kpi-card">
+                            <div class="kpi-title">TOTAL VICTIMS</div>
+                            <span class="kpi-title-kn">ಒಟ್ಟು ಸಂತ್ರಸ್ತರು</span>
+                            <div class="kpi-value cyan-text" id="totalVictims">—</div>
+                            <div class="kpi-chart wave-anim"></div>
+                        </div>
+                        <div class="kpi-card" style="border-top-color: #B45309;">
+                            <div class="kpi-title">OPEN CASES</div>
+                            <span class="kpi-title-kn">ತೆರೆದ ಪ್ರಕರಣಗಳು</span>
+                            <div class="kpi-value" style="color:#B45309;" id="openCases">—</div>
+                            <div class="kpi-chart pulse-anim"></div>
+                        </div>
+                    </div>
+
+                    <!-- Charts -->
+                    <div class="grid-2col">
+                        <div class="sub-panel">
+                            <h3 class="panel-title">📉 CRIME TREND</h3>
+                            <span class="panel-title-kn">ಅಪರಾಧ ಪ್ರವೃತ್ತಿ · Monthly Analysis</span>
+                            <div class="chart-container">
+                                <canvas id="crimeTrendChart" height="200"></canvas>
                             </div>
-                            <div class="chat-box custom-scrollbar" id="chatBox">
-                                <div class="chat-msg ai">
-                                    <span class="sender">KSP AI:</span>
-                                    <p>System initialized. Ready for querying FIRs and subject data.</p>
+                        </div>
+                        <div class="sub-panel">
+                            <h3 class="panel-title">📍 CRIME HOTSPOTS</h3>
+                            <span class="panel-title-kn">ಅಪರಾಧ ಕೇಂದ್ರಗಳು · Zone Distribution</span>
+                            <div class="chart-container">
+                                <canvas id="hotspotTrendChart" height="200"></canvas>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Risk + Alerts -->
+                    <div class="grid-2col mt-20">
+                        <div class="sub-panel flex-center">
+                            <h3 class="panel-title">🔴 SYSTEM RISK LEVEL</h3>
+                            <span class="panel-title-kn">ವ್ಯವಸ್ಥೆಯ ಅಪಾಯ ಮಟ್ಟ</span>
+                            <div class="gauge-container">
+                                <div class="gauge-circle" style="background: conic-gradient(#7B1113 70%, #EEEEEE 0);"></div>
+                                <div class="gauge-inner">
+                                    <span class="gauge-value">CRITICAL</span>
+                                    <span class="gauge-kn">ಅತ್ಯಂತ ಅಪಾಯ</span>
                                 </div>
                             </div>
                         </div>
-
-                        <div class="cmd-interface">
-                            <div class="cmd-prefix">></div>
-                            <input type="text" id="aiInput" class="cmd-input" placeholder="Enter query parameters...">
-                            <div class="cmd-actions">
-                                <button onclick="askAI()" class="btn-cyber btn-primary">Submit Query</button>
-                                <button onclick="startVoice()" class="btn-cyber">🎤 Voice Input</button>
-                                <button onclick="stopVoice()" class="btn-cyber btn-danger">🛑 Stop</button>
-                                <button onclick="downloadPDF()" class="btn-cyber">📄 Export PDF</button>
+                        <div class="sub-panel">
+                            <h3 class="panel-title">🔔 RECENT ALERTS</h3>
+                            <span class="panel-title-kn">ಇತ್ತೀಚಿನ ಎಚ್ಚರಿಕೆಗಳು</span>
+                            <div class="alert-item high">
+                                <span class="alert-type">[SEC-01]</span>
+                                <span class="alert-msg">Elevated financial anomalies detected. | ಆರ್ಥಿಕ ವ್ಯತ್ಯಾಸ ಪತ್ತೆ.</span>
+                            </div>
+                            <div class="alert-item med">
+                                <span class="alert-type">[NET-04]</span>
+                                <span class="alert-msg">Network cluster density increased by 14%. | ಜಾಲ ಸಾಂದ್ರತೆ ೧೪% ಹೆಚ್ಚಿದೆ.</span>
                             </div>
                         </div>
+                    </div>
+                </div>
 
-                        <div id="aiResult" class="terminal-output mt-20">Awaiting input...</div>
+                <!-- ─────────────────────────────────
+                     2. AI ASSISTANT — ಎಐ ಸಹಾಯಕ
+                     ───────────────────────────────── -->
+                <div id="assistantSection" class="section glass-panel" style="display:none;">
+                    <div class="section-header">
+                        <div class="section-header-row">
+                            <h2>🤖 AI INVESTIGATION ASSISTANT</h2>
+                            <div class="glitch-line"></div>
+                        </div>
+                        <span class="section-kn">ಎಐ ತನಿಖಾ ಸಹಾಯಕ · Artificial Intelligence Query Interface</span>
+                    </div>
+                    <div class="ai-layout">
+                        <div class="chat-container">
+                            <div class="chat-header">
+                                <div class="status-led online"></div>
+                                <span>KSP Intelligence AI · ಕೆಎಸ್‌ಪಿ ಗುಪ್ತಚರ ಎಐ — ONLINE</span>
+                            </div>
+                            <div class="chat-box custom-scrollbar" id="chatBox">
+                                <div class="chat-msg ai">
+                                    <span class="sender">KSP AI SYSTEM · ಕೆಎಸ್‌ಪಿ ಎಐ :</span>
+                                    <p>System initialized. Ready for querying FIRs and subject data. | ವ್ಯವಸ್ಥೆ ಸಿದ್ಧ. ಎಫ್‌ಐಆರ್ ಮತ್ತು ವ್ಯಕ್ತಿ ದತ್ತಾಂಶ ಪ್ರಶ್ನಿಸಲು ಸಿದ್ಧ.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cmd-interface">
+                            <div class="cyber-search" style="margin-bottom:0;">
+                                <span class="cmd-prefix">›</span>
+                                <input type="text" id="aiInput" class="cmd-input" placeholder="ಪ್ರಶ್ನೆ ನಮೂದಿಸಿ / Enter your query...">
+                            </div>
+                            <div class="cmd-actions">
+                                <button onclick="askAI()" class="btn-cyber btn-primary">Submit Query · ಪ್ರಶ್ನೆ ಸಲ್ಲಿಸಿ</button>
+                                <button onclick="startVoice()" class="btn-cyber" style="background:#1A56DB;">🎤 Voice · ಧ್ವನಿ</button>
+                                <button onclick="stopVoice()" class="btn-cyber btn-danger">🛑 Stop · ನಿಲ್ಲಿಸಿ</button>
+                                <button onclick="downloadPDF()" class="btn-cyber" style="background:#1E7E34;">📄 Export PDF</button>
+                            </div>
+                        </div>
+                        <div id="aiResult" class="terminal-output mt-20">ಇನ್‌ಪುಟ್ ನಿರೀಕ್ಷಿಸಲಾಗುತ್ತಿದೆ... / Awaiting input...</div>
                         <div id="aiOutput"></div>
                     </div>
                 </div>
-            </div>
 
-            <!-- 3. FIR SEARCH -->
-            <div id="firSection" class="section glass-panel" style="display:none;">
-                <div class="section-header">
-                    <h2>INVESTIGATION CENTER</h2>
-                    <div class="glitch-line"></div>
-                </div>
-
-                <div class="search-bar cyber-search">
-                    <div class="cmd-prefix">></div>
-                    <input type="text" id="firInput" placeholder="Enter FIR ID (e.g. FIR000007)..." class="cmd-input">
-                    <button onclick="searchFIR()" class="btn-cyber btn-primary">EXECUTE SEARCH</button>
-                </div>
-
-                <div class="results-panel" id="results">
-                    <div class="scan-overlay">AWAITING FIR DESIGNATION</div>
-                </div>
-
-                <div class="grid-2col mt-20">
-                    <div class="sub-panel">
-                        <h3 class="panel-title text-red">IDENTIFIED ACCUSED</h3>
-                        <div id="accusedList" class="custom-scrollbar" style="max-height: 400px; overflow-y: auto;">
-                            <div class="text-muted p-15">No accused loaded.</div>
+                <!-- ─────────────────────────────────
+                     3. FIR SEARCH — ಎಫ್‌ಐಆರ್ ಹುಡುಕಾಟ
+                     ───────────────────────────────── -->
+                <div id="firSection" class="section glass-panel" style="display:none;">
+                    <div class="section-header">
+                        <div class="section-header-row">
+                            <h2>🔍 FIR INVESTIGATION CENTER</h2>
+                            <div class="glitch-line"></div>
+                        </div>
+                        <span class="section-kn">ಎಫ್‌ಐಆರ್ ತನಿಖಾ ಕೇಂದ್ರ · First Information Report Search</span>
+                    </div>
+                    <div class="cyber-search">
+                        <span class="cmd-prefix">🔍</span>
+                        <input type="text" id="firInput" placeholder="ಎಫ್‌ಐಆರ್ ಸಂಖ್ಯೆ ನಮೂದಿಸಿ / Enter FIR ID (e.g. FIR000007)..." class="cmd-input">
+                        <button onclick="searchFIR()" class="btn-cyber btn-primary">ಹುಡುಕಾಟ / SEARCH</button>
+                    </div>
+                    <div class="results-panel" id="results" style="min-height:80px;">
+                        <div class="scan-overlay">ಎಫ್‌ಐಆರ್ ಸಂಖ್ಯೆ ನಮೂದಿಸಿ ಹುಡುಕಾಟ ಪ್ರಾರಂಭಿಸಿ / Enter FIR ID to begin search</div>
+                    </div>
+                    <div class="grid-2col mt-20">
+                        <div class="sub-panel">
+                            <h3 class="panel-title">⚠️ IDENTIFIED ACCUSED</h3>
+                            <span class="panel-title-kn">ಗುರುತಿಸಲಾದ ಆರೋಪಿಗಳು</span>
+                            <div id="accusedList" class="custom-scrollbar" style="max-height:380px;overflow-y:auto;">
+                                <p style="color:#777;font-size:13px;padding:10px 0;">ಯಾವುದೇ ಆರೋಪಿ ಲೋಡ್ ಆಗಿಲ್ಲ / No accused loaded.</p>
+                            </div>
+                        </div>
+                        <div class="sub-panel">
+                            <h3 class="panel-title">🩺 IDENTIFIED VICTIMS</h3>
+                            <span class="panel-title-kn">ಗುರುತಿಸಲಾದ ಸಂತ್ರಸ್ತರು</span>
+                            <div id="victimList" class="custom-scrollbar" style="max-height:380px;overflow-y:auto;">
+                                <p style="color:#777;font-size:13px;padding:10px 0;">ಯಾವುದೇ ಸಂತ್ರಸ್ತರು ಲೋಡ್ ಆಗಿಲ್ಲ / No victims loaded.</p>
+                            </div>
                         </div>
                     </div>
+                </div>
 
-                    <div class="sub-panel">
-                        <h3 class="panel-title text-cyan">IDENTIFIED VICTIMS</h3>
-                        <div id="victimList" class="custom-scrollbar" style="max-height: 400px; overflow-y: auto;">
-                            <div class="text-muted p-15">No victims loaded.</div>
+                <!-- ─────────────────────────────────
+                     4. CRIMINAL NETWORK — ಅಪರಾಧಿ ಜಾಲ
+                     ───────────────────────────────── -->
+                <div id="networkSection" class="section glass-panel" style="display:none;">
+                    <div class="section-header">
+                        <div class="section-header-row">
+                            <h2>🕸️ CRIMINAL NETWORK ANALYSIS</h2>
+                            <div class="glitch-line"></div>
+                        </div>
+                        <span class="section-kn">ಅಪರಾಧಿ ಜಾಲ ವಿಶ್ಲೇಷಣೆ · Relationship &amp; Gang Detection</span>
+                    </div>
+                    <div class="cyber-search">
+                        <span class="cmd-prefix">🔍</span>
+                        <input type="text" id="networkInput" placeholder="ವ್ಯಕ್ತಿ ಐಡಿ / Enter Subject ID (e.g. ACC00666)..." class="cmd-input">
+                        <button onclick="loadNetwork()" class="btn-cyber btn-primary">ಜಾಲ ಹುಡುಕಿ / TRACE</button>
+                    </div>
+                    <div class="grid-3col mb-20">
+                        <div class="kpi-card outline">
+                            <div class="kpi-title">Node Clustering</div>
+                            <span class="kpi-title-kn">ನೋಡ್ ಗುಂಪು</span>
+                            <div class="kpi-value" style="font-size:22px;color:#1E7E34;">● ACTIVE</div>
+                        </div>
+                        <div class="kpi-card outline">
+                            <div class="kpi-title">Relationship Explorer</div>
+                            <span class="kpi-title-kn">ಸಂಬಂಧ ಅನ್ವೇಷಕ</span>
+                            <div class="kpi-value" style="font-size:22px;color:#1A56DB;">● ENABLED</div>
+                        </div>
+                        <div class="kpi-card outline">
+                            <div class="kpi-title">Gang Detection</div>
+                            <span class="kpi-title-kn">ಗ್ಯಾಂಗ್ ಪತ್ತೆ</span>
+                            <div class="kpi-value" style="font-size:22px;color:#7B1113;">▲ HIGH</div>
+                        </div>
+                    </div>
+                    <div class="network-layout">
+                        <div class="network-sidebar custom-scrollbar">
+                            <h3 class="panel-title">Target Intelligence</h3>
+                            <span class="panel-title-kn">ಗುರಿ ಗುಪ್ತಚರ ಮಾಹಿತಿ</span>
+                            <div id="networkResult" style="font-size:13px;color:#777;">ಗುರಿ ಆಯ್ಕೆ ನಿರೀಕ್ಷಿಸಲಾಗುತ್ತಿದೆ / Awaiting target...</div>
+                        </div>
+                        <div class="network-view">
+                            <div id="networkGraph" class="graph-container"></div>
                         </div>
                     </div>
                 </div>
-            </div>
 
-            <!-- 4. CRIMINAL NETWORK -->
-            <div id="networkSection" class="section glass-panel" style="display:none;">
-                <div class="section-header">
-                    <h2>CRIMINAL NETWORK</h2>
-                    <div class="glitch-line"></div>
-                </div>
-
-                <div class="search-bar cyber-search mb-20">
-                    <div class="cmd-prefix">></div>
-                    <input type="text" id="networkInput" placeholder="Enter Subject ID (e.g. ACC00666)..." class="cmd-input">
-                    <button onclick="loadNetwork()" class="btn-cyber btn-primary">RUN TRACE</button>
-                </div>
-
-                <div class="grid-3col">
-                    <div class="kpi-card outline">
-                        <div class="kpi-title">Node Clustering</div>
-                        <div class="kpi-value text-cyan">ACTIVE</div>
+                <!-- ─────────────────────────────────
+                     5. CRIME ANALYTICS — ಅಪರಾಧ ವಿಶ್ಲೇಷಣೆ
+                     ───────────────────────────────── -->
+                <div id="analyticsSection" class="section glass-panel" style="display:none;">
+                    <div class="section-header">
+                        <div class="section-header-row">
+                            <h2>📈 CRIME ANALYTICS</h2>
+                            <div class="glitch-line"></div>
+                        </div>
+                        <span class="section-kn">ಅಪರಾಧ ವಿಶ್ಲೇಷಣೆ ಮತ್ತು ಅಂಕಿ-ಅಂಶ</span>
                     </div>
-                    <div class="kpi-card outline">
-                        <div class="kpi-title">Relationship Explorer</div>
-                        <div class="kpi-value text-cyan">ENABLED</div>
+                    <div class="kpi-grid mb-20">
+                        <div class="kpi-card outline">
+                            <div class="kpi-title">Open Investigations</div>
+                            <span class="kpi-title-kn">ತೆರೆದ ತನಿಖೆಗಳು</span>
+                            <div class="kpi-value" id="analyticsOpen">—</div>
+                        </div>
+                        <div class="kpi-card outline">
+                            <div class="kpi-title">Crime Cluster Status</div>
+                            <span class="kpi-title-kn">ಅಪರಾಧ ಗುಂಪು ಸ್ಥಿತಿ</span>
+                            <div class="kpi-value" style="color:#B45309;">ELEVATED</div>
+                        </div>
                     </div>
-                    <div class="kpi-card outline">
-                        <div class="kpi-title">Gang Detection</div>
-                        <div class="kpi-value text-red">HIGH</div>
+                    <div class="grid-2col mb-20">
+                        <div class="sub-panel">
+                            <h3 class="panel-title">Crime Distribution</h3>
+                            <span class="panel-title-kn">ಅಪರಾಧ ವಿತರಣೆ</span>
+                            <div class="chart-container"><canvas id="crimeChart"></canvas></div>
+                        </div>
+                        <div class="sub-panel">
+                            <h3 class="panel-title">District Hotspots</h3>
+                            <span class="panel-title-kn">ಜಿಲ್ಲಾ ಹಾಟ್‌ಸ್ಪಾಟ್‌ಗಳು</span>
+                            <div class="chart-container"><canvas id="districtHotspotChart"></canvas></div>
+                        </div>
                     </div>
-                </div>
-
-                <div class="network-layout mt-20">
-                    <div class="network-sidebar custom-scrollbar">
-                        <h3 class="panel-title">Target Intelligence</h3>
-                        <div id="networkResult">Awaiting target selection...</div>
-                    </div>
-                    <div class="network-view">
-                        <div id="networkGraph" class="graph-container"></div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- 5. CRIME ANALYTICS -->
-            <div id="analyticsSection" class="section glass-panel" style="display:none;">
-                <div class="section-header">
-                    <h2>CRIME ANALYTICS</h2>
-                    <div class="glitch-line"></div>
-                </div>
-                
-                <div class="kpi-grid mb-20">
-                    <div class="kpi-card outline">
-                        <div class="kpi-title">Open Investigations</div>
-                        <div class="kpi-value cyan-text" id="analyticsOpen">0</div>
-                    </div>
-                    <div class="kpi-card outline">
-                        <div class="kpi-title">Crime Cluster Status</div>
-                        <div class="kpi-value red-text">ELEVATED</div>
-                    </div>
-                </div>
-
-                <div class="grid-2col mb-20">
                     <div class="sub-panel">
-                        <h3 class="panel-title">Crime Distribution</h3>
+                        <h3 class="panel-title">Seasonal Crime Trend</h3>
+                        <span class="panel-title-kn">ಕಾಲೋಚಿತ ಅಪರಾಧ ಪ್ರವೃತ್ತಿ</span>
+                        <div class="chart-container"><canvas id="seasonalCrimeChart" height="100"></canvas></div>
+                    </div>
+                </div>
+
+                <!-- ─────────────────────────────────
+                     6. FINANCIAL ANALYSIS
+                     ───────────────────────────────── -->
+                <div id="financialSection" class="section glass-panel" style="display:none;">
+                    <div class="section-header">
+                        <div class="section-header-row">
+                            <h2>💰 FINANCIAL ANALYSIS</h2>
+                            <div class="glitch-line"></div>
+                        </div>
+                        <span class="section-kn">ಹಣಕಾಸು ವಿಶ್ಲೇಷಣೆ ಮತ್ತು ಲೆಕ್ಕ ಪರಿಶೋಧನೆ</span>
+                    </div>
+                    <div class="action-panel">
+                        <button onclick="loadFinancial()" class="btn-cyber btn-primary">🔍 INITIATE AUDIT · ಲೆಕ್ಕ ಪರಿಶೋಧನೆ</button>
+                    </div>
+                    <div id="financialGraph" class="sub-panel" style="min-height:400px;position:relative;">
+                        <h3 class="panel-title">Financial Transaction Network</h3>
+                        <span class="panel-title-kn">ಹಣಕಾಸು ವ್ಯವಹಾರ ಜಾಲ</span>
+                        <div class="scan-overlay">ಲೆಕ್ಕ ಪರಿಶೋಧನೆ ಆರಂಭಿಸಲು ಕ್ಲಿಕ್ ಮಾಡಿ / Click Initiate Audit to begin</div>
+                    </div>
+                </div>
+
+                <!-- ─────────────────────────────────
+                     7. BEHAVIORAL PROFILING
+                     ───────────────────────────────── -->
+                <div id="behaviorSection" class="section glass-panel" style="display:none;">
+                    <div class="section-header">
+                        <div class="section-header-row">
+                            <h2>🧠 BEHAVIORAL PROFILING</h2>
+                            <div class="glitch-line"></div>
+                        </div>
+                        <span class="section-kn">ನಡವಳಿಕೆ ಪ್ರೊಫೈಲಿಂಗ್ ಮತ್ತು ಮನೋವಿಜ್ಞಾನ ವಿಶ್ಲೇಷಣೆ</span>
+                    </div>
+                    <div class="action-panel">
+                        <button onclick="loadBehavior()" class="btn-cyber btn-primary">📊 GENERATE PROFILE · ಪ್ರೊಫೈಲ್ ರಚಿಸಿ</button>
+                    </div>
+                    <div id="behaviorPanel" class="sub-panel" style="min-height:400px;position:relative;">
+                        <h3 class="panel-title">Psychological &amp; Behavioral Analysis</h3>
+                        <span class="panel-title-kn">ಮನೋವೈಜ್ಞಾನಿಕ ಮತ್ತು ನಡವಳಿಕೆ ವಿಶ್ಲೇಷಣೆ</span>
+                        <div class="scan-overlay">ವ್ಯಕ್ತಿ ಐಡಿ ನಿರೀಕ್ಷಿಸಲಾಗುತ್ತಿದೆ / Awaiting Subject ID</div>
+                    </div>
+                </div>
+
+                <!-- ─────────────────────────────────
+                     8. EXPLAINABLE AI
+                     ───────────────────────────────── -->
+                <div id="explainableSection" class="section glass-panel" style="display:none;">
+                    <div class="section-header">
+                        <div class="section-header-row">
+                            <h2>💡 EXPLAINABLE AI</h2>
+                            <div class="glitch-line"></div>
+                        </div>
+                        <span class="section-kn">ವಿವರಣಾತ್ಮಕ ಕೃತಕ ಬುದ್ಧಿಮತ್ತೆ · AI Decision Transparency</span>
+                    </div>
+                    <div class="action-panel">
+                        <button onclick="loadExplainableAI()" class="btn-cyber btn-primary">🔬 TRACE AI DECISION · ಎಐ ನಿರ್ಧಾರ ಪತ್ತೆ</button>
+                    </div>
+                    <div id="explainableResult" class="sub-panel" style="min-height:400px;position:relative;">
+                        <h3 class="panel-title">Decision Trace Log</h3>
+                        <span class="panel-title-kn">ನಿರ್ಧಾರ ಹಾದಿ ಲಾಗ್</span>
+                        <div class="scan-overlay">ಪ್ರಶ್ನೆ ನಿರೀಕ್ಷಿಸಲಾಗುತ್ತಿದೆ / Awaiting Query</div>
+                    </div>
+                </div>
+
+                <!-- ─────────────────────────────────
+                     9. DECISION SUPPORT
+                     ───────────────────────────────── -->
+                <div id="decisionSection" class="section glass-panel" style="display:none;">
+                    <div class="section-header">
+                        <div class="section-header-row">
+                            <h2>⚖️ DECISION SUPPORT</h2>
+                            <div class="glitch-line"></div>
+                        </div>
+                        <span class="section-kn">ನಿರ್ಧಾರ ಬೆಂಬಲ ವ್ಯವಸ್ಥೆ · Strategic Decision Analysis</span>
+                    </div>
+                    <div class="action-panel">
+                        <button onclick="loadDecisionSupport()" class="btn-cyber btn-primary">📐 CALCULATE STRATEGY · ತಂತ್ರ ಲೆಕ್ಕ ಹಾಕಿ</button>
+                    </div>
+                    <div class="sub-panel" style="min-height:400px;position:relative;">
+                        <h3 class="panel-title">Strategy Simulation Matrix</h3>
+                        <span class="panel-title-kn">ತಂತ್ರ ಅನುಕರಣೆ ಮ್ಯಾಟ್ರಿಕ್ಸ್</span>
+                        <div class="scan-overlay">ಅನುಕರಣೆ ತಯಾರಿ / Simulation Standby</div>
+                    </div>
+                </div>
+
+                <!-- ─────────────────────────────────
+                     10. SOCIOLOGICAL INSIGHTS
+                     ───────────────────────────────── -->
+                <div id="sociologicalSection" class="section glass-panel" style="display:none;">
+                    <div class="section-header">
+                        <div class="section-header-row">
+                            <h2>👥 SOCIOLOGICAL INSIGHTS</h2>
+                            <div class="glitch-line"></div>
+                        </div>
+                        <span class="section-kn">ಸಾಮಾಜಿಕ ಒಳನೋಟ ಮತ್ತು ಜನಸಂಖ್ಯಾಶಾಸ್ತ್ರ</span>
+                    </div>
+                    <div class="action-panel">
+                        <button onclick="loadSociological()" class="btn-cyber btn-primary">📊 RUN DEMOGRAPHIC ANALYSIS · ಜನ ವಿಶ್ಲೇಷಣೆ</button>
+                    </div>
+                    <div class="sub-panel" style="min-height:400px;position:relative;">
+                        <h3 class="panel-title">Demographic Heat Map</h3>
+                        <span class="panel-title-kn">ಜನಸಂಖ್ಯಾ ಶಾಖ ನಕ್ಷೆ</span>
+                        <div class="scan-overlay">ದತ್ತಾಂಶ ಲಭ್ಯವಿಲ್ಲ / Data Unavailable</div>
+                    </div>
+                </div>
+
+                <!-- ─────────────────────────────────
+                     11. CRIME FORECASTING
+                     ───────────────────────────────── -->
+                <div id="forecastSection" class="section glass-panel" style="display:none;">
+                    <div class="section-header">
+                        <div class="section-header-row">
+                            <h2>🔮 CRIME FORECASTING</h2>
+                            <div class="glitch-line"></div>
+                        </div>
+                        <span class="section-kn">ಅಪರಾಧ ಮುನ್ಸೂಚನೆ ಮತ್ತು ಊಹಾತ್ಮಕ ವಿಶ್ಲೇಷಣೆ</span>
+                    </div>
+                    <div class="sub-panel mb-20">
+                        <h3 class="panel-title">Predictive Forecast Trend</h3>
+                        <span class="panel-title-kn">ಊಹಾತ್ಮಕ ಮುನ್ಸೂಚನೆ ಪ್ರವೃತ್ತಿ</span>
                         <div class="chart-container">
-                            <canvas id="crimeChart"></canvas>
+                            <canvas id="crimeForecastChart" height="100"></canvas>
                         </div>
+                    </div>
+                    <div id="forecastData" class="cards-grid" style="position:relative;min-height:60px;">
+                        <div class="scan-overlay">ಊಹಾತ್ಮಕ ಮಾದರಿಗಳನ್ನು ಲೆಕ್ಕ ಹಾಕಲಾಗುತ್ತಿದೆ / Calculating Predictive Models...</div>
+                    </div>
+                </div>
+
+                <!-- ─────────────────────────────────
+                     12. HIGH RISK ACCUSED
+                     ───────────────────────────────── -->
+                <div id="highRiskSection" class="section glass-panel" style="display:none;">
+                    <div class="section-header">
+                        <div class="section-header-row">
+                            <h2>⚠️ HIGH RISK ACCUSED REGISTRY</h2>
+                            <div class="glitch-line"></div>
+                        </div>
+                        <span class="section-kn">ಅಧಿಕ ಅಪಾಯದ ಆರೋಪಿಗಳ ನೋಂದಣಿ</span>
+                    </div>
+                    <div class="table-container custom-scrollbar" style="overflow-x:auto;">
+                        <table class="cyber-table">
+                            <thead>
+                                <tr>
+                                    <th>RANK <span class="th-kn">ಶ್ರೇಣಿ</span></th>
+                                    <th>TARGET ID <span class="th-kn">ಗುರಿ ಐಡಿ</span></th>
+                                    <th>FULL NAME <span class="th-kn">ಹೆಸರು</span></th>
+                                    <th>THREAT LEVEL <span class="th-kn">ಅಪಾಯ ಮಟ್ಟ</span></th>
+                                    <th>AGE <span class="th-kn">ವಯಸ್ಸು</span></th>
+                                    <th>GENDER <span class="th-kn">ಲಿಂಗ</span></th>
+                                </tr>
+                            </thead>
+                            <tbody id="riskBody">
+                                <!-- Populated by JS -->
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <!-- ─────────────────────────────────
+                     13. ALERTS CENTER
+                     ───────────────────────────────── -->
+                <div id="alertsSection" class="section glass-panel" style="display:none;">
+                    <div class="section-header">
+                        <div class="section-header-row">
+                            <h2>🚨 ALERTS CENTER</h2>
+                            <div class="glitch-line"></div>
+                        </div>
+                        <span class="section-kn">ಎಚ್ಚರಿಕೆ ಕೇಂದ್ರ ಮತ್ತು ಸೂಚನೆಗಳು</span>
                     </div>
                     <div class="sub-panel">
-                        <h3 class="panel-title">District Hotspots</h3>
-                        <div class="chart-container">
-                            <canvas id="districtHotspotChart"></canvas>
+                        <h3 class="panel-title">Active System Alerts</h3>
+                        <span class="panel-title-kn">ಸಕ್ರಿಯ ವ್ಯವಸ್ಥೆ ಎಚ್ಚರಿಕೆಗಳು</span>
+                        <div class="alert-item high">
+                            <span class="alert-time">09:42 AM</span>
+                            <span class="alert-type">[CRITICAL]</span>
+                            <span class="alert-msg">Anomalous financial clustering detected in Zone 4. | ವಲಯ ೪ ರಲ್ಲಿ ಆರ್ಥಿಕ ಗುಂಪು ಅಸ್ವಾಭಾವಿಕ.</span>
+                        </div>
+                        <div class="alert-item med">
+                            <span class="alert-time">08:15 AM</span>
+                            <span class="alert-type">[WARNING]</span>
+                            <span class="alert-msg">Network density increase for Subject ACC0042. | ವ್ಯಕ್ತಿ ACC0042 ರ ಜಾಲ ಸಾಂದ್ರತೆ ಹೆಚ್ಚಳ.</span>
+                        </div>
+                        <div class="alert-item high">
+                            <span class="alert-time">02:11 AM</span>
+                            <span class="alert-type">[CRITICAL]</span>
+                            <span class="alert-msg">High Risk subject ACC0100 sighted via CCTV-94. | ಸಿಸಿಟಿವಿ-೯೪ ಮೂಲಕ ಅಧಿಕ ಅಪಾಯದ ವ್ಯಕ್ತಿ ಪತ್ತೆ.</span>
                         </div>
                     </div>
                 </div>
-                <div class="sub-panel">
-                    <h3 class="panel-title">Seasonal Crime Trend</h3>
-                    <div class="chart-container">
-                        <canvas id="seasonalCrimeChart" height="100"></canvas>
+
+            </div><!-- end content-area -->
+
+            <!-- ─── OFFICIAL FOOTER ──────────────────── -->
+            <footer style="background:var(--maroon-dark);color:rgba(255,255,255,0.85);padding:20px 28px;margin-top:auto;">
+                <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:14px;">
+                    <div>
+                        <div style="font-weight:700;font-size:14px;margin-bottom:4px;">Karnataka State Police — KSP CICC</div>
+                        <div style="font-family:var(--font-kn);font-size:12px;color:var(--gold-nav);">ಕರ್ನಾಟಕ ರಾಜ್ಯ ಪೊಲೀಸ್ · ಅಪರಾಧ ಗುಪ್ತಚರ ಆಜ್ಞಾ ಕೇಂದ್ರ</div>
+                        <div style="font-size:11.5px;margin-top:6px;color:rgba(255,255,255,0.60);">© 2026 Government of Karnataka. All rights reserved.</div>
+                    </div>
+                    <div style="display:flex;gap:24px;font-size:12px;">
+                        <div style="text-align:center;">
+                            <div style="font-size:11px;opacity:0.65;margin-bottom:2px;">EMERGENCY</div>
+                            <div style="font-size:20px;font-weight:800;color:var(--gold-nav);">📞 112</div>
+                        </div>
+                        <div style="text-align:center;font-size:11px;color:rgba(255,255,255,0.55);">
+                            <div>NIC · National Informatics Centre</div>
+                            <div style="margin-top:3px;">Digital India Initiative</div>
+                        </div>
                     </div>
                 </div>
-            </div>
+                <div style="border-top:1px solid rgba(255,255,255,0.12);margin-top:14px;padding-top:10px;font-size:11px;color:rgba(255,255,255,0.45);display:flex;gap:20px;flex-wrap:wrap;">
+                    <span>Disclaimer</span><span>Privacy Policy</span><span>Terms of Use</span>
+                    <span>Accessibility Statement</span><span>Contact Us</span>
+                    <span style="margin-left:auto;">Website maintained by NIC Karnataka</span>
+                </div>
+            </footer>
 
-            <!-- 6. FINANCIAL ANALYSIS -->
-            <div id="financialSection" class="section glass-panel" style="display:none;">
-                <div class="section-header">
-                    <h2>FINANCIAL ANALYSIS</h2>
-                    <div class="glitch-line"></div>
-                </div>
-                <div class="action-panel mb-20">
-                    <button onclick="loadFinancial()" class="btn-cyber btn-primary">INITIATE AUDIT</button>
-                </div>
-                <div id="financialGraph" class="sub-panel" style="min-height: 400px;">
-                    <div class="scan-overlay">AWAITING AUDIT INITIATION</div>
-                </div>
-            </div>
-
-            <!-- 7. BEHAVIORAL PROFILING -->
-            <div id="behaviorSection" class="section glass-panel" style="display:none;">
-                <div class="section-header">
-                    <h2>BEHAVIORAL PROFILING</h2>
-                    <div class="glitch-line"></div>
-                </div>
-                <div class="action-panel mb-20">
-                    <button onclick="loadBehavior()" class="btn-cyber btn-primary">GENERATE PROFILE</button>
-                </div>
-                <div id="behaviorPanel" class="sub-panel" style="min-height: 400px;">
-                    <div class="scan-overlay">AWAITING SUBJECT ID</div>
-                </div>
-            </div>
-
-            <!-- 8. EXPLAINABLE AI -->
-            <div id="explainableSection" class="section glass-panel" style="display:none;">
-                <div class="section-header">
-                    <h2>EXPLAINABLE AI</h2>
-                    <div class="glitch-line"></div>
-                </div>
-                <div class="action-panel mb-20">
-                    <button onclick="loadExplainableAI()" class="btn-cyber btn-primary">TRACE AI DECISION</button>
-                </div>
-                <div id="explainableResult" class="sub-panel" style="min-height: 400px;">
-                    <div class="scan-overlay">AWAITING QUERY</div>
-                </div>
-            </div>
-
-            <!-- 9. DECISION SUPPORT -->
-            <div id="decisionSection" class="section glass-panel" style="display:none;">
-                <div class="section-header">
-                    <h2>DECISION SUPPORT</h2>
-                    <div class="glitch-line"></div>
-                </div>
-                <div class="action-panel mb-20">
-                    <button onclick="loadDecisionSupport()" class="btn-cyber btn-primary">CALCULATE STRATEGY</button>
-                </div>
-                <div class="matrix-bg sub-panel" style="min-height: 400px;">
-                    <div class="scan-overlay">SIMULATION STANDBY</div>
-                </div>
-            </div>
-
-            <!-- 10. SOCIOLOGICAL INSIGHTS -->
-            <div id="sociologicalSection" class="section glass-panel" style="display:none;">
-                <div class="section-header">
-                    <h2>SOCIOLOGICAL INSIGHTS</h2>
-                    <div class="glitch-line"></div>
-                </div>
-                <div class="action-panel mb-20">
-                    <button onclick="loadSociological()" class="btn-cyber btn-primary">RUN DEMOGRAPHIC ANALYSIS</button>
-                </div>
-                <div class="heat-map-container sub-panel" style="min-height: 400px;">
-                    <div class="scan-overlay">DATA UNAVAILABLE</div>
-                </div>
-            </div>
-
-            <!-- 11. CRIME FORECASTING -->
-            <div id="forecastSection" class="section glass-panel" style="display:none;">
-                <div class="section-header">
-                    <h2>CRIME FORECASTING</h2>
-                    <div class="glitch-line"></div>
-                </div>
-                
-                <div class="sub-panel mb-20">
-                    <h3 class="panel-title">Forecast Trend</h3>
-                    <div class="chart-container">
-                        <canvas id="crimeForecastChart" height="100"></canvas>
-                    </div>
-                </div>
-
-                <div id="forecastData" class="cards-grid">
-                    <div class="scan-overlay">CALCULATING PREDICTIVE MODELS...</div>
-                </div>
-            </div>
-
-            <!-- 12. HIGH RISK ACCUSED -->
-            <div id="highRiskSection" class="section glass-panel" style="display:none;">
-                <div class="section-header">
-                    <h2>HIGH RISK ACCUSED</h2>
-                    <div class="glitch-line"></div>
-                </div>
-
-                <div class="table-container custom-scrollbar">
-                    <table class="cyber-table">
-                        <thead>
-                            <tr>
-                                <th>RANK</th>
-                                <th>TARGET ID</th>
-                                <th>DESIGNATION</th>
-                                <th>THREAT LEVEL</th>
-                                <th>AGE</th>
-                                <th>GENDER</th>
-                            </tr>
-                        </thead>
-                        <tbody id="riskBody">
-                            <!-- Populated by JS -->
-                        </tbody>
-                    </table>
-                </div>
-            </div>
-
-            <!-- 13. ALERTS CENTER -->
-            <div id="alertsSection" class="section glass-panel" style="display:none;">
-                <div class="section-header">
-                    <h2>ALERTS CENTER</h2>
-                    <div class="glitch-line"></div>
-                </div>
-                <div class="sub-panel">
-                    <div class="alert-item high">
-                        <span class="alert-time">09:42 AM</span>
-                        <span class="alert-type">[CRITICAL]</span>
-                        <span class="alert-msg">Anomalous financial clustering detected in Zone 4.</span>
-                    </div>
-                    <div class="alert-item med">
-                        <span class="alert-time">08:15 AM</span>
-                        <span class="alert-type">[WARNING]</span>
-                        <span class="alert-msg">Network density increase for Subject ACC0042.</span>
-                    </div>
-                    <div class="alert-item high">
-                        <span class="alert-time">02:11 AM</span>
-                        <span class="alert-type">[CRITICAL]</span>
-                        <span class="alert-msg">High Risk subject ACC0100 sighted via CCTV-94.</span>
-                    </div>
-                </div>
-            </div>
-
-        </div> <!-- End content-area -->
-    </div> <!-- End main -->
+        </main>
+    </div><!-- end page-wrapper -->
 
     <script src="main.js"></script>
     <script>
-        // Update sidebar active state
-        const originalShowSection = window.showSection;
+        /* ── SECTION METADATA ─────────────────────────── */
+        const sectionNames = {
+            dashboardSection:     { en: 'Dashboard',             kn: 'ಡ್ಯಾಶ್‌ಬೋರ್ಡ್' },
+            assistantSection:     { en: 'AI Assistant',          kn: 'ಎಐ ಸಹಾಯಕ' },
+            firSection:           { en: 'FIR Search',            kn: 'ಎಫ್‌ಐಆರ್ ಹುಡುಕಾಟ' },
+            networkSection:       { en: 'Criminal Network',      kn: 'ಅಪರಾಧಿ ಜಾಲ' },
+            analyticsSection:     { en: 'Crime Analytics',       kn: 'ಅಪರಾಧ ವಿಶ್ಲೇಷಣೆ' },
+            financialSection:     { en: 'Financial Analysis',    kn: 'ಹಣಕಾಸು ವಿಶ್ಲೇಷಣೆ' },
+            behaviorSection:      { en: 'Behavioral Profiling',  kn: 'ನಡವಳಿಕೆ ಪ್ರೊಫೈಲಿಂಗ್' },
+            explainableSection:   { en: 'Explainable AI',        kn: 'ವಿವರಣಾತ್ಮಕ ಎಐ' },
+            decisionSection:      { en: 'Decision Support',      kn: 'ನಿರ್ಧಾರ ಬೆಂಬಲ' },
+            sociologicalSection:  { en: 'Sociological Insights', kn: 'ಸಾಮಾಜಿಕ ಒಳನೋಟ' },
+            forecastSection:      { en: 'Crime Forecasting',     kn: 'ಅಪರಾಧ ಮುನ್ಸೂಚನೆ' },
+            highRiskSection:      { en: 'High Risk Accused',     kn: 'ಅಧಿಕ ಅಪಾಯದ ಆರೋಪಿ' },
+            alertsSection:        { en: 'Alerts Center',         kn: 'ಎಚ್ಚರಿಕೆ ಕೇಂದ್ರ' },
+        };
+
+        /* ── navGo: called by top gold nav bar ────────── */
+        function navGo(sectionId, clickedEl) {
+            // Clear active on all top-nav links
+            document.querySelectorAll('#topNav a').forEach(a => a.classList.remove('active'));
+            // Mark this link active
+            if (clickedEl) clickedEl.classList.add('active');
+            // Navigate (showSection handles sections + sidebar)
+            showSection(sectionId);
+        }
+
+        /* ── Wrap showSection from main.js ────────────── */
+        const _origShowSection = window.showSection;
         window.showSection = function(sectionId) {
-            if(originalShowSection) originalShowSection(sectionId);
+            // 1. Run original (shows/hides .section divs)
+            if (_origShowSection) _origShowSection(sectionId);
+
+            // 2. Sync sidebar active item
             document.querySelectorAll('.nav-menu li').forEach(li => {
                 li.classList.remove('active');
-                if(li.getAttribute('onclick').includes(sectionId)) {
-                    li.classList.add('active');
-                }
+                const oc = li.getAttribute('onclick') || '';
+                if (oc.includes(sectionId)) li.classList.add('active');
             });
-        }
+
+            // 3. Sync top-nav active item
+            document.querySelectorAll('#topNav a').forEach(a => {
+                a.classList.remove('active');
+                const oc = a.getAttribute('onclick') || '';
+                if (oc.includes(sectionId)) a.classList.add('active');
+            });
+
+            // 4. Update breadcrumb
+            const bc = document.getElementById('breadcrumb-current');
+            if (bc && sectionNames[sectionId]) {
+                const s = sectionNames[sectionId];
+                bc.textContent = s.kn + ' / ' + s.en;
+            }
+        };
     </script>
 </body>
 </html>
