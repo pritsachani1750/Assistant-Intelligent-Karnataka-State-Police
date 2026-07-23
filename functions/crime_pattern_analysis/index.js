@@ -192,17 +192,36 @@ module.exports = async (req, res) => {
 			seasonal_patterns: monthlyCrime,
 			crime_clusters: clusters
 		};
-
 		const prompt = `
-KSP-CICC AI CORE
+Generate a Karnataka State Police Crime Intelligence Report.
 
-Analyze the following police intelligence data.
+Statistics:
 
-DATA TO ANALYZE:
+Total Cases: ${firs.length}
 
-${JSON.stringify(data, null, 2)}
+Crime Types:
+${JSON.stringify(crimeType)}
 
-Generate a KSP intelligence report using the required format.
+Top Hotspots:
+${JSON.stringify(hotspots)}
+
+Top Crime Clusters:
+${JSON.stringify(clusters)}
+
+Seasonal Trend:
+${JSON.stringify(monthlyCrime)}
+
+Provide:
+
+1. Executive Summary
+
+2. Crime Trends
+
+3. Hotspots
+
+4. Risk Assessment
+
+5. Recommendations
 `;
 
 		console.log("PROMPT:");
@@ -214,62 +233,30 @@ Generate a KSP intelligence report using the required format.
 		const accessToken =
 			await getAccessToken();
 
+		let glmReport = "AI report unavailable.";
+		let usage = {};
+		let model = "";
 
-		const glm =
-			await axios.post(
+		try {
 
-				'https://api.catalyst.zoho.in/quickml/v1/project/43167000000013025/glm/chat',
-
-				{
-
-					model:
-						'crm-di-glm47b_30b_it',
-
-					messages: [
-
-						{
-							role: 'system',
-
-							content:
-								'You are a crime intelligence analyst.'
-						},
-
-						{
-							role: 'user',
-
-							content: prompt
-						}
-
-					],
-
-					max_tokens: 1200,
-
-					temperature: 0.3,
-
-					stream: false,
-
-					chat_template_kwargs: {
-						enable_thinking: false
-					}
-
-				},
-
-				{
-
-					headers: {
-
-						'Content-Type':
-							'application/json',
-
-						'CATALYST-ORG':
-							'60073047935',
-
-						'Authorization':
-							`Zoho-oauthtoken ${accessToken}`
-					}
-
-				}
+			const glm = await axios.post(
+				// your existing axios.post(...)
 			);
+
+			glmReport = glm.data.response;
+			usage = glm.data.usage;
+			model = glm.data.model;
+
+		} catch (err) {
+
+			console.log("GLM ERROR");
+			console.log(err.response?.status);
+			console.log(err.response?.data);
+
+			glmReport =
+				"AI report is temporarily unavailable. Crime statistics are still displayed.";
+
+		}
 
 
 		// =====================================
@@ -300,14 +287,11 @@ Generate a KSP intelligence report using the required format.
 				crime_risk:
 					risk,
 
-				glm_report:
-					glm.data.response,
+				glm_report: glmReport,
 
-				usage:
-					glm.data.usage,
+				usage: usage,
 
-				model:
-					glm.data.model
+				model: model
 
 			},
 				null,
@@ -317,7 +301,13 @@ Generate a KSP intelligence report using the required format.
 	}
 	catch (err) {
 
-		console.log(err);
+		console.log("GLM ERROR");
+
+		console.log(err.response?.status);
+
+		console.log(err.response?.data);
+
+		console.log(err.message);
 
 		res.end(
 

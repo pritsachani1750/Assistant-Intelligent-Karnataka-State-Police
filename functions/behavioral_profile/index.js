@@ -356,22 +356,72 @@ module.exports = async (req, res) => {
 			person: person,
 			profile: profile,
 			fir_history_count: firHistory.length,
-			vehicles: vehicles,
-			phones: phones
+			vehicles:
+
+				vehicles.map(v => ({
+
+					id: v.Vehicle.Vehicle_ID,
+
+					model: v.Vehicle.Make_Model
+
+				})),
+
+			phones:
+
+				phones.map(p => ({
+
+					phone: p.Phone.Phone_Number
+
+				}))
 		};
 
 		const prompt = `
-KSP-CICC AI CORE
+Behavioural Profile
 
-Analyze the following police intelligence data.
+Name:
+${person.Full_Name}
 
-DATA TO ANALYZE:
+Age:
+${person.Age}
 
-${JSON.stringify(data, null, 2)}
+Risk Score:
+${person.Risk_Score}
 
-Generate a KSP intelligence report using the required format.
+Previous FIRs:
+${firHistory.length}
+
+Vehicles:
+${vehicles.length}
+
+Phones:
+${phones.length}
+
+Profile
+
+Criminal Type:
+${criminalType}
+
+Behaviour:
+${behavior}
+
+Violence:
+${violenceRisk}
+
+Threat:
+${threat}
+
+Generate
+
+1 Executive Summary
+
+2 Behaviour Analysis
+
+3 Threat Assessment
+
+4 Investigation Recommendations
+
+Maximum 350 words.
 `;
-
 		console.log("PROMPT:");
 		console.log(prompt);
 
@@ -383,80 +433,90 @@ Generate a KSP intelligence report using the required format.
 		// QUICKML
 		// ======================================
 
-		const accessToken =
-			await getAccessToken();
+		let glmReport = "AI report unavailable.";
+		let usage = {};
+		let model = "";
 
-		console.log(
-			'ACCESS TOKEN'
-		);
+		try {
 
-		console.log(
-			accessToken
-		);
+			const accessToken =
+				await getAccessToken();
 
-		const glm =
-			await axios.post(
 
-				'https://api.catalyst.zoho.in/quickml/v1/project/43167000000013025/glm/chat',
+			const glm =
+				await axios.post(
 
-				{
+					'https://api.catalyst.zoho.in/quickml/v1/project/43167000000013025/glm/chat',
 
-					model:
-						'crm-di-glm47b_30b_it',
+					{
 
-					messages: [
+						model:
+							'crm-di-glm47b_30b_it',
 
-						{
-							role:
-								'system',
+						messages: [
 
-							content:
-								'You are a Karnataka State Police criminology expert.'
-						},
+							{
+								role:
+									'system',
 
-						{
-							role:
-								'user',
+								content:
+									'You are a Karnataka State Police criminology expert.'
+							},
 
-							content:
-								prompt
+							{
+								role:
+									'user',
+
+								content:
+									prompt
+							}
+
+						],
+
+						max_tokens:
+							500,
+
+						temperature:
+							0.1,
+
+						stream:
+							false,
+
+						chat_template_kwargs: {
+
+							enable_thinking:
+								false
 						}
+					},
 
-					],
+					{
 
-					max_tokens:
-						1000,
+						headers: {
 
-					temperature:
-						0.3,
+							'Content-Type':
+								'application/json',
 
-					stream:
-						false,
+							'CATALYST-ORG':
+								'60073047935',
 
-					chat_template_kwargs: {
-
-						enable_thinking:
-							false
+							'Authorization':
+								`Zoho-oauthtoken ${accessToken}`
+						}
 					}
-				},
+				);
 
-				{
+			glmReport = glm.data.response;
+			usage = glm.data.usage;
+			model = glm.data.model;
 
-					headers: {
+		}
+		catch (err) {
 
-						'Content-Type':
-							'application/json',
+			console.log("Behavioral GLM Error");
+			console.log(err.response?.status);
+			console.log(err.response?.data);
 
-						'CATALYST-ORG':
-							'60073047935',
-
-						'Authorization':
-							`Zoho-oauthtoken ${accessToken}`
-					}
-				}
-			);
-
-
+		}
 		// ======================================
 		// RESPONSE
 		// ======================================
@@ -487,15 +547,14 @@ Generate a KSP intelligence report using the required format.
 				vehicles,
 
 				phones,
-
 				glm_report:
-					glm.data.response,
+					glmReport,
 
 				usage:
-					glm.data.usage,
+					usage,
 
 				model:
-					glm.data.model
+					model
 
 			},
 				null,

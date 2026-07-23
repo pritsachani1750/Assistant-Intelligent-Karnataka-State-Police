@@ -23,7 +23,8 @@
       "behavioral_profile",
       "financial_analysis",
       "crime_pattern_analysis",
-      "sociological_insights"
+      "sociological_insights",
+      "crime_map"
     ],
     "ignore": [
       ".output"

@@ -1,5 +1,18 @@
 let chatHistory = [];
+let currentLanguage = "en";
+const languageSelect = document.getElementById("languageSelect");
 
+if (languageSelect) {
+
+    languageSelect.addEventListener("change", function () {
+
+        currentLanguage = this.value;
+
+        console.log("Language Changed:", currentLanguage);
+
+    });
+
+}
 // =====================================
 // SHOW SECTION
 // =====================================
@@ -9,7 +22,7 @@ function showSection(sectionId) {
         section.style.display = "none";
     });
     const section = document.getElementById(sectionId);
-    if(section) section.style.display = "block";
+    if (section) section.style.display = "block";
 }
 
 // =====================================
@@ -39,7 +52,7 @@ async function loadDashboard() {
 
 function initDashboardCharts() {
     const trendCtx = document.getElementById('crimeTrendChart');
-    if(trendCtx && !window.trendChartInst) {
+    if (trendCtx && !window.trendChartInst) {
         window.trendChartInst = new Chart(trendCtx, {
             type: 'line',
             data: {
@@ -59,7 +72,7 @@ function initDashboardCharts() {
     }
 
     const hotCtx = document.getElementById('hotspotTrendChart');
-    if(hotCtx && !window.hotChartInst) {
+    if (hotCtx && !window.hotChartInst) {
         window.hotChartInst = new Chart(hotCtx, {
             type: 'bar',
             data: {
@@ -95,17 +108,17 @@ async function searchFIR() {
 
         const fir = data.data[0].FIR;
         document.getElementById("results").innerHTML = `
-            <div class="card" style="border-left: 3px solid var(--cyan)">
-                <h2>FIR SUMMARY: ${fir.FIR_ID}</h2>
-                <div class="grid-2col mt-20">
-                    <p><span>Crime Type:</span> ${fir.Crime_Type}</p>
-                    <p><span>Status:</span> <b class="text-red">${fir.Status}</b></p>
-                    <p><span>District:</span> ${fir.District}</p>
-                    <p><span>Police Station:</span> ${fir.Police_Station}</p>
-                    <p><span>Date:</span> ${fir.FIR_Date}</p>
-                </div>
-            </div>
-        `;
+                    <div class="card" style="border-left: 3px solid var(--cyan)">
+                        <h2>FIR SUMMARY: ${fir.FIR_ID}</h2>
+                        <div class="grid-2col mt-20">
+                            <p><span>Crime Type:</span> ${fir.Crime_Type}</p>
+                            <p><span>Status:</span> <b class="text-red">${fir.Status}</b></p>
+                            <p><span>District:</span> ${fir.District}</p>
+                            <p><span>Police Station:</span> ${fir.Police_Station}</p>
+                            <p><span>Date:</span> ${fir.FIR_Date}</p>
+                        </div>
+                    </div>
+                `;
 
         // ACCUSED
         const accusedResponse = await fetch(`/server/fir_accused_api?FIR_ID=${firId}`);
@@ -114,14 +127,14 @@ async function searchFIR() {
         if (accusedData.success) {
             accusedData.data.forEach(accused => {
                 accusedHtml += `
-                <div class="card">
-                    <h3 class="text-red">${accused.Full_Name}</h3>
-                    <p><span>ID:</span> ${accused.Person_ID}</p>
-                    <p><span>Risk Score:</span> <strong class="text-red">${accused.Risk_Score}</strong></p>
-                    <p><span>Age/Gender:</span> ${accused.Age} / ${accused.Gender}</p>
-                    <p><span>Address:</span> ${accused.Address}</p>
-                </div>
-                `;
+                        <div class="card">
+                            <h3 class="text-red">${accused.Full_Name}</h3>
+                            <p><span>ID:</span> ${accused.Person_ID}</p>
+                            <p><span>Risk Score:</span> <strong class="text-red">${accused.Risk_Score}</strong></p>
+                            <p><span>Age/Gender:</span> ${accused.Age} / ${accused.Gender}</p>
+                            <p><span>Address:</span> ${accused.Address}</p>
+                        </div>
+                        `;
             });
         }
         document.getElementById("accusedList").innerHTML = accusedHtml || "<div class='text-muted p-15'>No Accused Found</div>";
@@ -133,13 +146,13 @@ async function searchFIR() {
         if (victimData.success) {
             victimData.data.forEach(victim => {
                 victimHtml += `
-                <div class="card">
-                    <h3 class="text-cyan">${victim.Full_Name}</h3>
-                    <p><span>ID:</span> ${victim.Person_ID}</p>
-                    <p><span>Age/Gender:</span> ${victim.Age} / ${victim.Gender}</p>
-                    <p><span>Address:</span> ${victim.Address}</p>
-                </div>
-                `;
+                        <div class="card">
+                            <h3 class="text-cyan">${victim.Full_Name}</h3>
+                            <p><span>ID:</span> ${victim.Person_ID}</p>
+                            <p><span>Age/Gender:</span> ${victim.Age} / ${victim.Gender}</p>
+                            <p><span>Address:</span> ${victim.Address}</p>
+                        </div>
+                        `;
             });
         }
         document.getElementById("victimList").innerHTML = victimHtml || "<div class='text-muted p-15'>No Victims Found</div>";
@@ -158,15 +171,15 @@ async function loadHighRisk() {
         let html = "";
         data.data.forEach((accused, index) => {
             html += `
-            <tr>
-                <td><strong class="text-red">#${index + 1}</strong></td>
-                <td class="mono-text">${accused.Person_ID}</td>
-                <td class="text-cyan">${accused.Full_Name}</td>
-                <td><strong class="text-red">${accused.Risk_Score}</strong></td>
-                <td>${accused.Age}</td>
-                <td>${accused.Gender}</td>
-            </tr>
-            `;
+                    <tr>
+                        <td><strong class="text-red">#${index + 1}</strong></td>
+                        <td class="mono-text">${accused.Person_ID}</td>
+                        <td class="text-cyan">${accused.Full_Name}</td>
+                        <td><strong class="text-red">${accused.Risk_Score}</strong></td>
+                        <td>${accused.Age}</td>
+                        <td>${accused.Gender}</td>
+                    </tr>
+                    `;
         });
         document.getElementById("riskBody").innerHTML = html;
     } catch (err) { console.log(err); }
@@ -179,19 +192,19 @@ async function loadForecast() {
         let html = "";
         data.alerts.forEach(alert => {
             html += `
-            <div class="card" style="border-left: 3px solid #f59e0b;">
-                <h3>⚠️ ${alert.crime}</h3>
-                <p><span>Region:</span> ${alert.region}</p>
-                <p><span>Risk Score:</span> <strong class="text-red">${alert.score}</strong></p>
-                <p><span>Forecast Date:</span> ${alert.date}</p>
-            </div>
-            `;
+                    <div class="card" style="border-left: 3px solid #f59e0b;">
+                        <h3>⚠️ ${alert.crime}</h3>
+                        <p><span>Region:</span> ${alert.region}</p>
+                        <p><span>Risk Score:</span> <strong class="text-red">${alert.score}</strong></p>
+                        <p><span>Forecast Date:</span> ${alert.date}</p>
+                    </div>
+                    `;
         });
         document.getElementById("forecastData").innerHTML = html;
-        
+
         // Init chart
         const fCtx = document.getElementById('crimeForecastChart');
-        if(fCtx && !window.fChartInst) {
+        if (fCtx && !window.fChartInst) {
             window.fChartInst = new Chart(fCtx, {
                 type: 'line',
                 data: {
@@ -222,24 +235,31 @@ async function askAI() {
     if (!question) return;
 
     result.innerHTML = "Processing neural query...";
-    
+
     // Add user message to UI
     chatBox.innerHTML += `
-        <div class="chat-msg">
-            <span class="sender text-cyan">OPERATOR:</span>
-            <p>${question}</p>
-        </div>
-    `;
+                <div class="chat-msg">
+                    <span class="sender text-cyan">OPERATOR:</span>
+                    <p>${question}</p>
+                </div>
+            `;
     input.value = "";
     chatBox.scrollTop = chatBox.scrollHeight;
 
     try {
-        const response = await fetch(`/server/ai_chat_api?message=${encodeURIComponent(question)}`);
+        const response = await fetch(
+            `/server/ai_chat_api?message=${encodeURIComponent(question)}&language=${currentLanguage}`
+        );
         const data = await response.json();
-        
+
+        const aiText =
+            data.answer ||
+            data.report ||
+            "No response received.";
+
         chatHistory.push({
-            question: data.question,
-            answer: data.answer,
+            question: question,
+            answer: aiText,
             time: new Date().toLocaleString()
         });
 
@@ -248,11 +268,11 @@ async function askAI() {
         chatBox.innerHTML += `
             <div class="chat-msg ai">
                 <span class="sender text-cyan">KSP AI:</span>
-                <p>${data.answer.replace(/\n/g, '<br>')}</p>
+                <p>${aiText.replace(/\n/g, "<br>")}</p>
             </div>
         `;
         chatBox.scrollTop = chatBox.scrollHeight;
-        speakText(data.answer);
+        speakText(aiText);
     } catch (err) {
         console.log(err);
         result.innerHTML = "<span class='text-red'>AI CORE ERROR</span>";
@@ -264,11 +284,11 @@ async function loadAIReport() {
     const response = await fetch(`/server/intelligence_llm?FIR_ID=${fir}`);
     const data = await response.json();
     document.getElementById('aiOutput').innerHTML = `
-        <div class="intel-report-box mt-20">
-            <h2>🚨 AI INVESTIGATION REPORT</h2>
-            <pre>${data.ai_report}</pre>
-        </div>
-    `;
+                <div class="intel-report-box mt-20">
+                    <h2>🚨 AI INVESTIGATION REPORT</h2>
+                    <pre>${data.ai_report}</pre>
+                </div>
+            `;
 }
 
 async function loadExplainableAI() {
@@ -280,40 +300,91 @@ async function loadExplainableAI() {
         const data = await response.json();
 
         let html = `
-            <div class="grid-2col">
-                <div class="card flex-center">
-                    <h2>RISK SCORE</h2>
-                    <div class="gauge-container mb-20 mt-20">
-                        <div class="gauge-circle" style="background: conic-gradient(var(--red) ${data.explainable_ai.risk_score}%, rgba(255,42,85,0.1) 0);"></div>
-                        <div class="gauge-inner"><span class="gauge-value text-red">${data.explainable_ai.risk_score}</span></div>
-                    </div>
-                </div>
-                <div class="card flex-center">
-                    <h2>CONFIDENCE</h2>
-                    <h1 class="text-cyan">${data.explainable_ai.confidence}%</h1>
-                    <p class="text-muted">Neural Network Confidence Metric</p>
-                </div>
+
+<div class="grid-2col mb-20">
+
+    <div class="card flex-center">
+        <h2>RISK SCORE</h2>
+        <div class="gauge-container mt-20">
+            <div class="gauge-circle"
+                 style="background:conic-gradient(#ff2a55 ${data.explainable_ai.risk_score}%, rgba(255,42,85,.15) 0);">
             </div>
-            <div class="card mt-20">
-                <h2>EVIDENCE FACTORS</h2>
-        `;
-        data.explainable_ai.evidence.forEach(e => {
+
+            <div class="gauge-inner">
+                <span class="gauge-value">
+                    ${data.explainable_ai.risk_score}
+                </span>
+            </div>
+        </div>
+    </div>
+
+    <div class="card flex-center">
+
+        <h2>CONFIDENCE</h2>
+
+        <h1 class="text-cyan">
+            ${data.explainable_ai.confidence}%
+        </h1>
+
+        <p>Neural Network Confidence Metric</p>
+
+    </div>
+
+</div>
+
+<div class="card">
+
+<h2>EVIDENCE FACTORS</h2>
+`; data.explainable_ai.evidence.forEach(e => {
+
             html += `
-                <div class="alert-item med mt-20">
-                    <span class="alert-type">[+${e.score}]</span>
-                    <span class="alert-msg"><b>${e.factor}</b> - ${e.reason}</span>
-                </div>
-            `;
-        });
-        html += `
-            </div>
-            <div class="card mt-20" style="border-color: var(--cyan)">
-                <h2>RECOMMENDATION</h2>
-                <p class="text-primary" style="font-size: 16px;">${data.explainable_ai.recommendation}</p>
-            </div>
-        `;
+        <div class="alert-item med mt-20">
+
+            <span class="alert-type">
+                [+${e.score}]
+            </span>
+
+            <span class="alert-msg">
+                <b>${e.factor}</b> - ${e.reason}
+            </span>
+
+        </div>
+    `;
+
+        }); html += `
+
+</div>
+
+<div class="card mt-20">
+
+    <h2>AI DECISION EXPLANATION</h2>
+
+   <div class="intel-report-box">
+    <pre>${data.explainable_ai.ai_explanation}</pre>
+</div>
+
+</div>
+
+<div class="card mt-20" style="border-color:var(--cyan)">
+
+    <h2>RECOMMENDATION</h2>
+
+  <p class="${data.explainable_ai.recommendation.includes('HIGH')
+                ? 'text-red'
+                : data.explainable_ai.recommendation.includes('MEDIUM')
+                    ? 'text-yellow'
+                    : 'text-green'}"
+style="font-size:18px;font-weight:bold;">
+
+        ${data.explainable_ai.recommendation}
+
+    </p>
+
+</div>
+
+`;
         document.getElementById('explainableResult').innerHTML = html;
-    } catch(err) { console.log(err); }
+    } catch (err) { console.log(err); }
 }
 
 // =====================================
@@ -327,9 +398,12 @@ function startVoice() {
         return;
     }
     if (recognition) recognition.stop();
-    
+
     recognition = new webkitSpeechRecognition();
-    recognition.lang = "en-IN";
+    recognition.lang =
+        currentLanguage === "kn"
+            ? "kn-IN"
+            : "en-IN";
     recognition.continuous = false;
     recognition.interimResults = false;
     recognition.maxAlternatives = 1;
@@ -358,7 +432,10 @@ function stopVoice() {
 function speakText(text) {
     window.speechSynthesis.cancel();
     const speech = new SpeechSynthesisUtterance(text);
-    speech.lang = "en-IN";
+    speech.lang =
+        currentLanguage === "kn"
+            ? "kn-IN"
+            : "en-IN";
     speech.rate = 1;
     speech.pitch = 1;
     speech.volume = 1;
@@ -381,32 +458,32 @@ async function loadNetwork() {
         if (data.accused && data.accused.length > 0) {
             const accused = data.accused[0].Accused;
             html += `
-            <div class="card">
-                <h2>PRIMARY TARGET</h2>
-                <h3 class="text-red mb-15">${accused.Full_Name}</h3>
-                <p><span>ID:</span> ${accused.Person_ID}</p>
-                <p><span>Risk Score:</span> ${accused.Risk_Score}</p>
-                <p><span>Age/Gender:</span> ${accused.Age} / ${accused.Gender}</p>
-            </div>
-            `;
+                    <div class="card">
+                        <h2>PRIMARY TARGET</h2>
+                        <h3 class="text-red mb-15">${accused.Full_Name}</h3>
+                        <p><span>ID:</span> ${accused.Person_ID}</p>
+                        <p><span>Risk Score:</span> ${accused.Risk_Score}</p>
+                        <p><span>Age/Gender:</span> ${accused.Age} / ${accused.Gender}</p>
+                    </div>
+                    `;
         }
         if (data.vehicles && data.vehicles.length > 0) {
             html += `<h3 class="panel-title mt-20">LINKED ASSETS</h3>`;
             data.vehicles.forEach(v => {
                 html += `
-                <div class="card" style="padding: 10px;">
-                    <p><span>🚗 Asset:</span> ${v.Vehicle.Make_Model}</p>
-                    <p><span>Plate:</span> ${v.Vehicle.License_Plate}</p>
-                </div>`;
+                        <div class="card" style="padding: 10px;">
+                            <p><span>🚗 Asset:</span> ${v.Vehicle.Make_Model}</p>
+                            <p><span>Plate:</span> ${v.Vehicle.License_Plate}</p>
+                        </div>`;
             });
         }
         if (data.phones && data.phones.length > 0) {
             html += `<h3 class="panel-title mt-20">LINKED COMMS</h3>`;
             data.phones.forEach(p => {
                 html += `
-                <div class="card" style="padding: 10px;">
-                    <p><span>📱 Node:</span> ${p.Phone.Number}</p>
-                </div>`;
+                        <div class="card" style="padding: 10px;">
+                            <p><span>📱 Node:</span> ${p.Phone.Number}</p>
+                        </div>`;
             });
         }
         document.getElementById("networkResult").innerHTML = html;
@@ -481,7 +558,49 @@ async function loadCrimeAnalytics() {
     try {
         const response = await fetch("/server/crime_pattern_analysis/");
         const data = await response.json();
-        
+        console.log("Crime Analytics API:", data);
+        // =====================================
+        // UPDATE KPI CARDS
+        // =====================================
+
+        document.getElementById("analyticsOpen").textContent =
+            data.total_cases;
+
+        document.getElementById("clusterStatus").textContent =
+            data.crime_risk;
+
+        // Change color based on risk
+        const risk = document.getElementById("clusterStatus");
+
+        if (data.crime_risk === "HIGH") {
+
+            risk.style.color = "#ff2a55";
+
+        } else if (data.crime_risk === "MEDIUM") {
+
+            risk.style.color = "#f59e0b";
+
+        } else {
+
+            risk.style.color = "#00ff9d";
+
+        }
+        // ==============================
+        // KPI CARDS
+        // ==============================
+
+        document.getElementById("analyticsOpen").textContent =
+            data.total_cases;
+
+        document.getElementById("clusterStatus").textContent =
+            data.crime_risk;
+
+        document.getElementById("clusterStatus").style.color =
+            data.crime_risk === "HIGH"
+                ? "#ff2a55"
+                : data.crime_risk === "MEDIUM"
+                    ? "#f59e0b"
+                    : "#00ff9d";
         // Bar Chart
         const ctx = document.getElementById("crimeChart");
         if (ctx) {
@@ -551,31 +670,31 @@ async function loadFinancial() {
         const data = await response.json();
 
         document.getElementById("financialGraph").innerHTML = `
-            <div class="grid-3col mb-20">
-                <div class="card flex-center">
-                    <h2>TOTAL TRANSACTIONS</h2>
-                    <h1 class="text-cyan">${data.total_transactions}</h1>
-                </div>
-                <div class="card flex-center">
-                    <h2>SUSPICIOUS FLOWS</h2>
-                    <h1 class="text-red">${data.suspicious_transactions}</h1>
-                </div>
-                <div class="card flex-center">
-                    <h2>NETWORK RISK</h2>
-                    <h1 class="text-red">${data.network_risk}</h1>
-                </div>
-            </div>
-            
-            <h3 class="panel-title mt-20">Money Laundering Risk Meter</h3>
-            <div class="threat-meter mb-20" style="height: 15px;">
-                <div class="threat-fill" style="width: 85%;"></div>
-            </div>
+                    <div class="grid-3col mb-20">
+                        <div class="card flex-center">
+                            <h2>TOTAL TRANSACTIONS</h2>
+                            <h1 class="text-cyan">${data.total_transactions}</h1>
+                        </div>
+                        <div class="card flex-center">
+                            <h2>SUSPICIOUS FLOWS</h2>
+                            <h1 class="text-red">${data.suspicious_transactions}</h1>
+                        </div>
+                        <div class="card flex-center">
+                            <h2>NETWORK RISK</h2>
+                            <h1 class="text-red">${data.network_risk}</h1>
+                        </div>
+                    </div>
+                    
+                    <h3 class="panel-title mt-20">Money Laundering Risk Meter</h3>
+                    <div class="threat-meter mb-20" style="height: 15px;">
+                        <div class="threat-fill" style="width: 85%;"></div>
+                    </div>
 
-            <div class="card mt-20" style="border-color: #f59e0b">
-                <h2>DEEP PACKET INSPECTION LOG</h2>
-                <pre>${data.glm_report}</pre>
-            </div>
-        `;
+                    <div class="card mt-20" style="border-color: #f59e0b">
+                        <h2>DEEP PACKET INSPECTION LOG</h2>
+                        <pre>${data.glm_report}</pre>
+                    </div>
+                `;
     } catch (err) { console.log(err); }
 }
 
@@ -592,30 +711,30 @@ async function loadBehavior() {
         const data = await response.json();
 
         document.getElementById("behaviorPanel").innerHTML = `
-            <div class="grid-2col mb-20">
-                <div class="card">
-                    <h2 class="text-cyan mb-15">SUBJECT PROFILE</h2>
-                    <h1 class="text-red">${data.person.Full_Name}</h1>
-                    <p class="mt-20"><span>Classification:</span> <strong class="text-cyan">${data.behavioral_profile.criminal_type}</strong></p>
-                    <p><span>Behavioral Pattern:</span> ${data.behavioral_profile.behavior_pattern}</p>
-                </div>
-                
-                <div class="card">
-                    <h2 class="mb-15">THREAT METRICS</h2>
-                    <p><span>Violence Risk (${data.behavioral_profile.violence_risk}):</span></p>
-                    <div class="threat-meter mb-15"><div class="threat-fill" style="width: 80%;"></div></div>
-                    
-                    <p><span>Threat Level:</span> <strong class="text-red">${data.behavioral_profile.threat_level}</strong></p>
-                    
-                    <p class="mt-20"><span>Repeat Probability (${data.behavioral_profile.repeat_probability}%):</span></p>
-                    <div class="threat-meter"><div class="threat-fill" style="width: ${data.behavioral_profile.repeat_probability}%;"></div></div>
-                </div>
-            </div>
-            <div class="card">
-                <h2>PSYCHOLOGICAL ASSESSMENT</h2>
-                <pre>${data.glm_report}</pre>
-            </div>
-        `;
+                    <div class="grid-2col mb-20">
+                        <div class="card">
+                            <h2 class="text-cyan mb-15">SUBJECT PROFILE</h2>
+                            <h1 class="text-red">${data.person.Full_Name}</h1>
+                            <p class="mt-20"><span>Classification:</span> <strong class="text-cyan">${data.behavioral_profile.criminal_type}</strong></p>
+                            <p><span>Behavioral Pattern:</span> ${data.behavioral_profile.behavior_pattern}</p>
+                        </div>
+                        
+                        <div class="card">
+                            <h2 class="mb-15">THREAT METRICS</h2>
+                            <p><span>Violence Risk (${data.behavioral_profile.violence_risk}):</span></p>
+                            <div class="threat-meter mb-15"><div class="threat-fill" style="width: 80%;"></div></div>
+                            
+                            <p><span>Threat Level:</span> <strong class="text-red">${data.behavioral_profile.threat_level}</strong></p>
+                            
+                            <p class="mt-20"><span>Repeat Probability (${data.behavioral_profile.repeat_probability}%):</span></p>
+                            <div class="threat-meter"><div class="threat-fill" style="width: ${data.behavioral_profile.repeat_probability}%;"></div></div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <h2>PSYCHOLOGICAL ASSESSMENT</h2>
+                        <pre>${data.glm_report}</pre>
+                    </div>
+                `;
     } catch (err) { console.log(err); }
 }
 
@@ -632,27 +751,27 @@ async function loadDecisionSupport() {
         const data = await response.json();
 
         document.querySelector("#decisionSection .matrix-bg").innerHTML = `
-            <div class="grid-2col mb-20">
-                <div class="card flex-center" style="border-color: #00ff9d;">
-                    <h2 style="color: #00ff9d;">PROBABILITY OF SUCCESS</h2>
-                    <div class="gauge-container mt-20">
-                        <div class="gauge-circle" style="background: conic-gradient(#00ff9d ${data.success_probability}%, rgba(0,255,157,0.1) 0);"></div>
-                        <div class="gauge-inner"><span class="gauge-value text-green">${data.success_probability}%</span></div>
+                    <div class="grid-2col mb-20">
+                        <div class="card flex-center" style="border-color: #00ff9d;">
+                            <h2 style="color: #00ff9d;">PROBABILITY OF SUCCESS</h2>
+                            <div class="gauge-container mt-20">
+                                <div class="gauge-circle" style="background: conic-gradient(#00ff9d ${data.success_probability}%, rgba(0,255,157,0.1) 0);"></div>
+                                <div class="gauge-inner"><span class="gauge-value text-green">${data.success_probability}%</span></div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <h2>CASE SUMMARY</h2>
+                            <p class="mt-20"><span>Associated Risk:</span> <strong class="text-red">${data.financial_risk.risk_level}</strong></p>
+                            <div class="alert-item med mt-20">
+                                <span class="alert-msg">Requires tactical deployment and surveillance matrix integration.</span>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div class="card">
-                    <h2>CASE SUMMARY</h2>
-                    <p class="mt-20"><span>Associated Risk:</span> <strong class="text-red">${data.financial_risk.risk_level}</strong></p>
-                    <div class="alert-item med mt-20">
-                        <span class="alert-msg">Requires tactical deployment and surveillance matrix integration.</span>
+                    <div class="card">
+                        <h2>STRATEGIC DIRECTIVES</h2>
+                        <pre>${data.glm_report}</pre>
                     </div>
-                </div>
-            </div>
-            <div class="card">
-                <h2>STRATEGIC DIRECTIVES</h2>
-                <pre>${data.glm_report}</pre>
-            </div>
-        `;
+                `;
     } catch (err) { console.log(err); }
 }
 
@@ -666,25 +785,25 @@ async function loadSociological() {
         const data = await response.json();
 
         document.querySelector(".heat-map-container").innerHTML = `
-            <div class="grid-3col mb-20">
-                <div class="card flex-center">
-                    <h2>TOTAL VICTIMS</h2>
-                    <h1 class="text-cyan">${data.total_victims}</h1>
-                </div>
-                <div class="card flex-center">
-                    <h2>SOCIAL RISK</h2>
-                    <h1 class="text-red">${data.social_risk_score}</h1>
-                </div>
-                <div class="card flex-center">
-                    <h2>VULNERABILITY</h2>
-                    <h1 class="text-red">${data.vulnerability_level}</h1>
-                </div>
-            </div>
-            <div class="card">
-                <h2>SOCIOLOGICAL HEATMAP ANALYSIS</h2>
-                <pre>${data.glm_report}</pre>
-            </div>
-        `;
+                    <div class="grid-3col mb-20">
+                        <div class="card flex-center">
+                            <h2>TOTAL VICTIMS</h2>
+                            <h1 class="text-cyan">${data.total_victims}</h1>
+                        </div>
+                        <div class="card flex-center">
+                            <h2>SOCIAL RISK</h2>
+                            <h1 class="text-red">${data.social_risk_score}</h1>
+                        </div>
+                        <div class="card flex-center">
+                            <h2>VULNERABILITY</h2>
+                            <h1 class="text-red">${data.vulnerability_level}</h1>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <h2>SOCIOLOGICAL HEATMAP ANALYSIS</h2>
+                        <pre>${data.glm_report}</pre>
+                    </div>
+                `;
     } catch (err) { console.log(err); }
 }
 
@@ -725,11 +844,99 @@ function downloadPDF() {
     });
     doc.save("KSP_Investigation_Report.pdf");
 }
+// ======================================
+// CRIME MAP
+// ======================================
 
+let crimeMap;
+
+async function loadCrimeMap() {
+
+    try {
+
+        const response = await fetch("/server/crime_map");
+
+        const data = await response.json();
+
+        if (!data.success) {
+
+            alert("Unable to load crime map");
+
+            return;
+        }
+
+        // Create map only once
+        if (!crimeMap) {
+
+            crimeMap = L.map("crimeMap").setView(
+                [15.3173, 75.7139],   // Karnataka
+                7
+            );
+
+            L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+                    attribution: "&copy; OpenStreetMap"
+                }
+            ).addTo(crimeMap);
+
+        }
+
+        // Remove old markers
+        crimeMap.eachLayer(layer => {
+
+            if (layer instanceof L.Marker ||
+                layer instanceof L.CircleMarker) {
+
+                crimeMap.removeLayer(layer);
+
+            }
+
+        });
+
+        // Add new markers
+        data.locations.forEach(loc => {
+
+            if (!loc.latitude || !loc.longitude)
+                return;
+
+            L.circleMarker(
+
+                [loc.latitude, loc.longitude],
+
+                {
+                    radius: 8,
+                    color: "red",
+                    fillColor: "red",
+                    fillOpacity: 0.7
+                }
+
+            )
+                .addTo(crimeMap)
+
+                .bindPopup(`
+                <b>${loc.crime}</b><br>
+                FIR : ${loc.fir}<br>
+                District : ${loc.district}
+            `);
+
+        });
+
+    }
+
+    catch (err) {
+
+        console.error(err);
+
+        alert("Crime Map Error");
+
+    }
+
+}
 function updateClock() {
     const now = new Date();
     const clk = document.getElementById("clock");
-    if(clk) clk.innerText = now.toLocaleString();
+    if (clk) clk.innerText = now.toLocaleString();
 }
 setInterval(updateClock, 1000);
 

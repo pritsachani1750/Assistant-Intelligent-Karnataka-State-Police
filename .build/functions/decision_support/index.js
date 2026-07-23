@@ -42,7 +42,9 @@ async function getAccessToken() {
 // =====================================
 // MAIN FUNCTION
 // =====================================
-
+let glmReport = "AI Recommendation unavailable.";
+let usage = {};
+let model = "";
 module.exports = async (req, res) => {
 
 	try {
@@ -353,15 +355,58 @@ module.exports = async (req, res) => {
 		};
 
 		const prompt = `
-KSP-CICC AI CORE
+You are an AI Decision Support System for Karnataka State Police CICC.
 
-Analyze the following police intelligence data.
+CASE DETAILS
 
-DATA TO ANALYZE:
+FIR ID: ${caseSummary.fir_id}
 
-${JSON.stringify(data, null, 2)}
+Crime Type: ${caseSummary.crime_type}
 
-Generate a KSP intelligence report using the required format.
+District: ${caseSummary.district}
+
+Police Station: ${caseSummary.police_station}
+
+Current Status: ${caseSummary.status}
+
+Accused: ${caseSummary.accused_count}
+
+Vehicles: ${caseSummary.vehicle_count}
+
+Phones: ${caseSummary.phone_count}
+
+Timeline Events: ${caseSummary.timeline_events}
+
+Investigation Status: ${caseSummary.investigation_status}
+
+Financial Risk:
+${financialRisk.risk_level}
+
+Investigation Leads:
+${leads.join("\n")}
+
+Success Probability:
+${probability}%
+
+Generate:
+
+1. Executive Summary
+
+2. Investigation Priority
+(CRITICAL / HIGH / MEDIUM / LOW)
+
+3. Recommended Police Actions
+
+4. Resource Allocation
+(Number of officers, cyber experts, forensic team, surveillance)
+
+5. Possible Risks
+
+6. Next Investigation Steps
+
+Use ONLY the supplied information.
+Do not invent facts.
+Maximum 400 words.
 `;
 
 		console.log("PROMPT:");
@@ -378,62 +423,72 @@ Generate a KSP intelligence report using the required format.
 		const accessToken =
 			await getAccessToken();
 
-		const glm =
-			await axios.post(
+		try {
 
-				'https://api.catalyst.zoho.in/quickml/v1/project/43167000000013025/glm/chat',
+			const accessToken =
+				await getAccessToken();
 
-				{
+			const glm =
+				await axios.post(
 
-					model:
-						'crm-di-glm47b_30b_it',
+					'https://api.catalyst.zoho.in/quickml/v1/project/43167000000013025/glm/chat',
 
-					messages: [
+					{
 
-						{
-							role: 'system',
+						model: 'crm-di-glm47b_30b_it',
 
-							content:
-								'You are a Karnataka State Police investigation expert.'
-						},
+						messages: [
 
-						{
-							role: 'user',
+							{
+								role: 'system',
+								content: 'You are a Karnataka State Police investigation expert.'
+							},
 
-							content:
-								prompt
+							{
+								role: 'user',
+								content: prompt
+							}
+
+						],
+
+						max_tokens: 1000,
+						temperature: 0.3,
+						stream: false,
+
+						chat_template_kwargs: {
+							enable_thinking: false
 						}
 
-					],
+					},
 
-					max_tokens: 1000,
+					{
 
-					temperature: 0.3,
+						headers: {
 
-					stream: false,
+							'Content-Type': 'application/json',
 
-					chat_template_kwargs: {
+							'CATALYST-ORG': '60073047935',
 
-						enable_thinking: false
+							'Authorization': `Zoho-oauthtoken ${accessToken}`
+
+						}
+
 					}
-				},
 
-				{
+				);
 
-					headers: {
+			glmReport = glm.data.response;
+			usage = glm.data.usage;
+			model = glm.data.model;
 
-						'Content-Type':
-							'application/json',
+		}
+		catch (err) {
 
-						'CATALYST-ORG':
-							'60073047935',
+			console.log("Decision Support GLM Error");
+			console.log(err.response?.status);
+			console.log(err.response?.data);
 
-						'Authorization':
-							`Zoho-oauthtoken ${accessToken}`
-					}
-				}
-			);
-
+		}
 
 		// =====================================
 		// RESPONSE
@@ -469,13 +524,13 @@ Generate a KSP intelligence report using the required format.
 					financialRisk,
 
 				glm_report:
-					glm.data.response,
+					glmReport,
 
 				usage:
-					glm.data.usage,
+					usage,
 
 				model:
-					glm.data.model
+					model
 
 			},
 				null,

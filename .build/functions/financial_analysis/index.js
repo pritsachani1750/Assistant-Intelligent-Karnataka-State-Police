@@ -44,6 +44,10 @@ async function getAccessToken() {
 // =====================================
 
 module.exports = async (req, res) => {
+	let glmReport = "AI report unavailable.";
+	let usage = {};
+	let model = "";
+
 
 	try {
 
@@ -80,13 +84,15 @@ module.exports = async (req, res) => {
 		// =====================================
 
 		const suspicious =
-			transactions.filter(
+			transactions.filter(t => {
 
-				t =>
-					t.Transaction
-						.Suspicious_Flag
-					=== 'Yes'
-			);
+				const flag = String(
+					t.Transaction.Suspicious_Flag
+				).toLowerCase();
+
+				return flag === "true" || flag === "yes" || flag === "1";
+
+			});
 
 
 		// =====================================
@@ -265,20 +271,32 @@ module.exports = async (req, res) => {
 			transactions: transactions.length,
 			suspicious: suspicious.length,
 			high_value: highValue.length,
-			money_trail: moneyTrail,
-			network: topAccounts
+			money_trail: moneyTrail.slice(0, 5),
+			network: topAccounts.slice(0, 5)
 		};
 
 		const prompt = `
-KSP-CICC AI CORE
+Financial Crime Summary
 
-Analyze the following police intelligence data.
+Transactions: ${transactions.length}
+Suspicious: ${suspicious.length}
+High Value: ${highValue.length}
+Risk: ${risk}
 
-DATA TO ANALYZE:
+Top Accounts:
 
-${JSON.stringify(data, null, 2)}
+${topAccounts
+				.slice(0, 5)
+				.map(a => `${a.account} (${a.transactions})`)
+				.join("\n")}
 
-Generate a KSP intelligence report using the required format.
+Write a concise police intelligence report with:
+
+1. Executive Summary
+2. Risk Assessment
+3. Recommendations
+
+Maximum 400 words.
 `;
 
 		console.log("PROMPT:");
@@ -287,73 +305,106 @@ Generate a KSP intelligence report using the required format.
 		console.log("DATA:");
 		console.log(JSON.stringify(data, null, 2));
 
-		const accessToken =
-			await getAccessToken();
+
+		try {
+			const accessToken =
+				await getAccessToken();
 
 
-		const glm =
-			await axios.post(
+			const glm =
+				await axios.post(
 
-				'https://api.catalyst.zoho.in/quickml/v1/project/43167000000013025/glm/chat',
+					'https://api.catalyst.zoho.in/quickml/v1/project/43167000000013025/glm/chat',
 
-				{
+					{
 
-					model:
-						'crm-di-glm47b_30b_it',
+						model:
+							'crm-di-glm47b_30b_it',
 
-					messages: [
+						messages: [
 
-						{
-							role:
-								'system',
+							{
+								role:
+									'system',
 
-							content:
-								'You are a financial crime investigation expert.'
-						},
+								content: `
+You are a Karnataka State Police Financial Crime Intelligence Analyst.
 
-						{
-							role:
-								'user',
+Return only the report.
 
-							content:
-								prompt
+Do not explain your reasoning.
+
+Use the following format:
+
+1. Executive Summary
+
+2. Transaction Analysis
+
+3. Network Analysis
+
+4. Risk Assessment
+
+5. Recommendations
+`
+							},
+
+							{
+								role:
+									'user',
+
+								content:
+									prompt
+							}
+
+						],
+
+						max_tokens:
+							600,
+
+						temperature:
+							0.1,
+
+						stream:
+							false,
+
+						chat_template_kwargs: {
+
+							enable_thinking:
+								false
 						}
+					},
 
-					],
+					{
 
-					max_tokens:
-						1000,
+						headers: {
 
-					temperature:
-						0.3,
+							'Content-Type':
+								'application/json',
 
-					stream:
-						false,
+							'CATALYST-ORG':
+								'60073047935',
 
-					chat_template_kwargs: {
-
-						enable_thinking:
-							false
+							'Authorization':
+								`Zoho-oauthtoken ${accessToken}`
+						}
 					}
-				},
+				);
+			glmReport = glm.data.response;
+			usage = glm.data.usage;
+			model = glm.data.model;
+		} catch (err) {
 
-				{
+			console.log(err);
 
-					headers: {
+			console.log("Financial GLM Error");
+			console.log(err.response?.status);
+			console.log(err.response?.data);
 
-						'Content-Type':
-							'application/json',
+			glmReport = "AI Report unavailable.";
+			usage = {};
+			model = "";
 
-						'CATALYST-ORG':
-							'60073047935',
-
-						'Authorization':
-							`Zoho-oauthtoken ${accessToken}`
-					}
-				}
-			);
-
-
+		}
 		// =====================================
 		// RESPONSE
 		// =====================================
@@ -388,13 +439,13 @@ Generate a KSP intelligence report using the required format.
 				recommendations,
 
 				glm_report:
-					glm.data.response,
+					glmReport,
 
 				usage:
-					glm.data.usage,
+					usage,
 
 				model:
-					glm.data.model
+					model
 
 			},
 				null,
@@ -404,24 +455,13 @@ Generate a KSP intelligence report using the required format.
 	}
 	catch (err) {
 
-		console.log(err);
+		console.log("Financial GLM Error");
+		console.log(err.response?.status);
+		console.log(err.response?.data);
 
-		res.end(
+		glmReport =
+			"AI report temporarily unavailable.";
 
-			JSON.stringify({
-
-				success: false,
-
-				error:
-					err.message,
-
-				details:
-					err.response?.data
-
-			},
-				null,
-				2)
-		);
 	}
 
 };

@@ -1,338 +1,77 @@
 'use strict';
 
-const catalyst = require('zcatalyst-sdk-node');
+const { processMessage } = require("./router");
+
+// =========================================
+// MAIN FUNCTION
+// =========================================
 
 module.exports = async (req, res) => {
 
-
 	try {
 
-		const app = catalyst.initialize(req);
-		const zcql = app.zcql();
+		const url =
+			new URL(
+				"http://localhost" + req.url
+			);
 
 		const message =
-			new URL(
-				'http://localhost' + req.url
-			).searchParams.get('message');
+			url.searchParams.get("message");
 
-		const lowerMessage =
-			message
-				? message.toLowerCase()
-				: '';
+		const language =
+			url.searchParams.get("language") || "en";
 
-		let response = '';
+		if (!message) {
 
-		// =====================================
-		// FIR SEARCH
-		// =====================================
-
-		if (
-			lowerMessage.includes('fir')
-		) {
-
-			const firMatch =
-				message.match(/FIR\d+/i);
-
-			if (firMatch) {
-
-				const firId =
-					firMatch[0].toUpperCase();
-
-				const fir =
-					await zcql.executeZCQLQuery(
-						`SELECT *
-                     FROM FIR
-                     WHERE FIR_ID='${firId}'`
-					);
-
-				if (fir.length > 0) {
-
-					const data =
-						fir[0].FIR;
-
-					response =
-
-
-						`FIR ID: ${data.FIR_ID}
-
-Crime Type: ${data.Crime_Type}
-
-District: ${data.District}
-
-Police Station: ${data.Police_Station}
-
-Status: ${data.Status}
-
-FIR Date: ${data.FIR_Date}`;
-
-
-				} else {
-
-					response =
-						'FIR not found';
-
-				}
-
-			}
-
-		}
-
-		// =====================================
-		// OPEN CASES
-		// =====================================
-
-		else if (
-			lowerMessage.includes('open')
-		) {
-
-			const cases =
-				await zcql.executeZCQLQuery(
-
-					`SELECT *
-                 FROM FIR
-                 WHERE Status='Open'
-                 LIMIT 10`
-
-				);
-
-			response =
-				`Open Cases Found: ${cases.length}\n\n`;
-
-			cases.forEach(row => {
-
-				response +=
-
-
-					`${row.FIR.FIR_ID}
-${row.FIR.Crime_Type}
-${row.FIR.District}
-
-`;
-
-
+			res.writeHead(400, {
+				"Content-Type": "application/json"
 			});
 
-		}
-
-		// =====================================
-		// CLOSED CASES
-		// =====================================
-
-		else if (
-			lowerMessage.includes('closed')
-		) {
-
-			const cases =
-				await zcql.executeZCQLQuery(
-
-					`SELECT *
-                 FROM FIR
-                 WHERE Status='Closed'
-                 LIMIT 10`
-
-				);
-
-			response =
-				`Closed Cases Found: ${cases.length}\n\n`;
-
-			cases.forEach(row => {
-
-				response +=
-
-
-					`${row.FIR.FIR_ID}
-${row.FIR.Crime_Type}
-${row.FIR.District}
-
-`;
-
-
-			});
+			return res.end(
+				JSON.stringify({
+					success: false,
+					error: "Message is required"
+				})
+			);
 
 		}
 
-		// =====================================
-		// KIDNAPPING CASES
-		// =====================================
-
-		else if (
-			lowerMessage.includes('kidnapping')
-		) {
-
-			const cases =
-				await zcql.executeZCQLQuery(
-
-					`SELECT *
-                 FROM FIR
-                 WHERE Crime_Type='Kidnapping'
-                 LIMIT 10`
-
-				);
-
-			response =
-				`Kidnapping Cases\n\n`;
-
-			cases.forEach(row => {
-
-				response +=
-
-
-					`${row.FIR.FIR_ID}
-${row.FIR.District}
-${row.FIR.Status}
-
-`;
-
-
-			});
-
-		}
-
-		// =====================================
-		// TUMAKURU SEARCH
-		// =====================================
-
-		else if (
-			lowerMessage.includes('tumakuru')
-		) {
-
-			const cases =
-				await zcql.executeZCQLQuery(
-
-					`SELECT *
-                 FROM FIR
-                 WHERE District='Tumakuru'
-                 LIMIT 20`
-
-				);
-
-			response =
-
-
-				`Tumakuru Crime Summary
-
-Total Cases Found: ${cases.length}
-
-`;
-
-
-			cases.slice(0, 5).forEach(row => {
-
-				response +=
-
-
-					`${row.FIR.FIR_ID}
-${row.FIR.Crime_Type}
-
-`;
-
-
-			});
-
-		}
-
-		// =====================================
-		// TOP CRIMINALS
-		// =====================================
-
-		else if (
-
-			lowerMessage.includes('top') ||
-
-			lowerMessage.includes('criminal') ||
-
-			lowerMessage.includes('risk')
-
-		) {
-
-			const accused =
-				await zcql.executeZCQLQuery(
-
-					`SELECT *
-                 FROM Accused
-                 ORDER BY Risk_Score DESC
-                 LIMIT 5`
-
-				);
-
-			response =
-				'Top High Risk Criminals\n\n';
-
-			accused.forEach(row => {
-
-				response +=
-
-
-					`${row.Accused.Full_Name}
-Risk Score: ${row.Accused.Risk_Score}
-
-`;
-
-
-			});
-
-		}
-
-		// =====================================
-		// DEFAULT
-		// =====================================
-
-		else {
-
-			response =
-
-
-				`Try:
-
-Show FIR000007
-
-Show Open Cases
-
-Show Closed Cases
-
-Show Kidnapping Cases
-
-Show Crimes In Tumakuru
-
-Show Top Criminals`;
-
-
-		}
+		const result =
+			await processMessage(
+				req,
+				message,
+				language
+			);
 
 		res.writeHead(200, {
-			'Content-Type': 'application/json'
+			"Content-Type": "application/json"
 		});
 
-		res.end(JSON.stringify({
-
-			success: true,
-
-			question: message,
-
-			answer: response
-
-		}));
+		res.end(
+			JSON.stringify(result)
+		);
 
 	}
+
 	catch (err) {
 
+		console.error(err);
+
 		res.writeHead(500, {
-			'Content-Type': 'application/json'
+			"Content-Type": "application/json"
 		});
 
-		res.end(JSON.stringify({
-
-			success: false,
-
-			error: err.message
-
-		}));
+		res.end(
+			JSON.stringify({
+				success: false,
+				error: err.message
+			})
+		);
 
 	}
 
-
 };
-const catalyst = require("zcatalyst-sdk-node");
+
 
 async function saveContext(req, key, data) {
 
