@@ -340,6 +340,31 @@
                                 <input type="text" id="aiInput" class="cmd-input"
                                     placeholder="ಪ್ರಶ್ನೆ ನಮೂದಿಸಿ / Enter your query...">
                             </div>
+                            <div class="ai-input-container">
+
+                                <select id="languageSelect" class="language-select">
+
+                                    <option value="en" selected>
+                                        English
+                                    </option>
+
+                                    <option value="kn">
+                                        ಕನ್ನಡ
+                                    </option>
+
+                                </select>
+
+                                <input type="text" id="aiInput" placeholder="Ask KSP AI..." />
+
+                                <button onclick="askAI()">
+                                    Send
+                                </button>
+
+                                <button onclick="startVoice()">
+                                    🎤
+                                </button>
+
+                            </div>
                             <div class="cmd-actions">
                                 <button onclick="askAI()" class="btn-cyber btn-primary">Submit Query · ಪ್ರಶ್ನೆ
                                     ಸಲ್ಲಿಸಿ</button>

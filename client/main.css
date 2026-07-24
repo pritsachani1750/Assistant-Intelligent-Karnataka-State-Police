@@ -1290,4 +1290,19 @@ body {
     .content-area {
         padding: 16px;
     }
+
+    .ai-input-container {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        width: 100%;
+    }
+
+    .language-select {
+        width: 140px;
+        padding: 10px;
+        border-radius: 6px;
+        border: 1px solid #ccc;
+        font-size: 14px;
+    }
 }
