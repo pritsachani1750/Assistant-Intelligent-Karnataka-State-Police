@@ -248,7 +248,7 @@ async function askAI() {
 
     try {
         const response = await fetch(
-            `/server/ai_chat_api?message=${encodeURIComponent(question)}&language=${currentLanguage}`
+            `/server/ai_chat_api/test?message=${encodeURIComponent(question)}&language=${currentLanguage}`
         );
         const data = await response.json();
 
